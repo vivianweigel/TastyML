@@ -1,0 +1,363 @@
+---
+title: "Untitled"
+author: "rachel_cassway"
+date: "2025-04-02"
+output: html_document
+---
+
+### Load and Clean Data
+Getting data into the following format:
+- Rows = users
+- Columns = recipes
+- Values = ratings (stars)
+
+```{r}
+# load libraries
+library(dplyr)
+library(tidyr)
+library(proxy)
+library(scales)
+
+# load csv into dataframe
+df <- read.csv("recipe_review_data.csv")
+
+# select collab filtering columns
+df <- df %>%
+  mutate(
+    user_id = trimws(as.character(user_id)),
+    recipe_code = trimws(as.character(recipe_code)),
+    stars = as.numeric(stars)
+  )
+
+# clean ratings: take average if user rated the same item multiple times
+ratings_cleaned <- df %>%
+  filter(!is.na(stars)) %>%
+  group_by(user_id, recipe_code) %>%
+  summarise(stars = mean(stars, na.rm = TRUE), .groups = "drop")
+
+# pivot_wider, to prep for matrix
+rating_wide <- ratings_cleaned %>%
+  pivot_wider(names_from = recipe_code, values_from = stars)
+
+# convert to data.frame before setting rownames
+rating_wide <- as.data.frame(rating_wide)
+
+# set user_id as rownames
+rating_wide$user_id <- trimws(as.character(rating_wide$user_id))
+rownames(rating_wide) <- rating_wide$user_id
+rating_wide <- rating_wide %>% select(-user_id)
+
+# convert to numeric matrix
+rating_wide[] <- lapply(rating_wide, function(x) as.numeric(as.character(x)))
+rating_matrix <- as.matrix(rating_wide)
+
+# preview matrix
+head(rating_matrix)
+
+# make sure each recipe is distinct in lookup table
+recipe_lookup <- df %>%
+  select(recipe_code, recipe_name) %>%
+  distinct(recipe_code, .keep_all = TRUE)  # <- ensures only 1 row per recipe_code
+
+```
+### Some analysis on data to explore popular recipes and frequent users
+```{r}
+# which users have rated the most recipes
+user_rating_counts <- rowSums(!is.na(rating_matrix))
+top_users <- sort(user_rating_counts, decreasing = TRUE)
+
+head(top_users)
+
+# which recipe has the most ratings
+recipe_popularity <- df %>%
+  filter(!is.na(stars)) %>%
+  count(recipe_code, recipe_name, sort = TRUE)
+
+head(recipe_popularity)
+
+# users who rated most recipes, with highest user reputation
+top_reviewers <- df %>%
+  filter(!is.na(stars)) %>%
+  group_by(user_id, user_name) %>%
+  summarise(
+    num_reviews = n(),
+    avg_rating = mean(stars),
+    user_reputation = max(user_reputation),
+    .groups = "drop" 
+  ) %>%
+  arrange(desc(num_reviews))
+
+head(top_reviewers, 5)
+```
+### user-user collaborative filtering function
+```{r}
+user_user_df <- function(df, user, sim_metric = "Cosine", k = 2, 
+                         recipe_lookup_df = NULL) {
+  
+  # if user not in data, return not found message
+  if (!(user %in% rownames(df))) {
+    message("Error: User not found in dataset.")
+    return(NULL)
+  }
+
+  # if the user has no missing values, return message
+  if (all(!is.na(df[user, ]))) {
+    message("User has no missing ratings to predict.")
+    return(NULL)
+  }
+
+  # if similarity metric not Cosine or L2, return message
+  if (!(sim_metric %in% c("Cosine", "L2"))) {
+    message("Unsupported similarity metric. Use 'Cosine' or 'L2'.")
+    return(NULL)
+  }
+
+  # 1. center data by row means
+  user_means <- rowMeans(df, na.rm = TRUE)
+  centered_data <- sweep(df, 1, user_means, FUN = "-")
+  # fill NaN values with 0 for user-user only
+  centered_data[is.na(centered_data)] <- 0  
+
+  # 2. get target user vector
+  user_vector <- as.matrix(centered_data[user, , drop = FALSE])
+
+  # 3. compute similarity
+  if (sim_metric == "Cosine") {
+    sim_vec <- proxy::simil(user_vector, centered_data, method = "cosine")
+    similarity_scores <- as.vector(sim_vec)
+  } else if (sim_metric == "L2") {
+    diff <- centered_data - matrix(rep(user_vector, nrow(centered_data)), 
+                                   nrow = nrow(centered_data), byrow = TRUE)
+    similarity_scores <- -sqrt(rowSums(diff^2))
+  }
+
+  # 4. normalize similarity
+  similarity_scores <- rescale(similarity_scores, to = c(0, 1))
+  sim_df <- data.frame(User = rownames(df), Similarity = similarity_scores)
+  sim_df <- sim_df %>% filter(User != user)
+
+  # 5. select top k similar users
+  top_k_users <- sim_df %>%
+  arrange(desc(Similarity)) %>%
+  slice_head(n = min(k, nrow(sim_df)))
+
+
+  # 6. prepare ratings for predictions
+  k_ratings <- df[top_k_users$User, ]
+  k_ratings <- t(apply(k_ratings, 1, function(row) {
+    row[is.na(row)] <- mean(row, na.rm = TRUE)
+    return(row)
+  }))
+
+  # 7. weighted prediction
+  if (sum(top_k_users$Similarity) == 0) {
+    message("Warning: All similarities are zero. Returning NULL.")
+    return(NULL)
+  }
+
+  # calc ratings
+  weighted <- sweep(k_ratings, 1, top_k_users$Similarity, FUN = "*")
+  predicted_ratings <- colSums(weighted) / sum(top_k_users$Similarity)
+
+  # return missing predictions only for target user
+  result <- data.frame(recipe_code = colnames(df), Predicted_Rating = predicted_ratings)
+  missing_items <- is.na(df[user, ])
+  result <- result[missing_items, ]
+  
+  # add recipe names if provided in original df
+  if (!is.null(recipe_lookup_df)) {
+    result <- result %>%
+      left_join(recipe_lookup_df, by = "recipe_code") %>%
+      select(recipe_code, recipe_name, Predicted_Rating)
+  }
+
+  result <- result %>%
+    arrange(desc(Predicted_Rating))
+  
+  return(result)
+}
+
+```
+
+
+
+### item-item collaborative filtering function
+```{r}
+item_item_df <- function(df, user, sim_metric = "Cosine", k = 2, 
+                         recipe_lookup_df = NULL) {
+  
+  # if user not in data, return not found message
+  if (!(user %in% rownames(df))) {
+    message("Error: User not found in dataset.")
+    return(NULL)
+  }
+
+  # if the user has no missing values, return message
+  if (all(!is.na(df[user, ]))) {
+    message("User has no missing ratings to predict.")
+    return(NULL)
+  }
+
+  # if similarity metric not Cosine or L2, return message
+  if (!(sim_metric %in% c("Cosine", "L2"))) {
+    message("Unsupported similarity metric. Use 'Cosine' or 'L2'.")
+    return(NULL)
+  }
+  
+  # 1. center by column (item) means
+  item_means <- colMeans(df, na.rm = TRUE)
+  centered_data <- sweep(df, 2, item_means, FUN = "-")
+  centered_data[is.na(centered_data)] <- 0
+
+  # 2. transpose for item-based similarity (now rows = items)
+  item_data <- t(centered_data)
+
+  # 3. ratings the user has already made
+  user_vector <- as.numeric(df[user, ])
+  names(user_vector) <- colnames(df)
+
+  predictions <- numeric(ncol(df))
+  names(predictions) <- colnames(df)
+
+  for (item in names(user_vector)) {
+    # skip if user already rated it
+    if (!is.na(user_vector[item])) next
+
+    # get all items the user has rated
+    rated_items <- names(user_vector)[!is.na(user_vector)]
+
+    # compute similarity between this target item and all items the user rated
+    if (sim_metric == "Cosine") {
+      sim_scores <- proxy::simil(as.matrix(item_data[item, , drop = FALSE]),
+                                 item_data[rated_items, , drop = FALSE],
+                                 method = "cosine")
+      sim_scores <- as.vector(sim_scores)
+    } else if (sim_metric == "L2") {
+      diff <- item_data[item, ] - item_data[rated_items, ]
+      sim_scores <- -sqrt(rowSums(diff^2))
+    }
+
+    # 4. normalize similarity
+    sim_scores <- rescale(sim_scores, to = c(0, 1))
+
+    # grab the user’s ratings for the similar items
+    rated_scores <- user_vector[rated_items]
+
+    # 5. select top k similar users
+    top_k <- order(sim_scores, decreasing = TRUE)[1:min(k, length(sim_scores))]
+    top_k_sims <- sim_scores[top_k]
+    top_k_ratings <- rated_scores[top_k]
+
+    # 6. make predictions
+    if (sum(top_k_sims) == 0) {
+      predictions[item] <- NA
+    } else {
+      predictions[item] <- sum(top_k_sims * top_k_ratings) / sum(top_k_sims)
+    }
+  }
+
+  # convert predictions to a data frame
+  result <- data.frame(recipe_code = names(predictions), Predicted_Rating = predictions)
+  result <- result[is.na(df[user, ]), ]
+
+  # Add recipe names if provided
+  if (!is.null(recipe_lookup_df)) {
+    result <- result %>%
+      left_join(recipe_lookup_df, by = "recipe_code") %>%
+      select(recipe_code, recipe_name, Predicted_Rating)
+  }
+
+  result <- result %>%
+    filter(!is.na(Predicted_Rating)) %>%
+    arrange(desc(Predicted_Rating))
+
+  return(result)
+}
+
+```
+
+
+### helper function to find rating for one target user and one target recipe
+```{r}
+predict_one_recipe <- function(rating_matrix, user_id, recipe_code, k = 5, 
+                               sim_metric = "Cosine", method = "user", 
+                               recipe_lookup_df = NULL) {
+  # Check method type
+  if (!(method %in% c("user", "item"))) {
+    stop("Method must be either 'user' or 'item'")
+  }
+
+  if (method == "user") {
+    # Run user-user collaborative filtering
+    predictions <- user_user_df(
+      df = rating_matrix,
+      user = user_id,
+      sim_metric = sim_metric,
+      k = k,
+      recipe_lookup_df = recipe_lookup_df
+    )
+
+  } else if (method == "item") {
+    # Run item-item collaborative filtering (function to be defined separately)
+    predictions <- item_item_df(
+      df = rating_matrix,
+      user = user_id,
+      sim_metric = sim_metric,
+      k = k,
+      recipe_lookup_df = recipe_lookup_df
+    )
+
+  }
+  
+  # Filter to just the target recipe
+  prediction <- predictions[predictions$recipe_code == recipe_code, ]
+
+  return(prediction)
+}
+
+```
+
+### Testing Collaborative Filtering Functions
+```{r}
+# find users with at least one missing rating to predict for
+users_with_missing <- rownames(rating_matrix)[
+  apply(rating_matrix, 1, function(row) any(is.na(row)))
+]
+
+# test user
+test_user <- users_with_missing[50]
+print(paste("Testing user:", test_user))
+
+# predict for chosen test user with user-user CF
+predicted_ratings <- user_user_df(rating_matrix, user = test_user, 
+                                  sim_metric = "Cosine", k = 5, 
+                                  recipe_lookup_df = recipe_lookup)
+
+# display predictions
+print(paste("USER-USER: Predicted ratings for missing items for test user:", test_user))
+print(predicted_ratings)
+
+# predict for chosen test user with item-item CF
+predicted_ratings <- item_item_df(rating_matrix, user = test_user, 
+                                  sim_metric = "Cosine", k = 5, 
+                                  recipe_lookup_df = recipe_lookup)
+
+# display predictions
+print(paste("ITEM-ITEM: Predicted ratings for missing items for test user:", test_user))
+print(predicted_ratings)
+```
+
+```{r}
+# find rating for target user and target recipe 
+target_user <- "u_05PZUpOV27Pv"
+target_recipe <- "3309"
+
+head(recipe_popularity)
+predict_one_recipe(rating_matrix, target_user, target_recipe, k = 5, method="user", 
+                   recipe_lookup_df = recipe_lookup)
+
+predict_one_recipe(rating_matrix, target_user, target_recipe, k = 5, method="item", 
+                   recipe_lookup_df = recipe_lookup)
+```
+
+
