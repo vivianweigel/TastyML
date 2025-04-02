@@ -57,7 +57,7 @@ head(rating_matrix)
 # make sure each recipe is distinct in lookup table
 recipe_lookup <- df %>%
   select(recipe_code, recipe_name) %>%
-  distinct(recipe_code, .keep_all = TRUE)  # <- ensures only 1 row per recipe_code
+  distinct(recipe_code, .keep_all = TRUE)  
 
 ```
 ### Some analysis on data to explore popular recipes and frequent users
@@ -260,7 +260,7 @@ item_item_df <- function(df, user, sim_metric = "Cosine", k = 2,
   result <- data.frame(recipe_code = names(predictions), Predicted_Rating = predictions)
   result <- result[is.na(df[user, ]), ]
 
-  # Add recipe names if provided
+  # add recipe names if provided
   if (!is.null(recipe_lookup_df)) {
     result <- result %>%
       left_join(recipe_lookup_df, by = "recipe_code") %>%
@@ -288,7 +288,7 @@ predict_one_recipe <- function(rating_matrix, user_id, recipe_code, k = 5,
   }
 
   if (method == "user") {
-    # Run user-user collaborative filtering
+    # run user-user collaborative filtering
     predictions <- user_user_df(
       df = rating_matrix,
       user = user_id,
@@ -298,7 +298,7 @@ predict_one_recipe <- function(rating_matrix, user_id, recipe_code, k = 5,
     )
 
   } else if (method == "item") {
-    # Run item-item collaborative filtering (function to be defined separately)
+    # run item-item collaborative filtering 
     predictions <- item_item_df(
       df = rating_matrix,
       user = user_id,
@@ -309,7 +309,7 @@ predict_one_recipe <- function(rating_matrix, user_id, recipe_code, k = 5,
 
   }
   
-  # Filter to just the target recipe
+  # filter to just the target recipe
   prediction <- predictions[predictions$recipe_code == recipe_code, ]
 
   return(prediction)
