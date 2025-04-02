@@ -68,6 +68,8 @@ top_users <- sort(user_rating_counts, decreasing = TRUE)
 
 head(top_users)
 
+length(user_rating_counts[user_rating_counts >= 10])
+
 # which recipe has the most ratings
 recipe_popularity <- df %>%
   filter(!is.na(stars)) %>%
@@ -87,7 +89,7 @@ top_reviewers <- df %>%
   ) %>%
   arrange(desc(num_reviews))
 
-head(top_reviewers, 5)
+
 ```
 ### user-user collaborative filtering function
 ```{r}
@@ -359,5 +361,68 @@ predict_one_recipe(rating_matrix, target_user, target_recipe, k = 5, method="use
 predict_one_recipe(rating_matrix, target_user, target_recipe, k = 5, method="item", 
                    recipe_lookup_df = recipe_lookup)
 ```
+
+### Testing CF Models by Hiding Ratings
+In order to test the capabilities the models, we will 
+1. pick a user with a good number of ratings
+2. randomly hide a few of their actual ratings (setting to NA)
+3. run prediction for those recipes
+4. compare predicted vs actual ratings
+
+```{r}
+# pick a user with a good number of ratings
+user_rating_counts <- rowSums(!is.na(rating_matrix))
+test_user <- names(sort(user_rating_counts, decreasing = TRUE))[2]  # most active user
+
+# find the items this user has rated
+rated_items <- which(!is.na(rating_matrix[test_user, ]))
+
+# randomly hold out 5 of their ratings - 
+set.seed(42)  # for reproducibility
+held_out_items <- sample(rated_items, 5)
+
+# store true ratings to compare later
+true_ratings <- rating_matrix[test_user, held_out_items]
+
+# make test matrix (copied matrix with held-out values set to NA)
+test_matrix <- rating_matrix
+test_matrix[test_user, held_out_items] <- NA
+
+# Predict using user-user or item-item
+pred_user_user <- user_user_df(test_matrix, user = test_user, 
+                               sim_metric = "Cosine", k = 5, 
+                               recipe_lookup_df = recipe_lookup)
+pred_item_item <- item_item_df(test_matrix, user = test_user, 
+                               sim_metric = "Cosine", k = 5,
+                               recipe_lookup_df = recipe_lookup)
+
+# build a full comparison table
+
+# filter both prediction outputs to the held-out recipe codes
+user_preds <- pred_user_user %>%
+  filter(recipe_code %in% names(true_ratings)) %>%
+  select(recipe_code, recipe_name, user_pred = Predicted_Rating)
+
+item_preds <- pred_item_item %>%
+  filter(recipe_code %in% names(true_ratings)) %>%
+  select(recipe_code, item_pred = Predicted_Rating)
+
+# merge user and item predictions
+comparison <- user_preds %>%
+  left_join(item_preds, by = "recipe_code")
+
+# add actual held-out ratings
+comparison$actual <- true_ratings[comparison$recipe_code]
+
+# reorder columns for readability
+comparison <- comparison %>%
+  select(recipe_code, recipe_name, user_pred, item_pred, actual)
+
+print(comparison)
+
+```
+
+
+
 
 
