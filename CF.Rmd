@@ -2,7 +2,9 @@
 title: "Untitled"
 author: "rachel_cassway"
 date: "2025-04-02"
-output: html_document
+output:
+  html_document: default
+  pdf_document: default
 ---
 
 ### Load and Clean Data
@@ -439,15 +441,21 @@ evaluate_user_cf(test_user, rating_matrix, seed = 42,
 
 ### Analyze Models
 ```{r}
-# make matrix for users who rates >= 10 recipes
-test_rating_matrix <- rating_matrix[rowSums(!is.na(rating_matrix)) >= 5, ]
+library(ggplot2)
+library(dplyr)
+
+reciped_rated = 5
+holdout = 3
+
+# make matrix for users who rates >= n recipes
+test_rating_matrix <- rating_matrix[rowSums(!is.na(rating_matrix)) >= reciped_rated, ]
 
 # initialize empty data frame
 results_df <- data.frame()  
 
 for (user in rownames(test_rating_matrix)) {
   result <- evaluate_user_cf(user, test_rating_matrix, seed = 42, k = 5, 
-                             n_holdout = 3, sim_metric = "Cosine", 
+                             n_holdout = holdout, sim_metric = "Cosine", 
                              recipe_lookup_df = recipe_lookup)
   
   if (!is.null(result) && nrow(result) > 0) {
@@ -455,6 +463,62 @@ for (user in rownames(test_rating_matrix)) {
   }
 }
 
-print(results_df)
-```
+head(results_df)
 
+# RMSE
+paste("RMSE (user-user):", sqrt(mean((results_df$user_pred - results_df$actual)^2, na.rm = TRUE)))
+paste("MRSE (item-item):", sqrt(mean((results_df$item_pred - results_df$actual)^2, na.rm = TRUE)))
+
+# MAE
+paste("MAE (user-user):", mean(abs(results_df$user_pred - results_df$actual), na.rm = TRUE))
+paste("MAE (item-item):", mean(abs(results_df$item_pred - results_df$actual), na.rm = TRUE))
+
+# checking coverage
+paste("Coverage (user-user): ", mean(!is.na(results_df$user_pred)) * 100, 
+      "%", sep = "")  
+paste("Coverage (item-item): ", mean(!is.na(results_df$item_pred)) * 100, 
+      "%", sep = "")
+
+results_df$error_user <- results_df$user_pred - results_df$actual
+results_df$error_item <- results_df$item_pred - results_df$actual
+
+ggplot(results_df, aes(x = error_user)) + 
+  geom_histogram(binwidth = 0.5) + 
+  ggtitle("User-User Prediction Error Distribution")
+
+ggplot(results_df, aes(x = error_item)) + 
+  geom_histogram(binwidth = 0.5) + 
+  ggtitle("Item-Item Prediction Error Distribution")
+
+
+# which model performs better PER USER
+user_level_perf <- results_df %>%
+  group_by(user_id) %>%
+  summarise(
+    rmse_user = sqrt(mean((user_pred - actual)^2, na.rm = TRUE)),
+    rmse_item = sqrt(mean((item_pred - actual)^2, na.rm = TRUE)),
+    mae_user = mean(abs(user_pred - actual), na.rm = TRUE),
+    mae_item = mean(abs(item_pred - actual), na.rm = TRUE)
+  )
+
+ggplot(user_level_perf, aes(x = rmse_user, y = rmse_item)) +
+  geom_point() +
+  geom_abline(slope = 1, intercept = 0, linetype = "dashed") +
+  labs(title = "Per-User RMSE: User-User vs Item-Item")
+
+# % of users where user-user is better
+mean(user_level_perf$rmse_user < user_level_perf$rmse_item)  
+# % of users where item-item is better
+mean(user_level_perf$rmse_item < user_level_perf$rmse_user)  
+
+user_level_perf$num_ratings <- rowSums(!is.na(rating_matrix[user_level_perf$user_id, ]))
+
+ggplot(user_level_perf, aes(x = num_ratings, y = rmse_user - rmse_item)) +
+  geom_point() +
+  geom_hline(yintercept = 0, linetype = "dashed") +
+  labs(title = "Which CF Model Performs Better by User Rating Count",
+       y = "RMSE Difference (User - Item)", x = "# of Ratings")
+```
+User-user CF outperforms item-item CF for the majority of users, especially in terms of RMSE. However, item-item occasionally performs better for certain users — a hybrid might be useful for edge cases.
+
+We observed that user-user CF generally performs better across users, especially those with more rating history. However, for users with fewer than 8–10 ratings, item-item CF occasionally outperforms user-user, likely due to stronger item similarity coverage. A hybrid approach may help balance performance across sparse and dense users.
