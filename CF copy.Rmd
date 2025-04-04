@@ -1,10 +1,8 @@
 ---
-title: "CF"
+title: "Untitled"
 author: "rachel_cassway"
 date: "2025-04-02"
-output:
-  html_document: default
-  pdf_document: default
+output: html_document
 ---
 
 ### Load and Clean Data
@@ -95,7 +93,7 @@ top_reviewers <- df %>%
 ```
 ### user-user collaborative filtering function
 ```{r}
-user_user_cf <- function(df, user, sim_metric = "Cosine", k = 2, 
+user_user_df <- function(df, user, sim_metric = "Cosine", k = 2, 
                          recipe_lookup_df = NULL) {
   
   # if user not in data, return not found message
@@ -187,7 +185,7 @@ user_user_cf <- function(df, user, sim_metric = "Cosine", k = 2,
 
 ### item-item collaborative filtering function
 ```{r}
-item_item_cf <- function(df, user, sim_metric = "Cosine", k = 2, 
+item_item_df <- function(df, user, sim_metric = "Cosine", k = 2, 
                          recipe_lookup_df = NULL) {
   
   # if user not in data, return not found message
@@ -250,7 +248,6 @@ item_item_cf <- function(df, user, sim_metric = "Cosine", k = 2,
     # 5. select top k similar users
     top_k <- order(sim_scores, decreasing = TRUE)[1:min(k, length(sim_scores))]
     top_k_sims <- sim_scores[top_k]
-    top_k_sims <- top_k_sims[!is.na(top_k_sims)]
     top_k_ratings <- rated_scores[top_k]
 
     # 6. make predictions
@@ -294,7 +291,7 @@ predict_one_recipe <- function(rating_matrix, user_id, recipe_code, k = 5,
 
   if (method == "user") {
     # run user-user collaborative filtering
-    predictions <- user_user_cf(
+    predictions <- user_user_df(
       df = rating_matrix,
       user = user_id,
       sim_metric = sim_metric,
@@ -304,7 +301,7 @@ predict_one_recipe <- function(rating_matrix, user_id, recipe_code, k = 5,
 
   } else if (method == "item") {
     # run item-item collaborative filtering 
-    predictions <- item_item_cf(
+    predictions <- item_item_df(
       df = rating_matrix,
       user = user_id,
       sim_metric = sim_metric,
@@ -334,30 +331,30 @@ test_user <- users_with_missing[50]
 print(paste("Testing user:", test_user))
 
 # predict for chosen test user with user-user CF
-predicted_ratings <- user_user_cf(rating_matrix, user = test_user, 
+predicted_ratings <- user_user_df(rating_matrix, user = test_user, 
                                   sim_metric = "Cosine", k = 5, 
                                   recipe_lookup_df = recipe_lookup)
 
 # display predictions
 print(paste("USER-USER: Predicted ratings for missing items for test user:", test_user))
-head(predicted_ratings)
+print(predicted_ratings)
 
 # predict for chosen test user with item-item CF
-predicted_ratings <- item_item_cf(rating_matrix, user = test_user, 
+predicted_ratings <- item_item_df(rating_matrix, user = test_user, 
                                   sim_metric = "Cosine", k = 5, 
                                   recipe_lookup_df = recipe_lookup)
 
 # display predictions
 print(paste("ITEM-ITEM: Predicted ratings for missing items for test user:", test_user))
-head(predicted_ratings)
+print(predicted_ratings)
 ```
 
 ```{r}
 # find rating for target user and target recipe 
 target_user <- "u_05PZUpOV27Pv"
 target_recipe <- "3309"
-head(recipe_popularity)
 
+head(recipe_popularity)
 predict_one_recipe(rating_matrix, target_user, target_recipe, k = 5, method="user", 
                    recipe_lookup_df = recipe_lookup)
 
@@ -372,153 +369,60 @@ In order to test the capabilities the models, we will
 3. run prediction for those recipes
 4. compare predicted vs actual ratings
 
-
 ```{r}
+# pick a user with a good number of ratings
+user_rating_counts <- rowSums(!is.na(rating_matrix))
+test_user <- names(sort(user_rating_counts, decreasing = TRUE))[2]  # most active user
 
-evaluate_user_cf <- function(test_user, rating_matrix, seed = 42, k = 5, 
-                             n_holdout = 5, sim_metric = "Cosine", 
-                             recipe_lookup_df = NULL) {
-  # find the items this user has rated
-  rated_items <- which(!is.na(rating_matrix[test_user, ]))
-  
-  # randomly hold out 5 of their ratings - 
-  set.seed(seed)  # for reproducibility
-  held_out_items <- sample(rated_items, n_holdout)
-  
-  # store true ratings to compare later
-  true_ratings <- rating_matrix[test_user, held_out_items]
-  
-  # make test matrix (copied matrix with held-out values set to NA)
-  test_matrix <- rating_matrix
-  test_matrix[test_user, held_out_items] <- NA
-  
-  # Predict using user-user or item-item
-  pred_user_user <- user_user_cf(test_matrix, user = test_user, 
-                                 sim_metric = sim_metric, k = k, 
-                                 recipe_lookup_df = recipe_lookup_df)
-  pred_item_item <- item_item_cf(test_matrix, user = test_user, 
-                                 sim_metric = sim_metric, k = k,
-                                 recipe_lookup_df = recipe_lookup_df)
-  
-  # build a full comparison table
-  
-  # filter both prediction outputs to the held-out recipe codes
-  user_preds <- pred_user_user %>%
-    filter(recipe_code %in% names(true_ratings)) %>%
-    select(recipe_code, recipe_name, user_pred = Predicted_Rating)
-  
-  item_preds <- pred_item_item %>%
-    filter(recipe_code %in% names(true_ratings)) %>%
-    select(recipe_code, item_pred = Predicted_Rating)
-  
-  # merge user and item predictions
-  comparison <- user_preds %>%
-    left_join(item_preds, by = "recipe_code")
-  
-  # add actual held-out ratings and user ID
-  comparison$actual <- true_ratings[comparison$recipe_code]
-  comparison$user_id <- test_user
+# find the items this user has rated
+rated_items <- which(!is.na(rating_matrix[test_user, ]))
 
-  # reorder columns for readability
-  comparison <- comparison %>%
-    select(user_id, recipe_code, recipe_name, user_pred, item_pred, actual)
+# randomly hold out 5 of their ratings - 
+set.seed(42)  # for reproducibility
+held_out_items <- sample(rated_items, 5)
 
-  
-  return(comparison)
-}
+# store true ratings to compare later
+true_ratings <- rating_matrix[test_user, held_out_items]
+
+# make test matrix (copied matrix with held-out values set to NA)
+test_matrix <- rating_matrix
+test_matrix[test_user, held_out_items] <- NA
+
+# Predict using user-user or item-item
+pred_user_user <- user_user_df(test_matrix, user = test_user, 
+                               sim_metric = "Cosine", k = 5, 
+                               recipe_lookup_df = recipe_lookup)
+pred_item_item <- item_item_df(test_matrix, user = test_user, 
+                               sim_metric = "Cosine", k = 5,
+                               recipe_lookup_df = recipe_lookup)
+
+# build a full comparison table
+
+# filter both prediction outputs to the held-out recipe codes
+user_preds <- pred_user_user %>%
+  filter(recipe_code %in% names(true_ratings)) %>%
+  select(recipe_code, recipe_name, user_pred = Predicted_Rating)
+
+item_preds <- pred_item_item %>%
+  filter(recipe_code %in% names(true_ratings)) %>%
+  select(recipe_code, item_pred = Predicted_Rating)
+
+# merge user and item predictions
+comparison <- user_preds %>%
+  left_join(item_preds, by = "recipe_code")
+
+# add actual held-out ratings
+comparison$actual <- true_ratings[comparison$recipe_code]
+
+# reorder columns for readability
+comparison <- comparison %>%
+  select(recipe_code, recipe_name, user_pred, item_pred, actual)
+
+print(comparison)
+
 ```
 
 
 
-```{r}
-# test evaluate function
-rated_10 <- user_rating_counts[user_rating_counts >= 10]
-test_user <- names(rated_10)[1]  # first user in the group
-evaluate_user_cf(test_user, rating_matrix, seed = 42, 
-                 k = 5, n_holdout = 5, sim_metric = "Cosine", 
-                 recipe_lookup_df = recipe_lookup)
-```
-
-### Analyze Models
-```{r}
-library(ggplot2)
-library(dplyr)
-
-reciped_rated = 5
-holdout = 3
-
-# make matrix for users who rates >= n recipes
-test_rating_matrix <- rating_matrix[rowSums(!is.na(rating_matrix)) >= reciped_rated, ]
-
-# initialize empty data frame
-results_df <- data.frame()  
-
-for (user in rownames(test_rating_matrix)) {
-  result <- evaluate_user_cf(user, test_rating_matrix, seed = 42, k = 5, 
-                             n_holdout = holdout, sim_metric = "Cosine", 
-                             recipe_lookup_df = recipe_lookup)
-  
-  if (!is.null(result) && nrow(result) > 0) {
-    results_df <- rbind(results_df, result)
-  }
-}
-
-head(results_df)
-
-# MSE
-paste("MSE (user-user):", mean((results_df$user_pred - results_df$actual)^2, na.rm = TRUE))
-paste("MSE (item-item):", mean((results_df$item_pred - results_df$actual)^2, na.rm = TRUE))
-
-# MAE
-paste("MAE (user-user):", mean(abs(results_df$user_pred - results_df$actual), na.rm = TRUE))
-paste("MAE (item-item):", mean(abs(results_df$item_pred - results_df$actual), na.rm = TRUE))
-
-# checking coverage
-paste("Coverage (user-user): ", mean(!is.na(results_df$user_pred)) * 100, 
-      "%", sep = "")  
-paste("Coverage (item-item): ", mean(!is.na(results_df$item_pred)) * 100, 
-      "%", sep = "")
-
-results_df$error_user <- results_df$user_pred - results_df$actual
-results_df$error_item <- results_df$item_pred - results_df$actual
-
-ggplot(results_df, aes(x = error_user)) + 
-  geom_histogram(binwidth = 0.5) + 
-  ggtitle("User-User Prediction Error Distribution")
-
-ggplot(results_df, aes(x = error_item)) + 
-  geom_histogram(binwidth = 0.5) + 
-  ggtitle("Item-Item Prediction Error Distribution")
 
 
-# which model performs better PER USER
-user_level_perf <- results_df %>%
-  group_by(user_id) %>%
-  summarise(
-    mse_user = mean((user_pred - actual)^2, na.rm = TRUE),
-    mse_item = mean((item_pred - actual)^2, na.rm = TRUE),
-    mae_user = mean(abs(user_pred - actual), na.rm = TRUE),
-    mae_item = mean(abs(item_pred - actual), na.rm = TRUE)
-  )
-
-ggplot(user_level_perf, aes(x = mse_user, y = mse_item)) +
-  geom_point() +
-  geom_abline(slope = 1, intercept = 0, linetype = "dashed") +
-  labs(title = "Per-User MSE: User-User vs Item-Item")
-
-# % of users where user-user is better
-mean(user_level_perf$mse_user < user_level_perf$mse_item)  
-# % of users where item-item is better
-mean(user_level_perf$mse_item < user_level_perf$mse_user)  
-
-user_level_perf$num_ratings <- rowSums(!is.na(rating_matrix[user_level_perf$user_id, ]))
-
-ggplot(user_level_perf, aes(x = num_ratings, y = mse_user - mse_item)) +
-  geom_point() +
-  geom_hline(yintercept = 0, linetype = "dashed") +
-  labs(title = "Which CF Model Performs Better by User Rating Count",
-       y = "RMSE Difference (User - Item)", x = "# of Ratings")
-```
-User-user CF outperforms item-item CF for the majority of users, especially in terms of MSE. However, item-item occasionally performs better for certain users — a hybrid might be useful for edge cases.
-
-We observed that user-user CF generally performs better across users, especially those with more rating history. However, for users with fewer than 8–10 ratings, item-item CF occasionally outperforms user-user, likely due to stronger item similarity coverage. A hybrid approach may help balance performance across sparse and dense users.
