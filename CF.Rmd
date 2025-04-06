@@ -322,59 +322,13 @@ predict_one_recipe <- function(rating_matrix, user_id, recipe_code, k = 5,
 
 ```
 
-### Testing Collaborative Filtering Functions
-```{r}
-# find users with at least one missing rating to predict for
-users_with_missing <- rownames(rating_matrix)[
-  apply(rating_matrix, 1, function(row) any(is.na(row)))
-]
-
-# test user
-test_user <- users_with_missing[50]
-print(paste("Testing user:", test_user))
-
-# predict for chosen test user with user-user CF
-predicted_ratings <- user_user_cf(rating_matrix, user = test_user, 
-                                  sim_metric = "Cosine", k = 5, 
-                                  recipe_lookup_df = recipe_lookup)
-
-# display predictions
-print(paste("USER-USER: Predicted ratings for missing items for test user:", test_user))
-head(predicted_ratings)
-
-# predict for chosen test user with item-item CF
-predicted_ratings <- item_item_cf(rating_matrix, user = test_user, 
-                                  sim_metric = "Cosine", k = 5, 
-                                  recipe_lookup_df = recipe_lookup)
-
-# display predictions
-print(paste("ITEM-ITEM: Predicted ratings for missing items for test user:", test_user))
-head(predicted_ratings)
-```
-
-```{r}
-# find rating for target user and target recipe 
-target_user <- "u_05PZUpOV27Pv"
-target_recipe <- "3309"
-head(recipe_popularity)
-
-predict_one_recipe(rating_matrix, target_user, target_recipe, k = 5, method="user", 
-                   recipe_lookup_df = recipe_lookup)
-
-predict_one_recipe(rating_matrix, target_user, target_recipe, k = 5, method="item", 
-                   recipe_lookup_df = recipe_lookup)
-```
-
-### Testing CF Models by Hiding Ratings
+### evaluate CF models function
 In order to test the capabilities the models, we will 
 1. pick a user with a good number of ratings
 2. randomly hide a few of their actual ratings (setting to NA)
 3. run prediction for those recipes
 4. compare predicted vs actual ratings
-
-
 ```{r}
-
 evaluate_user_cf <- function(test_user, rating_matrix, seed = 42, k = 5, 
                              n_holdout = 5, sim_metric = "Cosine", 
                              recipe_lookup_df = NULL) {
@@ -427,10 +381,47 @@ evaluate_user_cf <- function(test_user, rating_matrix, seed = 42, k = 5,
   return(comparison)
 }
 ```
-
-
-
+### testing functions individually
 ```{r}
+# find users with at least one missing rating to predict for
+users_with_missing <- rownames(rating_matrix)[
+  apply(rating_matrix, 1, function(row) any(is.na(row)))
+]
+
+# test user
+test_user <- users_with_missing[50]
+print(paste("Testing user:", test_user))
+
+# predict for chosen test user with user-user CF
+predicted_ratings <- user_user_cf(rating_matrix, user = test_user, 
+                                  sim_metric = "Cosine", k = 5, 
+                                  recipe_lookup_df = recipe_lookup)
+
+# display predictions
+print(paste("USER-USER: Predicted ratings for missing items for test user:", test_user))
+head(predicted_ratings)
+
+# predict for chosen test user with item-item CF
+predicted_ratings <- item_item_cf(rating_matrix, user = test_user, 
+                                  sim_metric = "Cosine", k = 5, 
+                                  recipe_lookup_df = recipe_lookup)
+
+# display predictions
+print(paste("ITEM-ITEM: Predicted ratings for missing items for test user:", test_user))
+head(predicted_ratings)
+
+# find rating for target user and target recipe 
+target_user <- "u_05PZUpOV27Pv"
+target_recipe <- "3309"
+head(recipe_popularity)
+
+predict_one_recipe(rating_matrix, target_user, target_recipe, k = 5, method="user", 
+                   recipe_lookup_df = recipe_lookup)
+
+predict_one_recipe(rating_matrix, target_user, target_recipe, k = 5, method="item", 
+                   recipe_lookup_df = recipe_lookup)
+
+
 # test evaluate function
 rated_10 <- user_rating_counts[user_rating_counts >= 10]
 test_user <- names(rated_10)[1]  # first user in the group
@@ -439,7 +430,7 @@ evaluate_user_cf(test_user, rating_matrix, seed = 42,
                  recipe_lookup_df = recipe_lookup)
 ```
 
-### Analyze Models
+### testing CF models by hiding ratings and analysis
 ```{r}
 library(ggplot2)
 library(dplyr)
@@ -454,7 +445,7 @@ test_rating_matrix <- rating_matrix[rowSums(!is.na(rating_matrix)) >= reciped_ra
 results_df <- data.frame()  
 
 for (user in rownames(test_rating_matrix)) {
-  result <- evaluate_user_cf(user, test_rating_matrix, seed = 42, k = 5, 
+  result <- evaluate_user_cf(user, rating_matrix, seed = 42, k = 5, 
                              n_holdout = holdout, sim_metric = "Cosine", 
                              recipe_lookup_df = recipe_lookup)
   
@@ -491,6 +482,12 @@ ggplot(results_df, aes(x = error_item)) +
   ggtitle("Item-Item Prediction Error Distribution")
 
 
+user_rating_counts <- data.frame(
+  user_id = rownames(rating_matrix),
+  num_ratings = rowSums(!is.na(rating_matrix))
+)
+
+
 # which model performs better PER USER
 user_level_perf <- results_df %>%
   group_by(user_id) %>%
@@ -499,19 +496,31 @@ user_level_perf <- results_df %>%
     mse_item = mean((item_pred - actual)^2, na.rm = TRUE),
     mae_user = mean(abs(user_pred - actual), na.rm = TRUE),
     mae_item = mean(abs(item_pred - actual), na.rm = TRUE)
-  )
-
-ggplot(user_level_perf, aes(x = mse_user, y = mse_item)) +
+  ) %>%
+   left_join(user_rating_counts, by = "user_id")
+per_user_mse <- ggplot(user_level_perf, aes(x = mse_user, y = mse_item, color = num_ratings)) +
   geom_point() +
   geom_abline(slope = 1, intercept = 0, linetype = "dashed") +
-  labs(title = "Per-User MSE: User-User vs Item-Item")
+  scale_color_gradient(low = "pink", high = "darkblue") +
+  labs(title = "Per-User MSE: User-User vs Item-Item") 
+ggsave(
+  filename = "per_user_mse.png",      
+  plot = per_user_mse,                       
+  width = 8, height = 6, dpi = 300 
+)
+
+print(per_user_mse)
+
+mean(user_level_perf$mse_user)
+mean(user_level_perf$mse_item)
 
 # % of users where user-user is better
 mean(user_level_perf$mse_user < user_level_perf$mse_item)  
 # % of users where item-item is better
 mean(user_level_perf$mse_item < user_level_perf$mse_user)  
 
-user_level_perf$num_ratings <- rowSums(!is.na(rating_matrix[user_level_perf$user_id, ]))
+mean(user_level_perf$mse_user)
+mean(user_level_perf$mse_item)
 
 ggplot(user_level_perf, aes(x = num_ratings, y = mse_user - mse_item)) +
   geom_point() +
