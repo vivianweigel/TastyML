@@ -13,11 +13,52 @@ Getting data into the following format:
 - Columns = recipes
 - Values = ratings (stars)
 
-```{r}
+
+``` r
 # load libraries
 library(dplyr)
+```
+
+```
+## 
+## Attaching package: 'dplyr'
+```
+
+```
+## The following objects are masked from 'package:stats':
+## 
+##     filter, lag
+```
+
+```
+## The following objects are masked from 'package:base':
+## 
+##     intersect, setdiff, setequal, union
+```
+
+``` r
 library(tidyr)
 library(proxy)
+```
+
+```
+## 
+## Attaching package: 'proxy'
+```
+
+```
+## The following objects are masked from 'package:stats':
+## 
+##     as.dist, dist
+```
+
+```
+## The following object is masked from 'package:base':
+## 
+##     as.matrix
+```
+
+``` r
 library(scales)
 
 # load csv into dataframe
@@ -55,30 +96,127 @@ rating_matrix <- as.matrix(rating_wide)
 
 # preview matrix
 head(rating_matrix)
+```
 
+```
+##                386 2912 8431 39334 100276 12700 17826 42386 41101 11767 27626
+## u_05PZUpOV27Pv   5   NA   NA    NA     NA    NA    NA    NA    NA    NA    NA
+## u_09Pspx0F3ZKy  NA    5   NA    NA     NA    NA    NA    NA    NA    NA    NA
+## u_0BYS3gNJ4rI0  NA   NA    5    NA     NA    NA    NA    NA    NA    NA    NA
+## u_0GfixeKJgmAL  NA   NA   NA     5     NA    NA    NA    NA    NA    NA    NA
+## u_0HraB0BMR3qu  NA   NA   NA    NA      0    NA    NA    NA    NA    NA    NA
+## u_0S8No1lOgccx  NA   NA   NA    NA     NA     5    NA    NA    NA    NA    NA
+##                28058 9735 7708 1196 957 18341 2832 7752 43675 1152 3309 32480
+## u_05PZUpOV27Pv    NA   NA   NA   NA  NA    NA   NA   NA    NA   NA   NA    NA
+## u_09Pspx0F3ZKy    NA   NA   NA   NA  NA    NA   NA   NA    NA   NA   NA    NA
+## u_0BYS3gNJ4rI0    NA   NA   NA   NA  NA    NA   NA   NA    NA   NA   NA    NA
+## u_0GfixeKJgmAL    NA   NA   NA   NA  NA    NA   NA   NA    NA   NA   NA    NA
+## u_0HraB0BMR3qu    NA   NA   NA   NA  NA    NA   NA   NA    NA   NA   NA    NA
+## u_0S8No1lOgccx    NA   NA   NA   NA  NA    NA   NA   NA    NA   NA   NA    NA
+##                141947 16579 32264 7539 9010 14299 15805 19731 23222 2872 32248
+## u_05PZUpOV27Pv     NA    NA    NA   NA   NA    NA    NA    NA    NA   NA    NA
+## u_09Pspx0F3ZKy     NA    NA    NA   NA   NA    NA    NA    NA    NA   NA    NA
+## u_0BYS3gNJ4rI0     NA    NA    NA   NA   NA    NA    NA    NA    NA   NA    NA
+## u_0GfixeKJgmAL     NA    NA    NA   NA   NA    NA    NA    NA    NA   NA    NA
+## u_0HraB0BMR3qu     NA    NA    NA   NA   NA    NA    NA    NA    NA   NA    NA
+## u_0S8No1lOgccx     NA    NA    NA   NA   NA    NA    NA    NA    NA   NA    NA
+##                39545 41384 11588 12347 36450 38183 7178 12540 39549 16458 1693
+## u_05PZUpOV27Pv    NA    NA    NA    NA    NA    NA   NA    NA    NA    NA   NA
+## u_09Pspx0F3ZKy    NA    NA    NA    NA    NA    NA   NA    NA    NA    NA   NA
+## u_0BYS3gNJ4rI0    NA    NA    NA    NA    NA    NA   NA    NA    NA    NA   NA
+## u_0GfixeKJgmAL    NA    NA    NA    NA    NA    NA   NA    NA    NA    NA   NA
+## u_0HraB0BMR3qu    NA    NA    NA    NA    NA    NA   NA    NA    NA    NA   NA
+## u_0S8No1lOgccx    NA    NA    NA    NA    NA    NA   NA    NA    NA    NA   NA
+##                27434 33121 26937 12003 1063 17310 6086 11330 14600 31278 4383
+## u_05PZUpOV27Pv    NA    NA    NA    NA   NA    NA   NA    NA    NA    NA   NA
+## u_09Pspx0F3ZKy    NA    NA    NA    NA   NA    NA   NA    NA    NA    NA   NA
+## u_0BYS3gNJ4rI0    NA    NA    NA    NA   NA    NA   NA    NA    NA    NA   NA
+## u_0GfixeKJgmAL    NA    NA    NA    NA   NA    NA   NA    NA    NA    NA   NA
+## u_0HraB0BMR3qu    NA    NA    NA    NA   NA    NA   NA    NA    NA    NA   NA
+## u_0S8No1lOgccx    NA    NA    NA    NA   NA    NA   NA    NA    NA    NA   NA
+##                46655 74724 21444 3290 35948 36217 1081 32535 39581 41095 4444
+## u_05PZUpOV27Pv    NA    NA    NA   NA    NA    NA   NA    NA    NA    NA   NA
+## u_09Pspx0F3ZKy    NA    NA    NA   NA    NA    NA   NA    NA    NA    NA   NA
+## u_0BYS3gNJ4rI0    NA    NA    NA   NA    NA    NA   NA    NA    NA    NA   NA
+## u_0GfixeKJgmAL    NA    NA    NA   NA    NA    NA   NA    NA    NA    NA   NA
+## u_0HraB0BMR3qu    NA    NA    NA   NA    NA    NA   NA    NA    NA    NA   NA
+## u_0S8No1lOgccx    NA    NA    NA   NA    NA    NA   NA    NA    NA    NA   NA
+##                6504 82745 9739 10252 12734 20170 33206 3058 191775 42873 18274
+## u_05PZUpOV27Pv   NA    NA   NA    NA    NA    NA    NA   NA     NA    NA    NA
+## u_09Pspx0F3ZKy   NA    NA   NA    NA    NA    NA    NA   NA     NA    NA    NA
+## u_0BYS3gNJ4rI0   NA    NA   NA    NA    NA    NA    NA   NA     NA    NA    NA
+## u_0GfixeKJgmAL   NA    NA   NA    NA    NA    NA    NA   NA     NA    NA    NA
+## u_0HraB0BMR3qu   NA    NA   NA    NA    NA    NA    NA   NA     NA    NA    NA
+## u_0S8No1lOgccx   NA    NA   NA    NA    NA    NA    NA   NA     NA    NA    NA
+##                33457 27696 42083 12259 10248 1821 24886 8015 1324 38550 33743
+## u_05PZUpOV27Pv    NA    NA    NA    NA    NA   NA    NA   NA   NA    NA    NA
+## u_09Pspx0F3ZKy    NA    NA    NA    NA    NA   NA    NA   NA   NA    NA    NA
+## u_0BYS3gNJ4rI0    NA    NA    NA    NA    NA   NA    NA   NA   NA    NA    NA
+## u_0GfixeKJgmAL    NA    NA    NA    NA    NA   NA    NA   NA   NA    NA    NA
+## u_0HraB0BMR3qu    NA    NA    NA    NA    NA   NA    NA   NA   NA    NA    NA
+## u_0S8No1lOgccx    NA    NA    NA    NA    NA   NA    NA   NA   NA    NA    NA
+##                27675 35766 414 3143 18345 34347 3683 45495 19201 8202 17022
+## u_05PZUpOV27Pv    NA    NA  NA   NA    NA    NA   NA    NA    NA   NA    NA
+## u_09Pspx0F3ZKy    NA    NA  NA   NA    NA    NA   NA    NA    NA   NA    NA
+## u_0BYS3gNJ4rI0    NA    NA  NA   NA    NA    NA   NA    NA    NA   NA    NA
+## u_0GfixeKJgmAL    NA    NA  NA   NA    NA    NA   NA    NA    NA   NA    NA
+## u_0HraB0BMR3qu    NA    NA  NA   NA    NA    NA   NA    NA    NA   NA    NA
+## u_0S8No1lOgccx    NA    NA  NA   NA    NA    NA   NA    NA    NA   NA    NA
+```
+
+``` r
 # make sure each recipe is distinct in lookup table
 recipe_lookup <- df %>%
   select(recipe_code, recipe_name) %>%
   distinct(recipe_code, .keep_all = TRUE)  
-
 ```
 ### Some analysis on data to explore popular recipes and frequent users
-```{r}
+
+``` r
 # which users have rated the most recipes
 user_rating_counts <- rowSums(!is.na(rating_matrix))
 top_users <- sort(user_rating_counts, decreasing = TRUE)
 
 head(top_users)
+```
 
+```
+## u_1oKVZzipo1u8lcqQzDUcw4UBn9e u_1oKVZdmUbQTYMVdbXOpVfRQuHm9 
+##                            25                            23 
+## u_1oKVZmYPulmUFbvGiBA8U3uRR6D u_1oKVZoIOMWJ2j7TA7py2BIbf1mm 
+##                            23                            23 
+## u_1oKVeN9YNf07RT0P9R63Yu80P5A u_1oKVZxAOR5BEzyF4H6ENc7jwfUW 
+##                            23                            22
+```
+
+``` r
 length(user_rating_counts[user_rating_counts >= 10])
+```
 
+```
+## [1] 52
+```
+
+``` r
 # which recipe has the most ratings
 recipe_popularity <- df %>%
   filter(!is.na(stars)) %>%
   count(recipe_code, recipe_name, sort = TRUE)
 
 head(recipe_popularity)
+```
 
+```
+##   recipe_code             recipe_name   n
+## 1        2832       Cheeseburger Soup 725
+## 2       14299      Creamy White Chili 654
+## 3        3309  Best Ever Banana Bread 509
+## 4       42083   Enchilada Casser-Ole! 421
+## 5       32480    Basic Homemade Bread 397
+## 6       21444 Favorite Chicken Potpie 395
+```
+
+``` r
 # users who rated most recipes, with highest user reputation
 top_reviewers <- df %>%
   filter(!is.na(stars)) %>%
@@ -90,11 +228,10 @@ top_reviewers <- df %>%
     .groups = "drop" 
   ) %>%
   arrange(desc(num_reviews))
-
-
 ```
 ### User-User Collaborative Filtering Function
-```{r}
+
+``` r
 user_user_cf <- function(df, user, sim_metric = "Cosine", k = 2, 
                          recipe_lookup_df = NULL) {
   
@@ -180,13 +317,13 @@ user_user_cf <- function(df, user, sim_metric = "Cosine", k = 2,
   
   return(result)
 }
-
 ```
 
 
 
 ### Item-Item Collaborative Filtering Function
-```{r}
+
+``` r
 item_item_cf <- function(df, user, sim_metric = "Cosine", k = 2, 
                          recipe_lookup_df = NULL) {
   
@@ -278,12 +415,12 @@ item_item_cf <- function(df, user, sim_metric = "Cosine", k = 2,
 
   return(result)
 }
-
 ```
 
 
 ### Gelper Function to Find Rating for One Target User and One Target Recipe
-```{r}
+
+``` r
 predict_one_recipe <- function(rating_matrix, user_id, recipe_code, k = 5, 
                                sim_metric = "Cosine", method = "user", 
                                recipe_lookup_df = NULL) {
@@ -319,7 +456,6 @@ predict_one_recipe <- function(rating_matrix, user_id, recipe_code, k = 5,
 
   return(prediction)
 }
-
 ```
 
 ### Evaluate CF Models Function
@@ -328,7 +464,8 @@ In order to test the capabilities the models, we will
 2. randomly hide a few of their actual ratings (setting to NA)
 3. run prediction for those recipes
 4. compare predicted vs actual ratings
-```{r}
+
+``` r
 evaluate_user_cf <- function(test_user, rating_matrix, seed = 42, k = 5, 
                              n_holdout = 5, sim_metric = "Cosine", 
                              recipe_lookup_df = NULL) {
@@ -383,7 +520,8 @@ evaluate_user_cf <- function(test_user, rating_matrix, seed = 42, k = 5,
 ```
 
 ### Testing Functions Individually
-```{r}
+
+``` r
 # find users with at least one missing rating to predict for
 users_with_missing <- rownames(rating_matrix)[
   apply(rating_matrix, 1, function(row) any(is.na(row)))
@@ -392,7 +530,13 @@ users_with_missing <- rownames(rating_matrix)[
 # test user
 test_user <- users_with_missing[50]
 print(paste("Testing user:", test_user))
+```
 
+```
+## [1] "Testing user: u_1oKVZayWppErhTC8Zdspk9bGr7q"
+```
+
+``` r
 # predict for chosen test user with user-user CF
 predicted_ratings <- user_user_cf(rating_matrix, user = test_user, 
                                   sim_metric = "Cosine", k = 5, 
@@ -400,8 +544,27 @@ predicted_ratings <- user_user_cf(rating_matrix, user = test_user,
 
 # display predictions
 print(paste("USER-USER: Predicted ratings for missing items for test user:", test_user))
-head(predicted_ratings)
+```
 
+```
+## [1] "USER-USER: Predicted ratings for missing items for test user: u_1oKVZayWppErhTC8Zdspk9bGr7q"
+```
+
+``` r
+head(predicted_ratings)
+```
+
+```
+##   recipe_code                  recipe_name Predicted_Rating
+## 1       11767 Quick Cream of Mushroom Soup         4.389094
+## 2       12540    Flavorful Chicken Fajitas         4.389094
+## 3        3309       Best Ever Banana Bread         4.335436
+## 4       10248       Garlic Beef Enchiladas         4.335436
+## 5        1821       Blueberry French Toast         4.335436
+## 6        8431         Rhubarb Custard Bars         4.323228
+```
+
+``` r
 # predict for chosen test user with item-item CF
 predicted_ratings <- item_item_cf(rating_matrix, user = test_user, 
                                   sim_metric = "Cosine", k = 5, 
@@ -409,20 +572,64 @@ predicted_ratings <- item_item_cf(rating_matrix, user = test_user,
 
 # display predictions
 print(paste("ITEM-ITEM: Predicted ratings for missing items for test user:", test_user))
-head(predicted_ratings)
+```
 
+```
+## [1] "ITEM-ITEM: Predicted ratings for missing items for test user: u_1oKVZayWppErhTC8Zdspk9bGr7q"
+```
+
+``` r
+head(predicted_ratings)
+```
+
+```
+##   recipe_code             recipe_name Predicted_Rating
+## 1       32480    Basic Homemade Bread         4.795367
+## 2        7539         Fluffy Pancakes         4.794980
+## 3        6086               Apple Pie         4.791142
+## 4       21444 Favorite Chicken Potpie         4.765407
+## 5        1081         Baked Spaghetti         4.764737
+## 6        8202        Simple Taco Soup         4.757200
+```
+
+``` r
 # find rating for target user and target recipe 
 target_user <- "u_05PZUpOV27Pv"
 target_recipe <- "3309"
 head(recipe_popularity)
+```
 
+```
+##   recipe_code             recipe_name   n
+## 1        2832       Cheeseburger Soup 725
+## 2       14299      Creamy White Chili 654
+## 3        3309  Best Ever Banana Bread 509
+## 4       42083   Enchilada Casser-Ole! 421
+## 5       32480    Basic Homemade Bread 397
+## 6       21444 Favorite Chicken Potpie 395
+```
+
+``` r
 predict_one_recipe(rating_matrix, target_user, target_recipe, k = 5, method="user", 
                    recipe_lookup_df = recipe_lookup)
+```
 
+```
+##    recipe_code            recipe_name Predicted_Rating
+## 21        3309 Best Ever Banana Bread                4
+```
+
+``` r
 predict_one_recipe(rating_matrix, target_user, target_recipe, k = 5, method="item", 
                    recipe_lookup_df = recipe_lookup)
+```
 
+```
+##    recipe_code            recipe_name Predicted_Rating
+## 21        3309 Best Ever Banana Bread                5
+```
 
+``` r
 # test evaluate function
 rated_10 <- user_rating_counts[user_rating_counts >= 10]
 test_user <- names(rated_10)[1]  # first user in the group
@@ -431,8 +638,24 @@ evaluate_user_cf(test_user, rating_matrix, seed = 42,
                  recipe_lookup_df = recipe_lookup)
 ```
 
+```
+##                         user_id recipe_code                  recipe_name
+## 1 u_1oKVZT7bnHOk8MH7Aom0wkTCJNo        2912     Zucchini Pizza Casserole
+## 2 u_1oKVZT7bnHOk8MH7Aom0wkTCJNo        3309       Best Ever Banana Bread
+## 3 u_1oKVZT7bnHOk8MH7Aom0wkTCJNo       19731             Cauliflower Soup
+## 4 u_1oKVZT7bnHOk8MH7Aom0wkTCJNo       32248    Smothered Chicken Breasts
+## 5 u_1oKVZT7bnHOk8MH7Aom0wkTCJNo       41384 Black Bean ‘n’ Pumpkin Chili
+##   user_pred item_pred actual
+## 1  4.583422  4.663893      4
+## 2  4.551441  4.679517      5
+## 3  4.551441  4.780001      5
+## 4  4.551441  4.423024      5
+## 5  4.551441  4.345472      2
+```
+
 # Loop Through Eval Functino to See Accuracy Accross Methods
-```{r}
+
+``` r
 eval_cf_multiple_users <- function(recipes_rated_min = 1, rating_matrix, 
                                    seed = 42, k = 5, n_holdout = 3, 
                                    sim_metric = "Cosine",
@@ -457,11 +680,11 @@ eval_cf_multiple_users <- function(recipes_rated_min = 1, rating_matrix,
   return(results_df)
   
 }
-
 ```
 
 ### Testing CF Models by Hiding Ratings, Plus Analysis
-```{r}
+
+``` r
 library(ggplot2)
 library(dplyr)
 
@@ -481,12 +704,19 @@ results_df$error_item <- results_df$item_pred - results_df$actual
 ggplot(results_df, aes(x = error_user)) + 
   geom_histogram(binwidth = 0.5) + 
   ggtitle("User-User Prediction Error Distribution")
+```
 
+<img src="CF_files/figure-html/unnamed-chunk-9-1.png" width="672" />
+
+``` r
 ggplot(results_df, aes(x = error_item)) + 
   geom_histogram(binwidth = 0.5) + 
   ggtitle("Item-Item Prediction Error Distribution")
+```
 
+<img src="CF_files/figure-html/unnamed-chunk-9-2.png" width="672" />
 
+``` r
 user_rating_counts <- data.frame(
   user_id = rownames(rating_matrix),
   num_ratings = rowSums(!is.na(rating_matrix))
@@ -510,7 +740,11 @@ per_user_mse <- ggplot(user_level_perf, aes(x = mse_user, y = mse_item,
   scale_color_gradient(low = "pink", high = "darkblue") +
   labs(title = "Per-User MSE: User-User vs Item-Item") 
 print(per_user_mse)
+```
 
+<img src="CF_files/figure-html/unnamed-chunk-9-3.png" width="672" />
+
+``` r
 # save plot
 ggsave(
   filename = "per_user_mse.png",      
@@ -520,19 +754,43 @@ ggsave(
 
 # MSE
 paste("MSE (user-user):", mean(user_level_perf$mse_user))
-paste("MSE (item-item):", mean(user_level_perf$mse_item))
+```
 
+```
+## [1] "MSE (user-user): 1.23998683831408"
+```
+
+``` r
+paste("MSE (item-item):", mean(user_level_perf$mse_item))
+```
+
+```
+## [1] "MSE (item-item): 1.09720922370617"
+```
+
+``` r
 # % of users where user-user is better
 print(paste("Pct users where user-user performs better:", 
             mean(user_level_perf$mse_user < user_level_perf$mse_item)))  
+```
+
+```
+## [1] "Pct users where user-user performs better: 0.282051282051282"
+```
+
+``` r
 # % of users where item-item is better
 print(paste("Pct users where item-item performs better:", 
             mean(user_level_perf$mse_item < user_level_perf$mse_user)))
+```
 
+```
+## [1] "Pct users where item-item performs better: 0.709401709401709"
 ```
 
 # Comparing Above With Using Just the Subset of Users Rating >= 5 Recipes
-```{r}
+
+``` r
 # subset ratings matrix (only users rating >= 5 recipes)
 subset_rating_matrix <- rating_matrix[rowSums(!is.na(rating_matrix)) 
                                >= 5, ]
@@ -571,7 +829,11 @@ per_user_mse <- ggplot(user_level_perf, aes(x = mse_user, y = mse_item,
   labs(title = "Per-User MSE: User-User vs Item-Item (subset)") 
 
 print(per_user_mse)
+```
 
+<img src="CF_files/figure-html/unnamed-chunk-10-1.png" width="672" />
+
+``` r
 # save plot
 ggsave(
   filename = "subset_per_user_mse.png",      
@@ -581,14 +843,37 @@ ggsave(
 
 # MSE
 paste("MSE (user-user):", mean(user_level_perf$mse_user))
-paste("MSE (item-item):", mean(user_level_perf$mse_item))
+```
 
+```
+## [1] "MSE (user-user): 0.838884448788932"
+```
+
+``` r
+paste("MSE (item-item):", mean(user_level_perf$mse_item))
+```
+
+```
+## [1] "MSE (item-item): 1.19667171145595"
+```
+
+``` r
 # % of users where user-user is better
 print(paste("Pct users where user-user performs better:", 
             mean(user_level_perf$mse_user < user_level_perf$mse_item)))  
+```
+
+```
+## [1] "Pct users where user-user performs better: 0.457264957264957"
+```
+
+``` r
 # % of users where item-item is better
 print(paste("Pct users where item-item performs better:", 
             mean(user_level_perf$mse_item < user_level_perf$mse_user)))
+```
 
+```
+## [1] "Pct users where item-item performs better: 0.235042735042735"
 ```
 
