@@ -528,7 +528,7 @@ top_reviewers &lt;- df %&gt;%
   arrange(desc(num_reviews))</code></pre>
 </div>
 <div id="user-user-collaborative-filtering-function" class="section level3">
-<h3>user-user collaborative filtering function</h3>
+<h3>User-User Collaborative Filtering Function</h3>
 <pre class="r"><code>user_user_cf &lt;- function(df, user, sim_metric = &quot;Cosine&quot;, k = 2, 
                          recipe_lookup_df = NULL) {
   
@@ -616,7 +616,7 @@ top_reviewers &lt;- df %&gt;%
 }</code></pre>
 </div>
 <div id="item-item-collaborative-filtering-function" class="section level3">
-<h3>item-item collaborative filtering function</h3>
+<h3>Item-Item Collaborative Filtering Function</h3>
 <pre class="r"><code>item_item_cf &lt;- function(df, user, sim_metric = &quot;Cosine&quot;, k = 2, 
                          recipe_lookup_df = NULL) {
   
@@ -709,9 +709,9 @@ top_reviewers &lt;- df %&gt;%
   return(result)
 }</code></pre>
 </div>
-<div id="helper-function-to-find-rating-for-one-target-user-and-one-target-recipe" class="section level3">
-<h3>helper function to find rating for one target user and one target
-recipe</h3>
+<div id="gelper-function-to-find-rating-for-one-target-user-and-one-target-recipe" class="section level3">
+<h3>Gelper Function to Find Rating for One Target User and One Target
+Recipe</h3>
 <pre class="r"><code>predict_one_recipe &lt;- function(rating_matrix, user_id, recipe_code, k = 5, 
                                sim_metric = &quot;Cosine&quot;, method = &quot;user&quot;, 
                                recipe_lookup_df = NULL) {
@@ -749,7 +749,7 @@ recipe</h3>
 }</code></pre>
 </div>
 <div id="evaluate-cf-models-function" class="section level3">
-<h3>evaluate CF models function</h3>
+<h3>Evaluate CF Models Function</h3>
 <p>In order to test the capabilities the models, we will 1. pick a user
 with a good number of ratings 2. randomly hide a few of their actual
 ratings (setting to NA) 3. run prediction for those recipes 4. compare
@@ -807,7 +807,7 @@ predicted vs actual ratings</p>
 }</code></pre>
 </div>
 <div id="testing-functions-individually" class="section level3">
-<h3>testing functions individually</h3>
+<h3>Testing Functions Individually</h3>
 <pre class="r"><code># find users with at least one missing rating to predict for
 users_with_missing &lt;- rownames(rating_matrix)[
   apply(rating_matrix, 1, function(row) any(is.na(row)))
@@ -886,6 +886,9 @@ evaluate_user_cf(test_user, rating_matrix, seed = 42,
 ## 3  4.551441  4.780001      5
 ## 4  4.551441  4.423024      5
 ## 5  4.551441  4.345472      2</code></pre>
+</div>
+<div id="loop-through-eval-functino-to-see-accuracy-accross-methods" class="section level1">
+<h1>Loop Through Eval Functino to See Accuracy Accross Methods</h1>
 <pre class="r"><code>eval_cf_multiple_users &lt;- function(recipes_rated_min = 1, rating_matrix, 
                                    seed = 42, k = 5, n_holdout = 3, 
                                    sim_metric = &quot;Cosine&quot;,
@@ -910,9 +913,8 @@ evaluate_user_cf(test_user, rating_matrix, seed = 42,
   return(results_df)
   
 }</code></pre>
-</div>
-<div id="testing-cf-models-by-hiding-ratings-and-analysis" class="section level3">
-<h3>testing CF models by hiding ratings and analysis</h3>
+<div id="testing-cf-models-by-hiding-ratings-plus-analysis" class="section level3">
+<h3>Testing CF Models by Hiding Ratings, Plus Analysis</h3>
 <pre class="r"><code>library(ggplot2)
 library(dplyr)
 
@@ -982,9 +984,10 @@ print(paste(&quot;Pct users where item-item performs better:&quot;,
             mean(user_level_perf$mse_item &lt; user_level_perf$mse_user)))</code></pre>
 <pre><code>## [1] &quot;Pct users where item-item performs better: 0.709401709401709&quot;</code></pre>
 </div>
+</div>
 <div id="comparing-above-with-using-just-the-subset-of-users-rating-5-recipes" class="section level1">
-<h1>comparing above with using just the subset of users rating &gt;= 5
-recipes</h1>
+<h1>Comparing Above With Using Just the Subset of Users Rating &gt;= 5
+Recipes</h1>
 <pre class="r"><code># subset ratings matrix (only users rating &gt;= 5 recipes)
 subset_rating_matrix &lt;- rating_matrix[rowSums(!is.na(rating_matrix)) 
                                &gt;= 5, ]
