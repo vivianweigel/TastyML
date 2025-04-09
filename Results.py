@@ -1,36 +1,106 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
+import plotly.express as px
 
-import os
-import pandas as pd
+# Page config at the top
+st.set_page_config(page_title="Results", layout="centered")
 
-csv_path = os.path.join(os.path.dirname(__file__), "ml2_finaldata.csv")
-df = pd.read_csv(csv_path)
+# Custom CSS
+def local_css():
+    st.markdown("""
+    <style>
+    .stApp {
+        background-color: #e0f7fa;
+        background-image: linear-gradient(to bottom right, #e0f7fa, #fce4ec);
+    }
+    h1, h2, h3 {
+        color: #ec407a;
+        text-align: center;
+    }
+    p, div, label, span {
+        color: #555555;
+    }
+    .stButton > button {
+        background-color: #f48fb1;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        padding: 0.5em 1em;
+    }
+    .stButton > button:hover {
+        background-color: #f06292;
+        color: white;
+    }
+    img {
+        border-radius: 20px;
+        box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    }
+    .css-1d391kg {
+        background-color: #fce4ec;
+    }
+    </style>
+    """, unsafe_allow_html=True)
 
-# Convert timestamps to datetime
-df["created_at"] = pd.to_datetime(df["created_at"], unit="s")
+local_css()
 
-# Get list of all users
-all_users = sorted(df["user_name"].dropna().unique())
+# Page content
+st.title("Results")
+st.write("Below is the visual representation of our results comparing User-User and Item-Item collaborative filtering models.")
 
-with st.container(border=True):
-    users = st.multiselect("Select users", all_users, default=all_users[:3])
-    rolling_average = st.toggle("Rolling average")
+st.write("""
+### Findings:
+- The User-User model performed better in terms of lower MSE.
+- Item-Item collaborative filtering showed decent performance but lagged behind.
 
-# Filter by selected users
-filtered = df[df["user_name"].isin(users)]
+### Conclusion:
+User-based collaborative filtering better captures user preferences in this recipe dataset!
 
-# Group and pivot data to get a timeseries per user
-pivot = (
-    filtered[["created_at", "user_name", "stars"]]
-    .sort_values("created_at")
-    .pivot_table(index="created_at", columns="user_name", values="stars")
+Feel free to explore the other pages for more details.
+""")
+
+
+results_df = pd.read_csv('/Users/simoneritcheson/Desktop/TastyML/pages/results_df.csv')
+# Interactive selection
+selected_user = st.selectbox("Select a User ID to explore predictions:", results_df['user_id'].unique())
+
+filtered_df = results_df[results_df['user_id'] == selected_user]
+
+# Scatter plot: Actual vs Predicted Ratings
+fig = px.scatter(
+    filtered_df,
+    x='actual',
+    y='user_pred',
+    color='recipe_name',
+    title=f'User-Based CF: Actual vs. Predicted Ratings for User {selected_user}',
+    labels={'actual': 'Actual Rating', 'user_pred': 'Predicted Rating'},
+    hover_data=['recipe_name']
 )
+fig.update_traces(marker=dict(size=12), selector=dict(mode='markers'))
 
-if rolling_average:
-    pivot = pivot.rolling(7).mean().dropna()
+st.plotly_chart(fig, use_container_width=True)
 
-tab1, tab2 = st.tabs(["Chart", "Dataframe"])
-tab1.line_chart(pivot, height=250)
-tab2.dataframe(pivot.reset_index(), height=250, use_container_width=True)
+# Add second plot: Item-Based CF
+fig2 = px.scatter(
+    filtered_df,
+    x='actual',
+    y='item_pred',
+    color='recipe_name',
+    title=f'Item-Based CF: Actual vs. Predicted Ratings for User {selected_user}',
+    labels={'actual': 'Actual Rating', 'item_pred': 'Predicted Rating'},
+    hover_data=['recipe_name']
+)
+fig2.update_traces(marker=dict(size=12), selector=dict(mode='markers'))
+
+st.plotly_chart(fig2, use_container_width=True)
+
+# Optional: Show errors
+st.write("Prediction Errors (User-Based):")
+st.dataframe(filtered_df[['recipe_name', 'error_user']])
+
+st.write("Prediction Errors (Item-Based):")
+st.dataframe(filtered_df[['recipe_name', 'error_item']])
+
+
+# Navigation
+if st.button("Back to Home"):
+    st.switch_page("Home.py")
