@@ -1,4 +1,4 @@
-![Cover Photo](cover_photo.png)
+![Cover Photo](Figures/cover_photo.png)
 # TastyML
 #### Rachel Cassway, Simone Ritcheson, & Vivian Weigel
 ##### Machine Learning 2 - DS 4420
