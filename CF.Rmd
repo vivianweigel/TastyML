@@ -282,7 +282,7 @@ item_item_cf <- function(df, user, sim_metric = "Cosine", k = 2,
 ```
 
 
-### Gelper Function to Find Rating for One Target User and One Target Recipe
+### Helper Function to Find Rating for One Target User and One Target Recipe
 ```{r}
 predict_one_recipe <- function(rating_matrix, user_id, recipe_code, k = 5, 
                                sim_metric = "Cosine", method = "user", 
@@ -431,7 +431,43 @@ evaluate_user_cf(test_user, rating_matrix, seed = 42,
                  recipe_lookup_df = recipe_lookup)
 ```
 
-# Loop Through Eval Functino to See Accuracy Accross Methods
+# Top 5 Recommended Recipes for Users with at Least 5 Ratings
+```{r}
+
+#  users with at least 5 ratings
+user_recipe_counts <- rowSums(!is.na(rating_matrix))
+eligible_users <- names(user_recipe_counts[user_recipe_counts >= 5])
+length(eligible_users)
+# initialize empty data frame
+results_df_CF <- data.frame()  
+
+# loop through users and predict top 5 recipes for each
+for (user in eligible_users) {
+  recipe_ratings <-  item_item_cf(rating_matrix, user = user, 
+                                  sim_metric = "Cosine", k = 5, 
+                                  recipe_lookup_df = recipe_lookup)
+  # get top 5 records
+  top_5 <- recipe_ratings[order(-recipe_ratings$Predicted_Rating), ][1:5, ]
+  results_df_CF <- rbind(results_df_CF, 
+                         data.frame(
+                           user_id = rep(user, 5),
+                           recipe_code = top_5$recipe_code,
+                           recipe_name = top_5$recipe_name,
+                           predicted_rating = top_5$Predicted_Rating
+                         ))
+}
+results_df_CF <- left_join(
+  results_df_CF,
+  df[, c("user_id", "user_name")] %>% distinct(user_id, .keep_all = TRUE),
+  by = "user_id"
+) %>%
+  select(user_id, user_name, everything())
+
+write.csv(results_df_CF, "results_df_CF.csv", row.names = FALSE)
+
+```
+
+# Loop Through Eval Function to See Accuracy Accross Methods
 ```{r}
 eval_cf_multiple_users <- function(recipes_rated_min = 1, rating_matrix, 
                                    seed = 42, k = 5, n_holdout = 3, 
@@ -478,8 +514,7 @@ results_df <- eval_cf_multiple_users(recipes_rated_min = 5,
 results_df$error_user <- results_df$user_pred - results_df$actual
 results_df$error_item <- results_df$item_pred - results_df$actual
 
-# save errors to csv for MLP comparison and save whole df
-write.csv(results_df, "results_df.csv", row.names = FALSE)
+# save errors to csv for MLP comparison
 error_df <- results_df[c('error_user', 'error_item')]
 write.csv(error_df, "CF_errors.csv")
 
