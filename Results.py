@@ -59,7 +59,7 @@ Feel free to explore the other pages for more details.
 """)
 
 
-results_df = pd.read_csv('/Users/simoneritcheson/Desktop/TastyML/pages/results_df.csv')
+results_df = pd.read_csv('/Users/simoneritcheson/Desktop/TastyML/pages/results_df_CF.csv')
 # Interactive selection
 selected_user = st.selectbox("Select a User ID to explore predictions:", results_df['user_id'].unique())
 

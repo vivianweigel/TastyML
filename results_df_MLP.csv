@@ -1,0 +1,1361 @@
+user_id,user_name,recipe_code,recipe_name,predicted_rating
+u_1oKVZT7bnHOk8MH7Aom0wkTCJNo,ahmom,12003,Traditional Lasagna,4.9999986
+u_1oKVZT7bnHOk8MH7Aom0wkTCJNo,ahmom,28058,Shrimp Scampi,4.9998226
+u_1oKVZT7bnHOk8MH7Aom0wkTCJNo,ahmom,12700,Big Soft Ginger Cookies,4.9992237
+u_1oKVZT7bnHOk8MH7Aom0wkTCJNo,ahmom,17022,Vegetarian Linguine,4.99857
+u_1oKVZT7bnHOk8MH7Aom0wkTCJNo,ahmom,39581,Homemade Peanut Butter Cups,4.997704
+u_1oKVr0FIiKTNe84vUuYXGEKMHfD,gooch621,12003,Traditional Lasagna,5.0
+u_1oKVr0FIiKTNe84vUuYXGEKMHfD,gooch621,18345,Simple Au Gratin Potatoes,4.9999967
+u_1oKVr0FIiKTNe84vUuYXGEKMHfD,gooch621,12700,Big Soft Ginger Cookies,4.999995
+u_1oKVr0FIiKTNe84vUuYXGEKMHfD,gooch621,28058,Shrimp Scampi,4.999988
+u_1oKVr0FIiKTNe84vUuYXGEKMHfD,gooch621,957,Sandy’s Chocolate Cake,4.9999356
+u_1oKVguRYSeYopnS8TJesoAeBEsd,dylan's mama,35766,Cheeseburger Paradise Soup,4.9999814
+u_1oKVguRYSeYopnS8TJesoAeBEsd,dylan's mama,14299,Creamy White Chili,4.999969
+u_1oKVguRYSeYopnS8TJesoAeBEsd,dylan's mama,38550,Special Banana Nut Bread,4.999943
+u_1oKVguRYSeYopnS8TJesoAeBEsd,dylan's mama,39581,Homemade Peanut Butter Cups,4.999912
+u_1oKVguRYSeYopnS8TJesoAeBEsd,dylan's mama,45495,Gluten-Free Banana Bread,4.999888
+u_1oKWWgyoJAqNhh1VGGmFPp24Au9,mrscessna,12003,Traditional Lasagna,4.9998503
+u_1oKWWgyoJAqNhh1VGGmFPp24Au9,mrscessna,45495,Gluten-Free Banana Bread,4.9991655
+u_1oKWWgyoJAqNhh1VGGmFPp24Au9,mrscessna,35766,Cheeseburger Paradise Soup,4.9990654
+u_1oKWWgyoJAqNhh1VGGmFPp24Au9,mrscessna,3143,Pumpkin Bars,4.9987445
+u_1oKWWgyoJAqNhh1VGGmFPp24Au9,mrscessna,17022,Vegetarian Linguine,4.9986715
+u_1oKVchl3LINh51liAWR6aZjJEqJ,jeanemed,14299,Creamy White Chili,5.0
+u_1oKVchl3LINh51liAWR6aZjJEqJ,jeanemed,28058,Shrimp Scampi,5.0
+u_1oKVchl3LINh51liAWR6aZjJEqJ,jeanemed,35766,Cheeseburger Paradise Soup,5.0
+u_1oKVchl3LINh51liAWR6aZjJEqJ,jeanemed,39581,Homemade Peanut Butter Cups,5.0
+u_1oKVchl3LINh51liAWR6aZjJEqJ,jeanemed,18345,Simple Au Gratin Potatoes,5.0
+u_1oKVyRJPymM0gqQgaXO2kbAAFwF,skipperstrucking,12003,Traditional Lasagna,4.9999995
+u_1oKVyRJPymM0gqQgaXO2kbAAFwF,skipperstrucking,28058,Shrimp Scampi,4.9999986
+u_1oKVyRJPymM0gqQgaXO2kbAAFwF,skipperstrucking,39581,Homemade Peanut Butter Cups,4.9999976
+u_1oKVyRJPymM0gqQgaXO2kbAAFwF,skipperstrucking,18345,Simple Au Gratin Potatoes,4.9999895
+u_1oKVyRJPymM0gqQgaXO2kbAAFwF,skipperstrucking,12700,Big Soft Ginger Cookies,4.9999866
+u_1oKVs0hze41xpDnpa25yOfyifOa,dmkinsey,12003,Traditional Lasagna,4.99971
+u_1oKVs0hze41xpDnpa25yOfyifOa,dmkinsey,39581,Homemade Peanut Butter Cups,4.994441
+u_1oKVs0hze41xpDnpa25yOfyifOa,dmkinsey,18345,Simple Au Gratin Potatoes,4.9904737
+u_1oKVs0hze41xpDnpa25yOfyifOa,dmkinsey,35766,Cheeseburger Paradise Soup,4.98889
+u_1oKVs0hze41xpDnpa25yOfyifOa,dmkinsey,14299,Creamy White Chili,4.9823995
+u_1oKVjsyb4yvVgYiypxsW80FDRIK,joycerm53,39581,Homemade Peanut Butter Cups,4.9999995
+u_1oKVjsyb4yvVgYiypxsW80FDRIK,joycerm53,28058,Shrimp Scampi,4.999999
+u_1oKVjsyb4yvVgYiypxsW80FDRIK,joycerm53,17022,Vegetarian Linguine,4.999999
+u_1oKVjsyb4yvVgYiypxsW80FDRIK,joycerm53,18345,Simple Au Gratin Potatoes,4.999999
+u_1oKVjsyb4yvVgYiypxsW80FDRIK,joycerm53,45495,Gluten-Free Banana Bread,4.999999
+u_1oKVaOIZuLsG11MgUDbsALsnx49,astarzynski,12003,Traditional Lasagna,4.9999986
+u_1oKVaOIZuLsG11MgUDbsALsnx49,astarzynski,39581,Homemade Peanut Butter Cups,4.999998
+u_1oKVaOIZuLsG11MgUDbsALsnx49,astarzynski,28058,Shrimp Scampi,4.999997
+u_1oKVaOIZuLsG11MgUDbsALsnx49,astarzynski,45495,Gluten-Free Banana Bread,4.999979
+u_1oKVaOIZuLsG11MgUDbsALsnx49,astarzynski,18345,Simple Au Gratin Potatoes,4.9999337
+u_1oKVa3dm9k4sQJZuEACIlelurOi,krucook,12003,Traditional Lasagna,4.999998
+u_1oKVa3dm9k4sQJZuEACIlelurOi,krucook,28058,Shrimp Scampi,4.999997
+u_1oKVa3dm9k4sQJZuEACIlelurOi,krucook,18345,Simple Au Gratin Potatoes,4.9999957
+u_1oKVa3dm9k4sQJZuEACIlelurOi,krucook,12700,Big Soft Ginger Cookies,4.9999933
+u_1oKVa3dm9k4sQJZuEACIlelurOi,krucook,45495,Gluten-Free Banana Bread,4.999993
+u_1oKVaSOL1PvbnFxB3chEa0aJJC3,7833louis,35766,Cheeseburger Paradise Soup,4.9999933
+u_1oKVaSOL1PvbnFxB3chEa0aJJC3,7833louis,39581,Homemade Peanut Butter Cups,4.9999914
+u_1oKVaSOL1PvbnFxB3chEa0aJJC3,7833louis,14299,Creamy White Chili,4.99999
+u_1oKVaSOL1PvbnFxB3chEa0aJJC3,7833louis,17022,Vegetarian Linguine,4.999989
+u_1oKVaSOL1PvbnFxB3chEa0aJJC3,7833louis,28058,Shrimp Scampi,4.999981
+u_1oKVaDyOmY3BV0mLIx93xFCQ4pX,DebbieT,28058,Shrimp Scampi,4.9998536
+u_1oKVaDyOmY3BV0mLIx93xFCQ4pX,DebbieT,45495,Gluten-Free Banana Bread,4.9997687
+u_1oKVaDyOmY3BV0mLIx93xFCQ4pX,DebbieT,35766,Cheeseburger Paradise Soup,4.9997616
+u_1oKVaDyOmY3BV0mLIx93xFCQ4pX,DebbieT,17022,Vegetarian Linguine,4.99975
+u_1oKVaDyOmY3BV0mLIx93xFCQ4pX,DebbieT,7708,Basic Banana Muffins,4.9997077
+u_1oKVZmuIOWbtN4vzlCnwvF4dsNX,bingoqueen63,12003,Traditional Lasagna,5.0
+u_1oKVZmuIOWbtN4vzlCnwvF4dsNX,bingoqueen63,28058,Shrimp Scampi,4.9999866
+u_1oKVZmuIOWbtN4vzlCnwvF4dsNX,bingoqueen63,18345,Simple Au Gratin Potatoes,4.9999623
+u_1oKVZmuIOWbtN4vzlCnwvF4dsNX,bingoqueen63,12700,Big Soft Ginger Cookies,4.9999614
+u_1oKVZmuIOWbtN4vzlCnwvF4dsNX,bingoqueen63,35766,Cheeseburger Paradise Soup,4.9999213
+u_1oKVZzipo1u8lcqQzDUcw4UBn9e,2124arizona,39581,Homemade Peanut Butter Cups,5.0
+u_1oKVZzipo1u8lcqQzDUcw4UBn9e,2124arizona,28058,Shrimp Scampi,5.0
+u_1oKVZzipo1u8lcqQzDUcw4UBn9e,2124arizona,18345,Simple Au Gratin Potatoes,5.0
+u_1oKVZzipo1u8lcqQzDUcw4UBn9e,2124arizona,12700,Big Soft Ginger Cookies,5.0
+u_1oKVZzipo1u8lcqQzDUcw4UBn9e,2124arizona,957,Sandy’s Chocolate Cake,5.0
+u_1oKVa5Jp2jnBvdroQIjCdFJTlja,pajamaangel,39581,Homemade Peanut Butter Cups,4.9816794
+u_1oKVa5Jp2jnBvdroQIjCdFJTlja,pajamaangel,45495,Gluten-Free Banana Bread,4.978491
+u_1oKVa5Jp2jnBvdroQIjCdFJTlja,pajamaangel,14299,Creamy White Chili,4.9747276
+u_1oKVa5Jp2jnBvdroQIjCdFJTlja,pajamaangel,12003,Traditional Lasagna,4.9719887
+u_1oKVa5Jp2jnBvdroQIjCdFJTlja,pajamaangel,35766,Cheeseburger Paradise Soup,4.954279
+u_1oKVb5uSZj7PviMuKwtkrUoN1pf,KarenKeefe,12003,Traditional Lasagna,4.999192
+u_1oKVb5uSZj7PviMuKwtkrUoN1pf,KarenKeefe,39581,Homemade Peanut Butter Cups,4.9956913
+u_1oKVb5uSZj7PviMuKwtkrUoN1pf,KarenKeefe,35766,Cheeseburger Paradise Soup,4.9911222
+u_1oKVb5uSZj7PviMuKwtkrUoN1pf,KarenKeefe,28058,Shrimp Scampi,4.9865932
+u_1oKVb5uSZj7PviMuKwtkrUoN1pf,KarenKeefe,14299,Creamy White Chili,4.9832115
+u_1oKVaZRjV5snsZRKtuKJMvV5rmj,jillanglemyer,12003,Traditional Lasagna,5.0
+u_1oKVaZRjV5snsZRKtuKJMvV5rmj,jillanglemyer,39581,Homemade Peanut Butter Cups,4.999999
+u_1oKVaZRjV5snsZRKtuKJMvV5rmj,jillanglemyer,18345,Simple Au Gratin Potatoes,4.9999943
+u_1oKVaZRjV5snsZRKtuKJMvV5rmj,jillanglemyer,28058,Shrimp Scampi,4.9999933
+u_1oKVaZRjV5snsZRKtuKJMvV5rmj,jillanglemyer,12700,Big Soft Ginger Cookies,4.9999814
+u_1oKWBfBDTdjRiXVXeYvASif4lvC,katecrid47,26937,Pineapple Pudding Cake,4.9999995
+u_1oKWBfBDTdjRiXVXeYvASif4lvC,katecrid47,17022,Vegetarian Linguine,4.9999995
+u_1oKWBfBDTdjRiXVXeYvASif4lvC,katecrid47,12003,Traditional Lasagna,4.9999995
+u_1oKWBfBDTdjRiXVXeYvASif4lvC,katecrid47,35766,Cheeseburger Paradise Soup,4.9999995
+u_1oKWBfBDTdjRiXVXeYvASif4lvC,katecrid47,28058,Shrimp Scampi,4.9999995
+u_1oKVZxAOR5BEzyF4H6ENc7jwfUW,angela32,12003,Traditional Lasagna,5.0
+u_1oKVZxAOR5BEzyF4H6ENc7jwfUW,angela32,28058,Shrimp Scampi,5.0
+u_1oKVZxAOR5BEzyF4H6ENc7jwfUW,angela32,39581,Homemade Peanut Butter Cups,5.0
+u_1oKVZxAOR5BEzyF4H6ENc7jwfUW,angela32,45495,Gluten-Free Banana Bread,4.9999995
+u_1oKVZxAOR5BEzyF4H6ENc7jwfUW,angela32,18345,Simple Au Gratin Potatoes,4.9999995
+u_1oKWWvykonxY65ADfIjsEU1y3wc,lil momma jenn,12003,Traditional Lasagna,4.9993267
+u_1oKWWvykonxY65ADfIjsEU1y3wc,lil momma jenn,18345,Simple Au Gratin Potatoes,4.9902716
+u_1oKWWvykonxY65ADfIjsEU1y3wc,lil momma jenn,28058,Shrimp Scampi,4.9696984
+u_1oKWWvykonxY65ADfIjsEU1y3wc,lil momma jenn,12700,Big Soft Ginger Cookies,4.9635286
+u_1oKWWvykonxY65ADfIjsEU1y3wc,lil momma jenn,3143,Pumpkin Bars,4.957674
+u_1oKVaXcpN0u6QpaTrWEsZp69OSk,annaf27,12003,Traditional Lasagna,4.9999914
+u_1oKVaXcpN0u6QpaTrWEsZp69OSk,annaf27,28058,Shrimp Scampi,4.999547
+u_1oKVaXcpN0u6QpaTrWEsZp69OSk,annaf27,39581,Homemade Peanut Butter Cups,4.9994493
+u_1oKVaXcpN0u6QpaTrWEsZp69OSk,annaf27,3143,Pumpkin Bars,4.9992
+u_1oKVaXcpN0u6QpaTrWEsZp69OSk,annaf27,12700,Big Soft Ginger Cookies,4.9991407
+u_1oKVZhrnNwRcxmUDVcErr7TGlOt,VictoriaElaine,39581,Homemade Peanut Butter Cups,4.9999995
+u_1oKVZhrnNwRcxmUDVcErr7TGlOt,VictoriaElaine,45495,Gluten-Free Banana Bread,4.9999967
+u_1oKVZhrnNwRcxmUDVcErr7TGlOt,VictoriaElaine,28058,Shrimp Scampi,4.9999967
+u_1oKVZhrnNwRcxmUDVcErr7TGlOt,VictoriaElaine,18345,Simple Au Gratin Potatoes,4.999996
+u_1oKVZhrnNwRcxmUDVcErr7TGlOt,VictoriaElaine,17022,Vegetarian Linguine,4.9999933
+u_1oKVaXUaGSbQTpOnHc1sxIi557Z,cindihartline,100276,Grilled Huli Huli Chicken,5.0
+u_1oKVaXUaGSbQTpOnHc1sxIi557Z,cindihartline,18345,Simple Au Gratin Potatoes,5.0
+u_1oKVaXUaGSbQTpOnHc1sxIi557Z,cindihartline,1821,Blueberry French Toast,5.0
+u_1oKVaXUaGSbQTpOnHc1sxIi557Z,cindihartline,17022,Vegetarian Linguine,5.0
+u_1oKVaXUaGSbQTpOnHc1sxIi557Z,cindihartline,38550,Special Banana Nut Bread,5.0
+u_1oKVZUMDcz6fqhcfNkITken7Qof,Amy the Midwife,12003,Traditional Lasagna,4.999594
+u_1oKVZUMDcz6fqhcfNkITken7Qof,Amy the Midwife,14299,Creamy White Chili,4.997452
+u_1oKVZUMDcz6fqhcfNkITken7Qof,Amy the Midwife,3143,Pumpkin Bars,4.996079
+u_1oKVZUMDcz6fqhcfNkITken7Qof,Amy the Midwife,38550,Special Banana Nut Bread,4.994714
+u_1oKVZUMDcz6fqhcfNkITken7Qof,Amy the Midwife,7539,Fluffy Pancakes,4.9943295
+u_1oKWAnqYaa1sJNDoGW8RjJovT93,Sunshinebakerpa,12003,Traditional Lasagna,4.9999194
+u_1oKWAnqYaa1sJNDoGW8RjJovT93,Sunshinebakerpa,39581,Homemade Peanut Butter Cups,4.999825
+u_1oKWAnqYaa1sJNDoGW8RjJovT93,Sunshinebakerpa,35766,Cheeseburger Paradise Soup,4.999416
+u_1oKWAnqYaa1sJNDoGW8RjJovT93,Sunshinebakerpa,14299,Creamy White Chili,4.9980607
+u_1oKWAnqYaa1sJNDoGW8RjJovT93,Sunshinebakerpa,957,Sandy’s Chocolate Cake,4.9974403
+u_1oKVZoIOMWJ2j7TA7py2BIbf1mm,mjlouk,12003,Traditional Lasagna,4.9999285
+u_1oKVZoIOMWJ2j7TA7py2BIbf1mm,mjlouk,28058,Shrimp Scampi,4.9999104
+u_1oKVZoIOMWJ2j7TA7py2BIbf1mm,mjlouk,7708,Basic Banana Muffins,4.9998765
+u_1oKVZoIOMWJ2j7TA7py2BIbf1mm,mjlouk,17022,Vegetarian Linguine,4.9998665
+u_1oKVZoIOMWJ2j7TA7py2BIbf1mm,mjlouk,45495,Gluten-Free Banana Bread,4.9998326
+u_1oKVcHCoAqJ0FSbm96rqbLctpke,Aug-95,12003,Traditional Lasagna,5.0
+u_1oKVcHCoAqJ0FSbm96rqbLctpke,Aug-95,28058,Shrimp Scampi,5.0
+u_1oKVcHCoAqJ0FSbm96rqbLctpke,Aug-95,39581,Homemade Peanut Butter Cups,4.9999995
+u_1oKVcHCoAqJ0FSbm96rqbLctpke,Aug-95,45495,Gluten-Free Banana Bread,4.999998
+u_1oKVcHCoAqJ0FSbm96rqbLctpke,Aug-95,12700,Big Soft Ginger Cookies,4.999998
+u_1oKVZrsL1wk4KPtOJ5My718YJcV,KristineChayes,39581,Homemade Peanut Butter Cups,5.0
+u_1oKVZrsL1wk4KPtOJ5My718YJcV,KristineChayes,17022,Vegetarian Linguine,5.0
+u_1oKVZrsL1wk4KPtOJ5My718YJcV,KristineChayes,28058,Shrimp Scampi,4.9999995
+u_1oKVZrsL1wk4KPtOJ5My718YJcV,KristineChayes,7708,Basic Banana Muffins,4.999999
+u_1oKVZrsL1wk4KPtOJ5My718YJcV,KristineChayes,18345,Simple Au Gratin Potatoes,4.999999
+u_1oKVcBeTuVU3tWIjoTy7LIH8Dho,swinny,14299,Creamy White Chili,5.0
+u_1oKVcBeTuVU3tWIjoTy7LIH8Dho,swinny,35766,Cheeseburger Paradise Soup,5.0
+u_1oKVcBeTuVU3tWIjoTy7LIH8Dho,swinny,39581,Homemade Peanut Butter Cups,5.0
+u_1oKVcBeTuVU3tWIjoTy7LIH8Dho,swinny,28058,Shrimp Scampi,5.0
+u_1oKVcBeTuVU3tWIjoTy7LIH8Dho,swinny,12700,Big Soft Ginger Cookies,5.0
+u_1oKW52plcbIyxpyFLgas9l2HjmM,Grace1018,39581,Homemade Peanut Butter Cups,4.999941
+u_1oKW52plcbIyxpyFLgas9l2HjmM,Grace1018,14299,Creamy White Chili,4.999904
+u_1oKW52plcbIyxpyFLgas9l2HjmM,Grace1018,35766,Cheeseburger Paradise Soup,4.9998446
+u_1oKW52plcbIyxpyFLgas9l2HjmM,Grace1018,28058,Shrimp Scampi,4.999764
+u_1oKW52plcbIyxpyFLgas9l2HjmM,Grace1018,17022,Vegetarian Linguine,4.999197
+u_1oKVanu3z4yEOftvPhDycfFqHv8,dvierzen,39581,Homemade Peanut Butter Cups,4.9999933
+u_1oKVanu3z4yEOftvPhDycfFqHv8,dvierzen,28058,Shrimp Scampi,4.999991
+u_1oKVanu3z4yEOftvPhDycfFqHv8,dvierzen,35766,Cheeseburger Paradise Soup,4.9999895
+u_1oKVanu3z4yEOftvPhDycfFqHv8,dvierzen,12003,Traditional Lasagna,4.9999886
+u_1oKVanu3z4yEOftvPhDycfFqHv8,dvierzen,3143,Pumpkin Bars,4.999988
+u_1oKW1uHioW87EwnYyR5QpKXLnRt,grjen,12003,Traditional Lasagna,4.9997296
+u_1oKW1uHioW87EwnYyR5QpKXLnRt,grjen,12700,Big Soft Ginger Cookies,4.989663
+u_1oKW1uHioW87EwnYyR5QpKXLnRt,grjen,3309,Best Ever Banana Bread,4.9747486
+u_1oKW1uHioW87EwnYyR5QpKXLnRt,grjen,957,Sandy’s Chocolate Cake,4.953437
+u_1oKW1uHioW87EwnYyR5QpKXLnRt,grjen,18345,Simple Au Gratin Potatoes,4.945636
+u_1oKVblcBcRzRxmmRkdaB0bk0nOH,angieact1,39581,Homemade Peanut Butter Cups,4.999998
+u_1oKVblcBcRzRxmmRkdaB0bk0nOH,angieact1,28058,Shrimp Scampi,4.999994
+u_1oKVblcBcRzRxmmRkdaB0bk0nOH,angieact1,12003,Traditional Lasagna,4.999985
+u_1oKVblcBcRzRxmmRkdaB0bk0nOH,angieact1,35766,Cheeseburger Paradise Soup,4.999985
+u_1oKVblcBcRzRxmmRkdaB0bk0nOH,angieact1,14299,Creamy White Chili,4.999972
+u_1oKVZvePpcZFKcyGItpwrVG5uuq,parksville,12003,Traditional Lasagna,4.9998913
+u_1oKVZvePpcZFKcyGItpwrVG5uuq,parksville,3143,Pumpkin Bars,4.9960175
+u_1oKVZvePpcZFKcyGItpwrVG5uuq,parksville,12700,Big Soft Ginger Cookies,4.9927053
+u_1oKVZvePpcZFKcyGItpwrVG5uuq,parksville,33457,Chunky Apple Cake,4.992032
+u_1oKVZvePpcZFKcyGItpwrVG5uuq,parksville,28058,Shrimp Scampi,4.987058
+u_1oKVnDTBynh3GZL5KCHHy0oVJ2e,christycincy,12003,Traditional Lasagna,4.9999948
+u_1oKVnDTBynh3GZL5KCHHy0oVJ2e,christycincy,18345,Simple Au Gratin Potatoes,4.9999886
+u_1oKVnDTBynh3GZL5KCHHy0oVJ2e,christycincy,39581,Homemade Peanut Butter Cups,4.999983
+u_1oKVnDTBynh3GZL5KCHHy0oVJ2e,christycincy,28058,Shrimp Scampi,4.9999704
+u_1oKVnDTBynh3GZL5KCHHy0oVJ2e,christycincy,12700,Big Soft Ginger Cookies,4.999862
+u_1oKVqngNLArIgGlhzsWg4bc2s2n,daisey5,39581,Homemade Peanut Butter Cups,5.0
+u_1oKVqngNLArIgGlhzsWg4bc2s2n,daisey5,12003,Traditional Lasagna,5.0
+u_1oKVqngNLArIgGlhzsWg4bc2s2n,daisey5,28058,Shrimp Scampi,4.9999995
+u_1oKVqngNLArIgGlhzsWg4bc2s2n,daisey5,18345,Simple Au Gratin Potatoes,4.9999995
+u_1oKVqngNLArIgGlhzsWg4bc2s2n,daisey5,35766,Cheeseburger Paradise Soup,4.999999
+u_1oKVaBrjqaji1sAZvZT8bQa9RG0,cbachtel,39581,Homemade Peanut Butter Cups,4.9999995
+u_1oKVaBrjqaji1sAZvZT8bQa9RG0,cbachtel,18345,Simple Au Gratin Potatoes,4.999997
+u_1oKVaBrjqaji1sAZvZT8bQa9RG0,cbachtel,28058,Shrimp Scampi,4.9999957
+u_1oKVaBrjqaji1sAZvZT8bQa9RG0,cbachtel,45495,Gluten-Free Banana Bread,4.999995
+u_1oKVaBrjqaji1sAZvZT8bQa9RG0,cbachtel,35766,Cheeseburger Paradise Soup,4.999995
+u_1oKVaxGEYZdECwHjUKnbsA2bgVW,DawnLockhart,12003,Traditional Lasagna,4.9999995
+u_1oKVaxGEYZdECwHjUKnbsA2bgVW,DawnLockhart,39581,Homemade Peanut Butter Cups,4.9999967
+u_1oKVaxGEYZdECwHjUKnbsA2bgVW,DawnLockhart,28058,Shrimp Scampi,4.9999948
+u_1oKVaxGEYZdECwHjUKnbsA2bgVW,DawnLockhart,35766,Cheeseburger Paradise Soup,4.9999914
+u_1oKVaxGEYZdECwHjUKnbsA2bgVW,DawnLockhart,17022,Vegetarian Linguine,4.999986
+u_1oKVeq2rJ0OLIv0bTI2TdXZUSxi,kshea,39581,Homemade Peanut Butter Cups,4.9999986
+u_1oKVeq2rJ0OLIv0bTI2TdXZUSxi,kshea,35766,Cheeseburger Paradise Soup,4.999988
+u_1oKVeq2rJ0OLIv0bTI2TdXZUSxi,kshea,12003,Traditional Lasagna,4.9999876
+u_1oKVeq2rJ0OLIv0bTI2TdXZUSxi,kshea,17022,Vegetarian Linguine,4.9999814
+u_1oKVeq2rJ0OLIv0bTI2TdXZUSxi,kshea,28058,Shrimp Scampi,4.99997
+u_1oKW9YK3Oqs76znJ051Lt8zISz8,agnes24,39581,Homemade Peanut Butter Cups,5.0
+u_1oKW9YK3Oqs76znJ051Lt8zISz8,agnes24,28058,Shrimp Scampi,4.9999995
+u_1oKW9YK3Oqs76znJ051Lt8zISz8,agnes24,35766,Cheeseburger Paradise Soup,4.999999
+u_1oKW9YK3Oqs76znJ051Lt8zISz8,agnes24,17022,Vegetarian Linguine,4.9999986
+u_1oKW9YK3Oqs76znJ051Lt8zISz8,agnes24,45495,Gluten-Free Banana Bread,4.9999986
+u_1oKVtAg0t7NPnABB18oDt4EaTt6,macaroni girl,12003,Traditional Lasagna,5.0
+u_1oKVtAg0t7NPnABB18oDt4EaTt6,macaroni girl,28058,Shrimp Scampi,4.999998
+u_1oKVtAg0t7NPnABB18oDt4EaTt6,macaroni girl,39581,Homemade Peanut Butter Cups,4.999995
+u_1oKVtAg0t7NPnABB18oDt4EaTt6,macaroni girl,12700,Big Soft Ginger Cookies,4.999995
+u_1oKVtAg0t7NPnABB18oDt4EaTt6,macaroni girl,18345,Simple Au Gratin Potatoes,4.9999886
+u_1oKVlVN5Xtktc5Dc20w7SEmJLsz,puppypal81,28058,Shrimp Scampi,5.0
+u_1oKVlVN5Xtktc5Dc20w7SEmJLsz,puppypal81,17022,Vegetarian Linguine,5.0
+u_1oKVlVN5Xtktc5Dc20w7SEmJLsz,puppypal81,39581,Homemade Peanut Butter Cups,5.0
+u_1oKVlVN5Xtktc5Dc20w7SEmJLsz,puppypal81,45495,Gluten-Free Banana Bread,5.0
+u_1oKVlVN5Xtktc5Dc20w7SEmJLsz,puppypal81,18345,Simple Au Gratin Potatoes,5.0
+u_1oKVaTPSHgkIpRiGEFaahLqvK69,ekatiakarpova,35766,Cheeseburger Paradise Soup,4.999996
+u_1oKVaTPSHgkIpRiGEFaahLqvK69,ekatiakarpova,39581,Homemade Peanut Butter Cups,4.999995
+u_1oKVaTPSHgkIpRiGEFaahLqvK69,ekatiakarpova,7708,Basic Banana Muffins,4.999983
+u_1oKVaTPSHgkIpRiGEFaahLqvK69,ekatiakarpova,17022,Vegetarian Linguine,4.999979
+u_1oKVaTPSHgkIpRiGEFaahLqvK69,ekatiakarpova,14299,Creamy White Chili,4.9999733
+u_1oKVa0hThBjc7ljLGxKqdbodLiC,khegeman,12700,Big Soft Ginger Cookies,4.9978456
+u_1oKVa0hThBjc7ljLGxKqdbodLiC,khegeman,18345,Simple Au Gratin Potatoes,4.996655
+u_1oKVa0hThBjc7ljLGxKqdbodLiC,khegeman,12003,Traditional Lasagna,4.995465
+u_1oKVa0hThBjc7ljLGxKqdbodLiC,khegeman,2912,Zucchini Pizza Casserole,4.993037
+u_1oKVa0hThBjc7ljLGxKqdbodLiC,khegeman,39581,Homemade Peanut Butter Cups,4.9928193
+u_1oKVadLzyQUPDTrtCNQIMn8QJTk,Hannah0418,12003,Traditional Lasagna,4.999999
+u_1oKVadLzyQUPDTrtCNQIMn8QJTk,Hannah0418,28058,Shrimp Scampi,4.9998717
+u_1oKVadLzyQUPDTrtCNQIMn8QJTk,Hannah0418,12700,Big Soft Ginger Cookies,4.9997067
+u_1oKVadLzyQUPDTrtCNQIMn8QJTk,Hannah0418,957,Sandy’s Chocolate Cake,4.9994545
+u_1oKVadLzyQUPDTrtCNQIMn8QJTk,Hannah0418,18345,Simple Au Gratin Potatoes,4.9991217
+u_1oKVeQ7jplcv6S5Ln6MAR8CNjF3,blhenn,12003,Traditional Lasagna,4.999762
+u_1oKVeQ7jplcv6S5Ln6MAR8CNjF3,blhenn,39581,Homemade Peanut Butter Cups,4.999351
+u_1oKVeQ7jplcv6S5Ln6MAR8CNjF3,blhenn,28058,Shrimp Scampi,4.99891
+u_1oKVeQ7jplcv6S5Ln6MAR8CNjF3,blhenn,3143,Pumpkin Bars,4.9979367
+u_1oKVeQ7jplcv6S5Ln6MAR8CNjF3,blhenn,17022,Vegetarian Linguine,4.9966593
+u_1oKVZmYPulmUFbvGiBA8U3uRR6D,justmbeth,14299,Creamy White Chili,5.0
+u_1oKVZmYPulmUFbvGiBA8U3uRR6D,justmbeth,12003,Traditional Lasagna,5.0
+u_1oKVZmYPulmUFbvGiBA8U3uRR6D,justmbeth,17022,Vegetarian Linguine,5.0
+u_1oKVZmYPulmUFbvGiBA8U3uRR6D,justmbeth,35766,Cheeseburger Paradise Soup,5.0
+u_1oKVZmYPulmUFbvGiBA8U3uRR6D,justmbeth,26937,Pineapple Pudding Cake,5.0
+u_1oKZWJjk11G6KpWFgNdzoFFPz3k,Grandmanonna,39581,Homemade Peanut Butter Cups,4.999991
+u_1oKZWJjk11G6KpWFgNdzoFFPz3k,Grandmanonna,12003,Traditional Lasagna,4.999988
+u_1oKZWJjk11G6KpWFgNdzoFFPz3k,Grandmanonna,28058,Shrimp Scampi,4.999985
+u_1oKZWJjk11G6KpWFgNdzoFFPz3k,Grandmanonna,18345,Simple Au Gratin Potatoes,4.99996
+u_1oKZWJjk11G6KpWFgNdzoFFPz3k,Grandmanonna,45495,Gluten-Free Banana Bread,4.999958
+u_1oKVaQvHrOztRpr4JVZNoUJKeRP,BrytEyz,12003,Traditional Lasagna,4.999995
+u_1oKVaQvHrOztRpr4JVZNoUJKeRP,BrytEyz,39581,Homemade Peanut Butter Cups,4.9999914
+u_1oKVaQvHrOztRpr4JVZNoUJKeRP,BrytEyz,28058,Shrimp Scampi,4.999981
+u_1oKVaQvHrOztRpr4JVZNoUJKeRP,BrytEyz,17022,Vegetarian Linguine,4.9999666
+u_1oKVaQvHrOztRpr4JVZNoUJKeRP,BrytEyz,45495,Gluten-Free Banana Bread,4.9999013
+u_1oKVfvobNgMQkN94ESLJysmOpYa,Jessica2783,12003,Traditional Lasagna,4.999756
+u_1oKVfvobNgMQkN94ESLJysmOpYa,Jessica2783,18345,Simple Au Gratin Potatoes,4.9868784
+u_1oKVfvobNgMQkN94ESLJysmOpYa,Jessica2783,28058,Shrimp Scampi,4.9790382
+u_1oKVfvobNgMQkN94ESLJysmOpYa,Jessica2783,3143,Pumpkin Bars,4.9714017
+u_1oKVfvobNgMQkN94ESLJysmOpYa,Jessica2783,12700,Big Soft Ginger Cookies,4.9654694
+u_1oKVbmHDCK2MBpqtv6GB3529Nw7,maggieaw,39581,Homemade Peanut Butter Cups,4.999998
+u_1oKVbmHDCK2MBpqtv6GB3529Nw7,maggieaw,38550,Special Banana Nut Bread,4.999998
+u_1oKVbmHDCK2MBpqtv6GB3529Nw7,maggieaw,14299,Creamy White Chili,4.9999976
+u_1oKVbmHDCK2MBpqtv6GB3529Nw7,maggieaw,35766,Cheeseburger Paradise Soup,4.999997
+u_1oKVbmHDCK2MBpqtv6GB3529Nw7,maggieaw,28058,Shrimp Scampi,4.999993
+u_1oKW6sDj2gqrjqX4YlV5AdPJw3s,trishgale,12003,Traditional Lasagna,4.999999
+u_1oKW6sDj2gqrjqX4YlV5AdPJw3s,trishgale,28058,Shrimp Scampi,4.9999967
+u_1oKW6sDj2gqrjqX4YlV5AdPJw3s,trishgale,12700,Big Soft Ginger Cookies,4.9999924
+u_1oKW6sDj2gqrjqX4YlV5AdPJw3s,trishgale,39581,Homemade Peanut Butter Cups,4.9999924
+u_1oKW6sDj2gqrjqX4YlV5AdPJw3s,trishgale,35766,Cheeseburger Paradise Soup,4.9999814
+u_1oKVZzAQmX5vMT4C2F17HmePGCM,kebmod54,28058,Shrimp Scampi,4.9999995
+u_1oKVZzAQmX5vMT4C2F17HmePGCM,kebmod54,39581,Homemade Peanut Butter Cups,4.9999995
+u_1oKVZzAQmX5vMT4C2F17HmePGCM,kebmod54,7708,Basic Banana Muffins,4.9999986
+u_1oKVZzAQmX5vMT4C2F17HmePGCM,kebmod54,17022,Vegetarian Linguine,4.9999986
+u_1oKVZzAQmX5vMT4C2F17HmePGCM,kebmod54,45495,Gluten-Free Banana Bread,4.9999986
+u_1oKVZcI3RSRLsVlk4mApTV64MWc,LizCav,12003,Traditional Lasagna,4.9999275
+u_1oKVZcI3RSRLsVlk4mApTV64MWc,LizCav,39581,Homemade Peanut Butter Cups,4.998114
+u_1oKVZcI3RSRLsVlk4mApTV64MWc,LizCav,28058,Shrimp Scampi,4.997567
+u_1oKVZcI3RSRLsVlk4mApTV64MWc,LizCav,3143,Pumpkin Bars,4.997534
+u_1oKVZcI3RSRLsVlk4mApTV64MWc,LizCav,18345,Simple Au Gratin Potatoes,4.9958105
+u_1oKVaOPYCsTCPrimbiYIBsi4ixC,katlaydee3,18345,Simple Au Gratin Potatoes,4.9980345
+u_1oKVaOPYCsTCPrimbiYIBsi4ixC,katlaydee3,12003,Traditional Lasagna,4.9975796
+u_1oKVaOPYCsTCPrimbiYIBsi4ixC,katlaydee3,39581,Homemade Peanut Butter Cups,4.9918513
+u_1oKVaOPYCsTCPrimbiYIBsi4ixC,katlaydee3,28058,Shrimp Scampi,4.9899454
+u_1oKVaOPYCsTCPrimbiYIBsi4ixC,katlaydee3,35766,Cheeseburger Paradise Soup,4.9888854
+u_1oKVZtNaDTX6quIM5AQfn79uJpz,lurky27,12003,Traditional Lasagna,5.0
+u_1oKVZtNaDTX6quIM5AQfn79uJpz,lurky27,28058,Shrimp Scampi,5.0
+u_1oKVZtNaDTX6quIM5AQfn79uJpz,lurky27,14299,Creamy White Chili,4.999999
+u_1oKVZtNaDTX6quIM5AQfn79uJpz,lurky27,35766,Cheeseburger Paradise Soup,4.999999
+u_1oKVZtNaDTX6quIM5AQfn79uJpz,lurky27,39581,Homemade Peanut Butter Cups,4.999999
+u_1oKVaZxnBcU4S23DnH9FwPblr6c,glitterchatter,12003,Traditional Lasagna,4.9999895
+u_1oKVaZxnBcU4S23DnH9FwPblr6c,glitterchatter,28058,Shrimp Scampi,4.9999604
+u_1oKVaZxnBcU4S23DnH9FwPblr6c,glitterchatter,18345,Simple Au Gratin Potatoes,4.999892
+u_1oKVaZxnBcU4S23DnH9FwPblr6c,glitterchatter,39581,Homemade Peanut Butter Cups,4.999861
+u_1oKVaZxnBcU4S23DnH9FwPblr6c,glitterchatter,17022,Vegetarian Linguine,4.9998026
+u_1oKVfi3qeNHeNJ2HGpoqc1r6zw9,momtomatt,12003,Traditional Lasagna,5.0
+u_1oKVfi3qeNHeNJ2HGpoqc1r6zw9,momtomatt,28058,Shrimp Scampi,4.999999
+u_1oKVfi3qeNHeNJ2HGpoqc1r6zw9,momtomatt,35766,Cheeseburger Paradise Soup,4.999997
+u_1oKVfi3qeNHeNJ2HGpoqc1r6zw9,momtomatt,17022,Vegetarian Linguine,4.999991
+u_1oKVfi3qeNHeNJ2HGpoqc1r6zw9,momtomatt,12700,Big Soft Ginger Cookies,4.9999895
+u_1oKWTfKQitBhTVWD9cKv9LZAPB0,shanaash,28058,Shrimp Scampi,5.0
+u_1oKWTfKQitBhTVWD9cKv9LZAPB0,shanaash,12003,Traditional Lasagna,5.0
+u_1oKWTfKQitBhTVWD9cKv9LZAPB0,shanaash,39581,Homemade Peanut Butter Cups,5.0
+u_1oKWTfKQitBhTVWD9cKv9LZAPB0,shanaash,17022,Vegetarian Linguine,4.9999995
+u_1oKWTfKQitBhTVWD9cKv9LZAPB0,shanaash,35766,Cheeseburger Paradise Soup,4.9999995
+u_1oKVkKvcAuxz7UMQDYQ51SazDCV,Dougetta,12003,Traditional Lasagna,4.999801
+u_1oKVkKvcAuxz7UMQDYQ51SazDCV,Dougetta,14299,Creamy White Chili,4.996287
+u_1oKVkKvcAuxz7UMQDYQ51SazDCV,Dougetta,3143,Pumpkin Bars,4.9940376
+u_1oKVkKvcAuxz7UMQDYQ51SazDCV,Dougetta,35766,Cheeseburger Paradise Soup,4.9940066
+u_1oKVkKvcAuxz7UMQDYQ51SazDCV,Dougetta,18345,Simple Au Gratin Potatoes,4.9938745
+u_1oKVacBHwedX5Hf1nE0fWzDw1cz,lisa53202,14299,Creamy White Chili,5.0
+u_1oKVacBHwedX5Hf1nE0fWzDw1cz,lisa53202,12003,Traditional Lasagna,5.0
+u_1oKVacBHwedX5Hf1nE0fWzDw1cz,lisa53202,17022,Vegetarian Linguine,5.0
+u_1oKVacBHwedX5Hf1nE0fWzDw1cz,lisa53202,35766,Cheeseburger Paradise Soup,5.0
+u_1oKVacBHwedX5Hf1nE0fWzDw1cz,lisa53202,28058,Shrimp Scampi,5.0
+u_1oKVeN9YNf07RT0P9R63Yu80P5A,JGa2595176,12003,Traditional Lasagna,4.9994674
+u_1oKVeN9YNf07RT0P9R63Yu80P5A,JGa2595176,39581,Homemade Peanut Butter Cups,4.9982576
+u_1oKVeN9YNf07RT0P9R63Yu80P5A,JGa2595176,74724,Chocolate Guinness Cake,4.996729
+u_1oKVeN9YNf07RT0P9R63Yu80P5A,JGa2595176,28058,Shrimp Scampi,4.996077
+u_1oKVeN9YNf07RT0P9R63Yu80P5A,JGa2595176,18345,Simple Au Gratin Potatoes,4.9955654
+u_1oKVbvoVcAId85tZ6rEW1EMlLzR,sgronholz,28058,Shrimp Scampi,5.0
+u_1oKVbvoVcAId85tZ6rEW1EMlLzR,sgronholz,12003,Traditional Lasagna,5.0
+u_1oKVbvoVcAId85tZ6rEW1EMlLzR,sgronholz,12700,Big Soft Ginger Cookies,5.0
+u_1oKVbvoVcAId85tZ6rEW1EMlLzR,sgronholz,39581,Homemade Peanut Butter Cups,5.0
+u_1oKVbvoVcAId85tZ6rEW1EMlLzR,sgronholz,18345,Simple Au Gratin Potatoes,4.9999995
+u_1oKVasm5IwFdw64hFcnuTnurtzu,LPHJKitchen,14299,Creamy White Chili,4.999984
+u_1oKVasm5IwFdw64hFcnuTnurtzu,LPHJKitchen,39581,Homemade Peanut Butter Cups,4.999982
+u_1oKVasm5IwFdw64hFcnuTnurtzu,LPHJKitchen,35766,Cheeseburger Paradise Soup,4.999965
+u_1oKVasm5IwFdw64hFcnuTnurtzu,LPHJKitchen,17022,Vegetarian Linguine,4.9999576
+u_1oKVasm5IwFdw64hFcnuTnurtzu,LPHJKitchen,45495,Gluten-Free Banana Bread,4.999952
+u_1oKVZzhQe2T1Ff5kFXACK2mhXml,ebramkamp,39581,Homemade Peanut Butter Cups,4.9999995
+u_1oKVZzhQe2T1Ff5kFXACK2mhXml,ebramkamp,12003,Traditional Lasagna,4.9999995
+u_1oKVZzhQe2T1Ff5kFXACK2mhXml,ebramkamp,28058,Shrimp Scampi,4.9999986
+u_1oKVZzhQe2T1Ff5kFXACK2mhXml,ebramkamp,35766,Cheeseburger Paradise Soup,4.999998
+u_1oKVZzhQe2T1Ff5kFXACK2mhXml,ebramkamp,14299,Creamy White Chili,4.9999976
+u_1oKVa1vU0P0wtIMwn8FBys0ptHj,gunslinger,14299,Creamy White Chili,5.0
+u_1oKVa1vU0P0wtIMwn8FBys0ptHj,gunslinger,12003,Traditional Lasagna,5.0
+u_1oKVa1vU0P0wtIMwn8FBys0ptHj,gunslinger,39581,Homemade Peanut Butter Cups,5.0
+u_1oKVa1vU0P0wtIMwn8FBys0ptHj,gunslinger,17022,Vegetarian Linguine,5.0
+u_1oKVa1vU0P0wtIMwn8FBys0ptHj,gunslinger,35766,Cheeseburger Paradise Soup,5.0
+u_1oKVZoToVmKg9kqZJaYvVAhSJye,rena 55,3143,Pumpkin Bars,4.999958
+u_1oKVZoToVmKg9kqZJaYvVAhSJye,rena 55,12003,Traditional Lasagna,4.9999375
+u_1oKVZoToVmKg9kqZJaYvVAhSJye,rena 55,28058,Shrimp Scampi,4.999898
+u_1oKVZoToVmKg9kqZJaYvVAhSJye,rena 55,17022,Vegetarian Linguine,4.999837
+u_1oKVZoToVmKg9kqZJaYvVAhSJye,rena 55,39581,Homemade Peanut Butter Cups,4.9998217
+u_1oKVZkwou43a0PL7Aw0NCrDXTLL,Debglass11,28058,Shrimp Scampi,5.0
+u_1oKVZkwou43a0PL7Aw0NCrDXTLL,Debglass11,12003,Traditional Lasagna,5.0
+u_1oKVZkwou43a0PL7Aw0NCrDXTLL,Debglass11,39581,Homemade Peanut Butter Cups,4.9999995
+u_1oKVZkwou43a0PL7Aw0NCrDXTLL,Debglass11,35766,Cheeseburger Paradise Soup,4.9999986
+u_1oKVZkwou43a0PL7Aw0NCrDXTLL,Debglass11,18345,Simple Au Gratin Potatoes,4.9999957
+u_1oKVZrio6gkgxWk5Rf9YriPLADZ,Appy_Girl,12003,Traditional Lasagna,4.9999995
+u_1oKVZrio6gkgxWk5Rf9YriPLADZ,Appy_Girl,39581,Homemade Peanut Butter Cups,4.9999967
+u_1oKVZrio6gkgxWk5Rf9YriPLADZ,Appy_Girl,28058,Shrimp Scampi,4.999993
+u_1oKVZrio6gkgxWk5Rf9YriPLADZ,Appy_Girl,18345,Simple Au Gratin Potatoes,4.999992
+u_1oKVZrio6gkgxWk5Rf9YriPLADZ,Appy_Girl,12700,Big Soft Ginger Cookies,4.9999456
+u_1oKVa2JLGywqMhph6wvQOMKzSTR,Queenlalisa,12003,Traditional Lasagna,4.9999986
+u_1oKVa2JLGywqMhph6wvQOMKzSTR,Queenlalisa,28058,Shrimp Scampi,4.9999785
+u_1oKVa2JLGywqMhph6wvQOMKzSTR,Queenlalisa,12700,Big Soft Ginger Cookies,4.99996
+u_1oKVa2JLGywqMhph6wvQOMKzSTR,Queenlalisa,39581,Homemade Peanut Butter Cups,4.9999437
+u_1oKVa2JLGywqMhph6wvQOMKzSTR,Queenlalisa,18345,Simple Au Gratin Potatoes,4.9998393
+u_1oKVtgN8zqdum9cajbHYBHjrdLh,vsmith8403,12003,Traditional Lasagna,4.999992
+u_1oKVtgN8zqdum9cajbHYBHjrdLh,vsmith8403,39581,Homemade Peanut Butter Cups,4.9993176
+u_1oKVtgN8zqdum9cajbHYBHjrdLh,vsmith8403,28058,Shrimp Scampi,4.998311
+u_1oKVtgN8zqdum9cajbHYBHjrdLh,vsmith8403,957,Sandy’s Chocolate Cake,4.9959736
+u_1oKVtgN8zqdum9cajbHYBHjrdLh,vsmith8403,3143,Pumpkin Bars,4.9957914
+u_1oKVZw64NcWNFGjxZOnW3rBaAVY,Kasha,17022,Vegetarian Linguine,4.9999466
+u_1oKVZw64NcWNFGjxZOnW3rBaAVY,Kasha,39581,Homemade Peanut Butter Cups,4.9998813
+u_1oKVZw64NcWNFGjxZOnW3rBaAVY,Kasha,14299,Creamy White Chili,4.9998813
+u_1oKVZw64NcWNFGjxZOnW3rBaAVY,Kasha,28058,Shrimp Scampi,4.999755
+u_1oKVZw64NcWNFGjxZOnW3rBaAVY,Kasha,6504,Mom’s Meat Loaf,4.9997396
+u_1oKVaEfH2JKU7oUNuZb9q2hMf0H,robbrd,12003,Traditional Lasagna,5.0
+u_1oKVaEfH2JKU7oUNuZb9q2hMf0H,robbrd,12700,Big Soft Ginger Cookies,4.9999995
+u_1oKVaEfH2JKU7oUNuZb9q2hMf0H,robbrd,28058,Shrimp Scampi,4.9999995
+u_1oKVaEfH2JKU7oUNuZb9q2hMf0H,robbrd,18345,Simple Au Gratin Potatoes,4.9999986
+u_1oKVaEfH2JKU7oUNuZb9q2hMf0H,robbrd,957,Sandy’s Chocolate Cake,4.999996
+u_1oKW5Ww9pUss4GcDxbyCTeEl8ed,bernerlover,12003,Traditional Lasagna,5.0
+u_1oKW5Ww9pUss4GcDxbyCTeEl8ed,bernerlover,28058,Shrimp Scampi,4.9999924
+u_1oKW5Ww9pUss4GcDxbyCTeEl8ed,bernerlover,17022,Vegetarian Linguine,4.9999704
+u_1oKW5Ww9pUss4GcDxbyCTeEl8ed,bernerlover,39581,Homemade Peanut Butter Cups,4.9999566
+u_1oKW5Ww9pUss4GcDxbyCTeEl8ed,bernerlover,12700,Big Soft Ginger Cookies,4.9999447
+u_1oKVaHCYOV7yGNq91U2fTBqtBPI,Grandmaj2u,12003,Traditional Lasagna,4.999217
+u_1oKVaHCYOV7yGNq91U2fTBqtBPI,Grandmaj2u,17022,Vegetarian Linguine,4.985727
+u_1oKVaHCYOV7yGNq91U2fTBqtBPI,Grandmaj2u,35766,Cheeseburger Paradise Soup,4.9850693
+u_1oKVaHCYOV7yGNq91U2fTBqtBPI,Grandmaj2u,39581,Homemade Peanut Butter Cups,4.9848633
+u_1oKVaHCYOV7yGNq91U2fTBqtBPI,Grandmaj2u,28058,Shrimp Scampi,4.9691668
+u_1oKVZw7mrwjQMxXSztLnhcVRC0b,bicktasw,28058,Shrimp Scampi,4.9999995
+u_1oKVZw7mrwjQMxXSztLnhcVRC0b,bicktasw,12003,Traditional Lasagna,4.9999995
+u_1oKVZw7mrwjQMxXSztLnhcVRC0b,bicktasw,18345,Simple Au Gratin Potatoes,4.9999986
+u_1oKVZw7mrwjQMxXSztLnhcVRC0b,bicktasw,39581,Homemade Peanut Butter Cups,4.999998
+u_1oKVZw7mrwjQMxXSztLnhcVRC0b,bicktasw,3143,Pumpkin Bars,4.9999943
+u_1oKVaUyPsO6nLJyBKLh96wugkPm,MarineMom_texas,12700,Big Soft Ginger Cookies,5.0
+u_1oKVaUyPsO6nLJyBKLh96wugkPm,MarineMom_texas,12003,Traditional Lasagna,5.0
+u_1oKVaUyPsO6nLJyBKLh96wugkPm,MarineMom_texas,28058,Shrimp Scampi,5.0
+u_1oKVaUyPsO6nLJyBKLh96wugkPm,MarineMom_texas,39581,Homemade Peanut Butter Cups,4.9999995
+u_1oKVaUyPsO6nLJyBKLh96wugkPm,MarineMom_texas,45495,Gluten-Free Banana Bread,4.9999995
+u_1oKVmW9kNgm2BCTgKMambA3HuLa,Robby1,18345,Simple Au Gratin Potatoes,4.999999
+u_1oKVmW9kNgm2BCTgKMambA3HuLa,Robby1,39581,Homemade Peanut Butter Cups,4.999999
+u_1oKVmW9kNgm2BCTgKMambA3HuLa,Robby1,35766,Cheeseburger Paradise Soup,4.9999986
+u_1oKVmW9kNgm2BCTgKMambA3HuLa,Robby1,17022,Vegetarian Linguine,4.999995
+u_1oKVmW9kNgm2BCTgKMambA3HuLa,Robby1,28058,Shrimp Scampi,4.999995
+u_1oKVZouKxf9kEgBI2iNLhgLJaQW,NanZim,12003,Traditional Lasagna,4.9999995
+u_1oKVZouKxf9kEgBI2iNLhgLJaQW,NanZim,39581,Homemade Peanut Butter Cups,4.999999
+u_1oKVZouKxf9kEgBI2iNLhgLJaQW,NanZim,28058,Shrimp Scampi,4.999999
+u_1oKVZouKxf9kEgBI2iNLhgLJaQW,NanZim,35766,Cheeseburger Paradise Soup,4.9999933
+u_1oKVZouKxf9kEgBI2iNLhgLJaQW,NanZim,18345,Simple Au Gratin Potatoes,4.9999905
+u_1oKVjJFceQBLKtLQqeud0WdLpWC,lvarner,12003,Traditional Lasagna,4.9999924
+u_1oKVjJFceQBLKtLQqeud0WdLpWC,lvarner,39581,Homemade Peanut Butter Cups,4.9999757
+u_1oKVjJFceQBLKtLQqeud0WdLpWC,lvarner,35766,Cheeseburger Paradise Soup,4.9999566
+u_1oKVjJFceQBLKtLQqeud0WdLpWC,lvarner,28058,Shrimp Scampi,4.9999475
+u_1oKVjJFceQBLKtLQqeud0WdLpWC,lvarner,18345,Simple Au Gratin Potatoes,4.9998946
+u_1oKVeFd6NQn9S2MPiWHWuA9ecjg,murrworm88,39581,Homemade Peanut Butter Cups,4.9999666
+u_1oKVeFd6NQn9S2MPiWHWuA9ecjg,murrworm88,28058,Shrimp Scampi,4.999961
+u_1oKVeFd6NQn9S2MPiWHWuA9ecjg,murrworm88,35766,Cheeseburger Paradise Soup,4.9999547
+u_1oKVeFd6NQn9S2MPiWHWuA9ecjg,murrworm88,14299,Creamy White Chili,4.9999356
+u_1oKVeFd6NQn9S2MPiWHWuA9ecjg,murrworm88,45495,Gluten-Free Banana Bread,4.99983
+u_1oKVam4esKtXrR9ATMDDA7eVWEt,ms11145,12003,Traditional Lasagna,4.9999743
+u_1oKVam4esKtXrR9ATMDDA7eVWEt,ms11145,28058,Shrimp Scampi,4.999804
+u_1oKVam4esKtXrR9ATMDDA7eVWEt,ms11145,39581,Homemade Peanut Butter Cups,4.999377
+u_1oKVam4esKtXrR9ATMDDA7eVWEt,ms11145,35766,Cheeseburger Paradise Soup,4.997925
+u_1oKVam4esKtXrR9ATMDDA7eVWEt,ms11145,3143,Pumpkin Bars,4.9977455
+u_1oKVZq6jGTHyihxoH2RVdJkhrnL,Loiscooks,12003,Traditional Lasagna,4.999898
+u_1oKVZq6jGTHyihxoH2RVdJkhrnL,Loiscooks,3143,Pumpkin Bars,4.999743
+u_1oKVZq6jGTHyihxoH2RVdJkhrnL,Loiscooks,28058,Shrimp Scampi,4.9993057
+u_1oKVZq6jGTHyihxoH2RVdJkhrnL,Loiscooks,35766,Cheeseburger Paradise Soup,4.998907
+u_1oKVZq6jGTHyihxoH2RVdJkhrnL,Loiscooks,21444,Favorite Chicken Potpie,4.9988613
+u_1oKVa8drJKT1nMPs6MiRlMpNct6,muffbear74,12003,Traditional Lasagna,4.9999685
+u_1oKVa8drJKT1nMPs6MiRlMpNct6,muffbear74,18345,Simple Au Gratin Potatoes,4.999789
+u_1oKVa8drJKT1nMPs6MiRlMpNct6,muffbear74,12700,Big Soft Ginger Cookies,4.9996696
+u_1oKVa8drJKT1nMPs6MiRlMpNct6,muffbear74,28058,Shrimp Scampi,4.9990435
+u_1oKVa8drJKT1nMPs6MiRlMpNct6,muffbear74,957,Sandy’s Chocolate Cake,4.9983444
+u_1oKVZw9BdEJB0t5N5hVkeydkHkg,sd20,18345,Simple Au Gratin Potatoes,4.999854
+u_1oKVZw9BdEJB0t5N5hVkeydkHkg,sd20,12003,Traditional Lasagna,4.999491
+u_1oKVZw9BdEJB0t5N5hVkeydkHkg,sd20,39581,Homemade Peanut Butter Cups,4.9994006
+u_1oKVZw9BdEJB0t5N5hVkeydkHkg,sd20,28058,Shrimp Scampi,4.9992914
+u_1oKVZw9BdEJB0t5N5hVkeydkHkg,sd20,12700,Big Soft Ginger Cookies,4.9991217
+u_1oKVaM64YH6uHYmdygQgoq2plQs,scotland1,12003,Traditional Lasagna,5.0
+u_1oKVaM64YH6uHYmdygQgoq2plQs,scotland1,18345,Simple Au Gratin Potatoes,5.0
+u_1oKVaM64YH6uHYmdygQgoq2plQs,scotland1,39581,Homemade Peanut Butter Cups,5.0
+u_1oKVaM64YH6uHYmdygQgoq2plQs,scotland1,28058,Shrimp Scampi,4.9999995
+u_1oKVaM64YH6uHYmdygQgoq2plQs,scotland1,35766,Cheeseburger Paradise Soup,4.9999986
+u_1oKVcglfCO7E2tIJymSOggi3h6s,schamberlain,12003,Traditional Lasagna,5.0
+u_1oKVcglfCO7E2tIJymSOggi3h6s,schamberlain,28058,Shrimp Scampi,5.0
+u_1oKVcglfCO7E2tIJymSOggi3h6s,schamberlain,12700,Big Soft Ginger Cookies,4.9999995
+u_1oKVcglfCO7E2tIJymSOggi3h6s,schamberlain,39581,Homemade Peanut Butter Cups,4.9999995
+u_1oKVcglfCO7E2tIJymSOggi3h6s,schamberlain,957,Sandy’s Chocolate Cake,4.999999
+u_1oKVZq0tGK7kyYh5lp0OIz0R5lr,lmmanda,14299,Creamy White Chili,5.0
+u_1oKVZq0tGK7kyYh5lp0OIz0R5lr,lmmanda,39581,Homemade Peanut Butter Cups,5.0
+u_1oKVZq0tGK7kyYh5lp0OIz0R5lr,lmmanda,45495,Gluten-Free Banana Bread,5.0
+u_1oKVZq0tGK7kyYh5lp0OIz0R5lr,lmmanda,35766,Cheeseburger Paradise Soup,5.0
+u_1oKVZq0tGK7kyYh5lp0OIz0R5lr,lmmanda,28058,Shrimp Scampi,5.0
+u_1oKVa7PQ46eJ5al98w2pqcx6Do3,bjsilve0,39581,Homemade Peanut Butter Cups,4.999823
+u_1oKVa7PQ46eJ5al98w2pqcx6Do3,bjsilve0,14299,Creamy White Chili,4.999489
+u_1oKVa7PQ46eJ5al98w2pqcx6Do3,bjsilve0,45495,Gluten-Free Banana Bread,4.999384
+u_1oKVa7PQ46eJ5al98w2pqcx6Do3,bjsilve0,28058,Shrimp Scampi,4.999383
+u_1oKVa7PQ46eJ5al98w2pqcx6Do3,bjsilve0,17022,Vegetarian Linguine,4.999329
+u_1oKVZv53OoxaUD2jE14MmsDU0KQ,s_pants,12003,Traditional Lasagna,4.9999876
+u_1oKVZv53OoxaUD2jE14MmsDU0KQ,s_pants,18345,Simple Au Gratin Potatoes,4.999844
+u_1oKVZv53OoxaUD2jE14MmsDU0KQ,s_pants,28058,Shrimp Scampi,4.999816
+u_1oKVZv53OoxaUD2jE14MmsDU0KQ,s_pants,12700,Big Soft Ginger Cookies,4.9998145
+u_1oKVZv53OoxaUD2jE14MmsDU0KQ,s_pants,39581,Homemade Peanut Butter Cups,4.999709
+u_1oKVZtjpAd6NHkGeOEGAxusDfKE,mkaskela,12003,Traditional Lasagna,5.0
+u_1oKVZtjpAd6NHkGeOEGAxusDfKE,mkaskela,28058,Shrimp Scampi,4.9999976
+u_1oKVZtjpAd6NHkGeOEGAxusDfKE,mkaskela,39581,Homemade Peanut Butter Cups,4.999995
+u_1oKVZtjpAd6NHkGeOEGAxusDfKE,mkaskela,17022,Vegetarian Linguine,4.999992
+u_1oKVZtjpAd6NHkGeOEGAxusDfKE,mkaskela,18345,Simple Au Gratin Potatoes,4.9999757
+u_1oKVqGqZYfHdhm0wSMWvjxjISiH,dlindenf,39581,Homemade Peanut Butter Cups,4.9998093
+u_1oKVqGqZYfHdhm0wSMWvjxjISiH,dlindenf,14299,Creamy White Chili,4.999776
+u_1oKVqGqZYfHdhm0wSMWvjxjISiH,dlindenf,12003,Traditional Lasagna,4.9996705
+u_1oKVqGqZYfHdhm0wSMWvjxjISiH,dlindenf,45495,Gluten-Free Banana Bread,4.999648
+u_1oKVqGqZYfHdhm0wSMWvjxjISiH,dlindenf,35766,Cheeseburger Paradise Soup,4.99946
+u_1oKVZbmXe034ZVsauDi7AuMVJCI,Joscy,12003,Traditional Lasagna,4.9999995
+u_1oKVZbmXe034ZVsauDi7AuMVJCI,Joscy,28058,Shrimp Scampi,4.999998
+u_1oKVZbmXe034ZVsauDi7AuMVJCI,Joscy,957,Sandy’s Chocolate Cake,4.9999967
+u_1oKVZbmXe034ZVsauDi7AuMVJCI,Joscy,12700,Big Soft Ginger Cookies,4.9999924
+u_1oKVZbmXe034ZVsauDi7AuMVJCI,Joscy,3143,Pumpkin Bars,4.9999886
+u_1oKVgHiCC1CvJytvtZiVsL01Gap,Green.devonna,12003,Traditional Lasagna,4.999994
+u_1oKVgHiCC1CvJytvtZiVsL01Gap,Green.devonna,28058,Shrimp Scampi,4.999972
+u_1oKVgHiCC1CvJytvtZiVsL01Gap,Green.devonna,39581,Homemade Peanut Butter Cups,4.9999714
+u_1oKVgHiCC1CvJytvtZiVsL01Gap,Green.devonna,18345,Simple Au Gratin Potatoes,4.999884
+u_1oKVgHiCC1CvJytvtZiVsL01Gap,Green.devonna,14299,Creamy White Chili,4.999861
+u_1oKVaBmiEKwAFyiHrDLoWpbel0J,misscoffeepot,14299,Creamy White Chili,5.0
+u_1oKVaBmiEKwAFyiHrDLoWpbel0J,misscoffeepot,39581,Homemade Peanut Butter Cups,5.0
+u_1oKVaBmiEKwAFyiHrDLoWpbel0J,misscoffeepot,12003,Traditional Lasagna,5.0
+u_1oKVaBmiEKwAFyiHrDLoWpbel0J,misscoffeepot,28058,Shrimp Scampi,5.0
+u_1oKVaBmiEKwAFyiHrDLoWpbel0J,misscoffeepot,45495,Gluten-Free Banana Bread,5.0
+u_1oKVgRMtmYSTdhwdEKa56FXrbgS,robbinthornton,957,Sandy’s Chocolate Cake,5.0
+u_1oKVgRMtmYSTdhwdEKa56FXrbgS,robbinthornton,12700,Big Soft Ginger Cookies,5.0
+u_1oKVgRMtmYSTdhwdEKa56FXrbgS,robbinthornton,3309,Best Ever Banana Bread,5.0
+u_1oKVgRMtmYSTdhwdEKa56FXrbgS,robbinthornton,12003,Traditional Lasagna,5.0
+u_1oKVgRMtmYSTdhwdEKa56FXrbgS,robbinthornton,18345,Simple Au Gratin Potatoes,5.0
+u_1oKVh5D1KoqTVfWyUUiSfdXoba8,lberry222,12003,Traditional Lasagna,4.9999986
+u_1oKVh5D1KoqTVfWyUUiSfdXoba8,lberry222,28058,Shrimp Scampi,4.999909
+u_1oKVh5D1KoqTVfWyUUiSfdXoba8,lberry222,39581,Homemade Peanut Butter Cups,4.999818
+u_1oKVh5D1KoqTVfWyUUiSfdXoba8,lberry222,35766,Cheeseburger Paradise Soup,4.999377
+u_1oKVh5D1KoqTVfWyUUiSfdXoba8,lberry222,17022,Vegetarian Linguine,4.9993157
+u_1oKVZPP8jYZRYPrNWRdDSTevmF4,afoth73,39581,Homemade Peanut Butter Cups,5.0
+u_1oKVZPP8jYZRYPrNWRdDSTevmF4,afoth73,12003,Traditional Lasagna,5.0
+u_1oKVZPP8jYZRYPrNWRdDSTevmF4,afoth73,28058,Shrimp Scampi,5.0
+u_1oKVZPP8jYZRYPrNWRdDSTevmF4,afoth73,26937,Pineapple Pudding Cake,4.9999995
+u_1oKVZPP8jYZRYPrNWRdDSTevmF4,afoth73,12700,Big Soft Ginger Cookies,4.999999
+u_1oKVZeBF1kxL7nJslWTFvZBiWnF,rwippel,12003,Traditional Lasagna,4.999976
+u_1oKVZeBF1kxL7nJslWTFvZBiWnF,rwippel,3143,Pumpkin Bars,4.999032
+u_1oKVZeBF1kxL7nJslWTFvZBiWnF,rwippel,12700,Big Soft Ginger Cookies,4.997655
+u_1oKVZeBF1kxL7nJslWTFvZBiWnF,rwippel,28058,Shrimp Scampi,4.997135
+u_1oKVZeBF1kxL7nJslWTFvZBiWnF,rwippel,18345,Simple Au Gratin Potatoes,4.995391
+u_1oKVlSUIbWEOUoajBNtwpsR6ElO,wombie,12003,Traditional Lasagna,4.9999986
+u_1oKVlSUIbWEOUoajBNtwpsR6ElO,wombie,12700,Big Soft Ginger Cookies,4.9999332
+u_1oKVlSUIbWEOUoajBNtwpsR6ElO,wombie,18345,Simple Au Gratin Potatoes,4.9999137
+u_1oKVlSUIbWEOUoajBNtwpsR6ElO,wombie,28058,Shrimp Scampi,4.9999065
+u_1oKVlSUIbWEOUoajBNtwpsR6ElO,wombie,35766,Cheeseburger Paradise Soup,4.9998894
+u_1oKVmxKa8OSdxKfiCCutej4RTXe,Punkyjoe81,12003,Traditional Lasagna,5.0
+u_1oKVmxKa8OSdxKfiCCutej4RTXe,Punkyjoe81,28058,Shrimp Scampi,5.0
+u_1oKVmxKa8OSdxKfiCCutej4RTXe,Punkyjoe81,39581,Homemade Peanut Butter Cups,5.0
+u_1oKVmxKa8OSdxKfiCCutej4RTXe,Punkyjoe81,45495,Gluten-Free Banana Bread,4.9999995
+u_1oKVmxKa8OSdxKfiCCutej4RTXe,Punkyjoe81,17022,Vegetarian Linguine,4.9999995
+u_1oKVe9AOEKp7dN71Ylmhu8elsek,JudithRN3,12003,Traditional Lasagna,4.9993763
+u_1oKVe9AOEKp7dN71Ylmhu8elsek,JudithRN3,39581,Homemade Peanut Butter Cups,4.996136
+u_1oKVe9AOEKp7dN71Ylmhu8elsek,JudithRN3,28058,Shrimp Scampi,4.9795847
+u_1oKVe9AOEKp7dN71Ylmhu8elsek,JudithRN3,35766,Cheeseburger Paradise Soup,4.979498
+u_1oKVe9AOEKp7dN71Ylmhu8elsek,JudithRN3,45495,Gluten-Free Banana Bread,4.9726043
+u_1oKVa5FSx8thvFfGGM6whXv482h,delowenstein,12003,Traditional Lasagna,4.999996
+u_1oKVa5FSx8thvFfGGM6whXv482h,delowenstein,28058,Shrimp Scampi,4.99998
+u_1oKVa5FSx8thvFfGGM6whXv482h,delowenstein,12700,Big Soft Ginger Cookies,4.9998198
+u_1oKVa5FSx8thvFfGGM6whXv482h,delowenstein,39581,Homemade Peanut Butter Cups,4.9998026
+u_1oKVa5FSx8thvFfGGM6whXv482h,delowenstein,3143,Pumpkin Bars,4.999783
+u_1oKVahb7FXBNni74VDofPwYO7Xx,tramar,12003,Traditional Lasagna,4.999996
+u_1oKVahb7FXBNni74VDofPwYO7Xx,tramar,28058,Shrimp Scampi,4.999969
+u_1oKVahb7FXBNni74VDofPwYO7Xx,tramar,3143,Pumpkin Bars,4.999817
+u_1oKVahb7FXBNni74VDofPwYO7Xx,tramar,18345,Simple Au Gratin Potatoes,4.999727
+u_1oKVahb7FXBNni74VDofPwYO7Xx,tramar,12700,Big Soft Ginger Cookies,4.999113
+u_1oKVgR3bBwYgTRpEnYNtKaPtyen,jackie.baker,28058,Shrimp Scampi,4.9999995
+u_1oKVgR3bBwYgTRpEnYNtKaPtyen,jackie.baker,12003,Traditional Lasagna,4.999999
+u_1oKVgR3bBwYgTRpEnYNtKaPtyen,jackie.baker,39581,Homemade Peanut Butter Cups,4.9999957
+u_1oKVgR3bBwYgTRpEnYNtKaPtyen,jackie.baker,7708,Basic Banana Muffins,4.999993
+u_1oKVgR3bBwYgTRpEnYNtKaPtyen,jackie.baker,18345,Simple Au Gratin Potatoes,4.9999847
+u_1oKVZxNyweYeP3lQTMS89TQLWg3,spiker1,28058,Shrimp Scampi,4.9999995
+u_1oKVZxNyweYeP3lQTMS89TQLWg3,spiker1,12003,Traditional Lasagna,4.9999995
+u_1oKVZxNyweYeP3lQTMS89TQLWg3,spiker1,39581,Homemade Peanut Butter Cups,4.9999986
+u_1oKVZxNyweYeP3lQTMS89TQLWg3,spiker1,45495,Gluten-Free Banana Bread,4.999993
+u_1oKVZxNyweYeP3lQTMS89TQLWg3,spiker1,39549,Forgotten Jambalaya,4.999991
+u_1oKVa1kV4MQcOlLwT37VNE3WK7G,manga,28058,Shrimp Scampi,4.999943
+u_1oKVa1kV4MQcOlLwT37VNE3WK7G,manga,14299,Creamy White Chili,4.999911
+u_1oKVa1kV4MQcOlLwT37VNE3WK7G,manga,38550,Special Banana Nut Bread,4.99991
+u_1oKVa1kV4MQcOlLwT37VNE3WK7G,manga,957,Sandy’s Chocolate Cake,4.9998717
+u_1oKVa1kV4MQcOlLwT37VNE3WK7G,manga,35766,Cheeseburger Paradise Soup,4.999802
+u_1oKVbqUdsyohkb1XHZEI5rWEiWl,10sChick,39581,Homemade Peanut Butter Cups,4.999976
+u_1oKVbqUdsyohkb1XHZEI5rWEiWl,10sChick,14299,Creamy White Chili,4.9999523
+u_1oKVbqUdsyohkb1XHZEI5rWEiWl,10sChick,35766,Cheeseburger Paradise Soup,4.99992
+u_1oKVbqUdsyohkb1XHZEI5rWEiWl,10sChick,45495,Gluten-Free Banana Bread,4.999873
+u_1oKVbqUdsyohkb1XHZEI5rWEiWl,10sChick,12003,Traditional Lasagna,4.999856
+u_1oKVZmwriM0KG2XqP8kbU6HI0zG,carolynstowers,39581,Homemade Peanut Butter Cups,4.9999976
+u_1oKVZmwriM0KG2XqP8kbU6HI0zG,carolynstowers,28058,Shrimp Scampi,4.9999967
+u_1oKVZmwriM0KG2XqP8kbU6HI0zG,carolynstowers,17022,Vegetarian Linguine,4.999994
+u_1oKVZmwriM0KG2XqP8kbU6HI0zG,carolynstowers,18345,Simple Au Gratin Potatoes,4.9999905
+u_1oKVZmwriM0KG2XqP8kbU6HI0zG,carolynstowers,12003,Traditional Lasagna,4.999988
+u_1oKVarZeoP5DltdusOT6SGl4IxA,jsk68,12003,Traditional Lasagna,4.999899
+u_1oKVarZeoP5DltdusOT6SGl4IxA,jsk68,35766,Cheeseburger Paradise Soup,4.9997535
+u_1oKVarZeoP5DltdusOT6SGl4IxA,jsk68,28058,Shrimp Scampi,4.9996076
+u_1oKVarZeoP5DltdusOT6SGl4IxA,jsk68,45495,Gluten-Free Banana Bread,4.9992867
+u_1oKVarZeoP5DltdusOT6SGl4IxA,jsk68,39581,Homemade Peanut Butter Cups,4.999174
+u_1oKVcabvSpdP7ukRmN281a1FxcL,cindiak,28058,Shrimp Scampi,5.0
+u_1oKVcabvSpdP7ukRmN281a1FxcL,cindiak,17022,Vegetarian Linguine,4.9999995
+u_1oKVcabvSpdP7ukRmN281a1FxcL,cindiak,35766,Cheeseburger Paradise Soup,4.9999995
+u_1oKVcabvSpdP7ukRmN281a1FxcL,cindiak,45495,Gluten-Free Banana Bread,4.999999
+u_1oKVcabvSpdP7ukRmN281a1FxcL,cindiak,14299,Creamy White Chili,4.9999986
+u_1oKVZvcir01Ja6U1XIczcrh8mbP,_nlfPA,39581,Homemade Peanut Butter Cups,5.0
+u_1oKVZvcir01Ja6U1XIczcrh8mbP,_nlfPA,14299,Creamy White Chili,4.999999
+u_1oKVZvcir01Ja6U1XIczcrh8mbP,_nlfPA,28058,Shrimp Scampi,4.999999
+u_1oKVZvcir01Ja6U1XIczcrh8mbP,_nlfPA,45495,Gluten-Free Banana Bread,4.9999986
+u_1oKVZvcir01Ja6U1XIczcrh8mbP,_nlfPA,35766,Cheeseburger Paradise Soup,4.9999986
+u_1oKVZibiPJd5Mv0tuRswBqWOVWD,jstowellsupermom,12003,Traditional Lasagna,4.999995
+u_1oKVZibiPJd5Mv0tuRswBqWOVWD,jstowellsupermom,18345,Simple Au Gratin Potatoes,4.9999475
+u_1oKVZibiPJd5Mv0tuRswBqWOVWD,jstowellsupermom,28058,Shrimp Scampi,4.999928
+u_1oKVZibiPJd5Mv0tuRswBqWOVWD,jstowellsupermom,957,Sandy’s Chocolate Cake,4.999897
+u_1oKVZibiPJd5Mv0tuRswBqWOVWD,jstowellsupermom,12700,Big Soft Ginger Cookies,4.9998736
+u_1oKVabx1v9IOjmZbyC5dIRTPlC5,amsm,12003,Traditional Lasagna,4.999924
+u_1oKVabx1v9IOjmZbyC5dIRTPlC5,amsm,12700,Big Soft Ginger Cookies,4.9980474
+u_1oKVabx1v9IOjmZbyC5dIRTPlC5,amsm,39581,Homemade Peanut Butter Cups,4.997924
+u_1oKVabx1v9IOjmZbyC5dIRTPlC5,amsm,957,Sandy’s Chocolate Cake,4.996554
+u_1oKVabx1v9IOjmZbyC5dIRTPlC5,amsm,35766,Cheeseburger Paradise Soup,4.995162
+u_1oKVao0QsJzv4UDVpq7n5EUevA7,TrishtheDish1,12003,Traditional Lasagna,4.9999976
+u_1oKVao0QsJzv4UDVpq7n5EUevA7,TrishtheDish1,28058,Shrimp Scampi,4.999995
+u_1oKVao0QsJzv4UDVpq7n5EUevA7,TrishtheDish1,3143,Pumpkin Bars,4.999978
+u_1oKVao0QsJzv4UDVpq7n5EUevA7,TrishtheDish1,18345,Simple Au Gratin Potatoes,4.999951
+u_1oKVao0QsJzv4UDVpq7n5EUevA7,TrishtheDish1,39581,Homemade Peanut Butter Cups,4.9998536
+u_1oKVcB1UMjb8Lc0Bsr8xQ850hmw,Jellybug,12003,Traditional Lasagna,4.9999905
+u_1oKVcB1UMjb8Lc0Bsr8xQ850hmw,Jellybug,28058,Shrimp Scampi,4.9999027
+u_1oKVcB1UMjb8Lc0Bsr8xQ850hmw,Jellybug,18345,Simple Au Gratin Potatoes,4.9999
+u_1oKVcB1UMjb8Lc0Bsr8xQ850hmw,Jellybug,3143,Pumpkin Bars,4.9995894
+u_1oKVcB1UMjb8Lc0Bsr8xQ850hmw,Jellybug,12700,Big Soft Ginger Cookies,4.9993634
+u_1oKVmrpQvTsv8GyS1JiA39K9QuI,ryanswife,12003,Traditional Lasagna,4.9999747
+u_1oKVmrpQvTsv8GyS1JiA39K9QuI,ryanswife,3143,Pumpkin Bars,4.9990053
+u_1oKVmrpQvTsv8GyS1JiA39K9QuI,ryanswife,28058,Shrimp Scampi,4.998707
+u_1oKVmrpQvTsv8GyS1JiA39K9QuI,ryanswife,18345,Simple Au Gratin Potatoes,4.998212
+u_1oKVmrpQvTsv8GyS1JiA39K9QuI,ryanswife,39581,Homemade Peanut Butter Cups,4.9982004
+u_1oKVakhxVIBNUxgvWPjxZBGNwrV,grandmascooking22,39581,Homemade Peanut Butter Cups,4.999991
+u_1oKVakhxVIBNUxgvWPjxZBGNwrV,grandmascooking22,12003,Traditional Lasagna,4.999976
+u_1oKVakhxVIBNUxgvWPjxZBGNwrV,grandmascooking22,35766,Cheeseburger Paradise Soup,4.999965
+u_1oKVakhxVIBNUxgvWPjxZBGNwrV,grandmascooking22,28058,Shrimp Scampi,4.999935
+u_1oKVakhxVIBNUxgvWPjxZBGNwrV,grandmascooking22,18345,Simple Au Gratin Potatoes,4.9999247
+u_1oKVZaxgZr9JqCUTsowfyIT48aS,gina.kapfhamer,14299,Creamy White Chili,4.9999995
+u_1oKVZaxgZr9JqCUTsowfyIT48aS,gina.kapfhamer,35766,Cheeseburger Paradise Soup,4.9999995
+u_1oKVZaxgZr9JqCUTsowfyIT48aS,gina.kapfhamer,39581,Homemade Peanut Butter Cups,4.9999995
+u_1oKVZaxgZr9JqCUTsowfyIT48aS,gina.kapfhamer,17022,Vegetarian Linguine,4.999999
+u_1oKVZaxgZr9JqCUTsowfyIT48aS,gina.kapfhamer,45495,Gluten-Free Banana Bread,4.9999976
+u_1oKVZuqBVMf8IBAX9Lp2wMHJFOL,tommypoo,12003,Traditional Lasagna,5.0
+u_1oKVZuqBVMf8IBAX9Lp2wMHJFOL,tommypoo,28058,Shrimp Scampi,4.9999995
+u_1oKVZuqBVMf8IBAX9Lp2wMHJFOL,tommypoo,12700,Big Soft Ginger Cookies,4.999998
+u_1oKVZuqBVMf8IBAX9Lp2wMHJFOL,tommypoo,18345,Simple Au Gratin Potatoes,4.999997
+u_1oKVZuqBVMf8IBAX9Lp2wMHJFOL,tommypoo,39581,Homemade Peanut Butter Cups,4.999992
+u_1oKVe6iFgOYfbGKGRYcJN9y34Cz,kredhead,12003,Traditional Lasagna,4.9999447
+u_1oKVe6iFgOYfbGKGRYcJN9y34Cz,kredhead,28058,Shrimp Scampi,4.9997606
+u_1oKVe6iFgOYfbGKGRYcJN9y34Cz,kredhead,39581,Homemade Peanut Butter Cups,4.9996333
+u_1oKVe6iFgOYfbGKGRYcJN9y34Cz,kredhead,45495,Gluten-Free Banana Bread,4.9995503
+u_1oKVe6iFgOYfbGKGRYcJN9y34Cz,kredhead,18345,Simple Au Gratin Potatoes,4.999241
+u_1oKVZdntxwYzxksw1IqW0kld9jH,redcow,12003,Traditional Lasagna,4.9999986
+u_1oKVZdntxwYzxksw1IqW0kld9jH,redcow,28058,Shrimp Scampi,4.9999833
+u_1oKVZdntxwYzxksw1IqW0kld9jH,redcow,39581,Homemade Peanut Butter Cups,4.9999704
+u_1oKVZdntxwYzxksw1IqW0kld9jH,redcow,17022,Vegetarian Linguine,4.9999666
+u_1oKVZdntxwYzxksw1IqW0kld9jH,redcow,45495,Gluten-Free Banana Bread,4.9999566
+u_1oKVZpdzBp5PQHOM4PGQOZo1ujc,meaganteal,12003,Traditional Lasagna,4.999988
+u_1oKVZpdzBp5PQHOM4PGQOZo1ujc,meaganteal,28058,Shrimp Scampi,4.9999113
+u_1oKVZpdzBp5PQHOM4PGQOZo1ujc,meaganteal,39581,Homemade Peanut Butter Cups,4.999838
+u_1oKVZpdzBp5PQHOM4PGQOZo1ujc,meaganteal,17022,Vegetarian Linguine,4.9991035
+u_1oKVZpdzBp5PQHOM4PGQOZo1ujc,meaganteal,18345,Simple Au Gratin Potatoes,4.999017
+u_1oKVZg1DVmIpML6RYl0Vhh6hcJm,rebelwithoutaclue,12003,Traditional Lasagna,4.9999857
+u_1oKVZg1DVmIpML6RYl0Vhh6hcJm,rebelwithoutaclue,18345,Simple Au Gratin Potatoes,4.9999843
+u_1oKVZg1DVmIpML6RYl0Vhh6hcJm,rebelwithoutaclue,28058,Shrimp Scampi,4.999984
+u_1oKVZg1DVmIpML6RYl0Vhh6hcJm,rebelwithoutaclue,35766,Cheeseburger Paradise Soup,4.9999766
+u_1oKVZg1DVmIpML6RYl0Vhh6hcJm,rebelwithoutaclue,17022,Vegetarian Linguine,4.999954
+u_1oKVZbcNg5NYW87grfhDXNePwbL,danielleylee,12003,Traditional Lasagna,4.999995
+u_1oKVZbcNg5NYW87grfhDXNePwbL,danielleylee,28058,Shrimp Scampi,4.999976
+u_1oKVZbcNg5NYW87grfhDXNePwbL,danielleylee,3143,Pumpkin Bars,4.99996
+u_1oKVZbcNg5NYW87grfhDXNePwbL,danielleylee,17022,Vegetarian Linguine,4.9999576
+u_1oKVZbcNg5NYW87grfhDXNePwbL,danielleylee,39581,Homemade Peanut Butter Cups,4.999918
+u_1oKVaosb18WOhGwPs1ek3MdEhCc,mother of 3,12003,Traditional Lasagna,4.9999914
+u_1oKVaosb18WOhGwPs1ek3MdEhCc,mother of 3,28058,Shrimp Scampi,4.9999866
+u_1oKVaosb18WOhGwPs1ek3MdEhCc,mother of 3,3143,Pumpkin Bars,4.9999847
+u_1oKVaosb18WOhGwPs1ek3MdEhCc,mother of 3,39581,Homemade Peanut Butter Cups,4.999983
+u_1oKVaosb18WOhGwPs1ek3MdEhCc,mother of 3,17022,Vegetarian Linguine,4.9999747
+u_1oKVaB6ZQlqTQ4BbPF44G6vIKUI,hotfudgesundae,12003,Traditional Lasagna,5.0
+u_1oKVaB6ZQlqTQ4BbPF44G6vIKUI,hotfudgesundae,28058,Shrimp Scampi,4.999999
+u_1oKVaB6ZQlqTQ4BbPF44G6vIKUI,hotfudgesundae,39581,Homemade Peanut Butter Cups,4.9999986
+u_1oKVaB6ZQlqTQ4BbPF44G6vIKUI,hotfudgesundae,3143,Pumpkin Bars,4.999996
+u_1oKVaB6ZQlqTQ4BbPF44G6vIKUI,hotfudgesundae,18345,Simple Au Gratin Potatoes,4.9999933
+u_1oKVaS7Wc3UPdxOA9M0V5tyFc3f,shawnba,12003,Traditional Lasagna,4.9999995
+u_1oKVaS7Wc3UPdxOA9M0V5tyFc3f,shawnba,28058,Shrimp Scampi,4.999993
+u_1oKVaS7Wc3UPdxOA9M0V5tyFc3f,shawnba,39581,Homemade Peanut Butter Cups,4.9999895
+u_1oKVaS7Wc3UPdxOA9M0V5tyFc3f,shawnba,35766,Cheeseburger Paradise Soup,4.999978
+u_1oKVaS7Wc3UPdxOA9M0V5tyFc3f,shawnba,18345,Simple Au Gratin Potatoes,4.999975
+u_1oKVZfQBhgRUCOwfHv6F4RA51zQ,Sue Zappa,12003,Traditional Lasagna,4.9999986
+u_1oKVZfQBhgRUCOwfHv6F4RA51zQ,Sue Zappa,28058,Shrimp Scampi,4.9999566
+u_1oKVZfQBhgRUCOwfHv6F4RA51zQ,Sue Zappa,39581,Homemade Peanut Butter Cups,4.9998946
+u_1oKVZfQBhgRUCOwfHv6F4RA51zQ,Sue Zappa,12700,Big Soft Ginger Cookies,4.999832
+u_1oKVZfQBhgRUCOwfHv6F4RA51zQ,Sue Zappa,17022,Vegetarian Linguine,4.9997697
+u_1oKVbXTJIthO0iwAV4zZx2zYqGK,tammycookblogsbooks,14299,Creamy White Chili,5.0
+u_1oKVbXTJIthO0iwAV4zZx2zYqGK,tammycookblogsbooks,28058,Shrimp Scampi,5.0
+u_1oKVbXTJIthO0iwAV4zZx2zYqGK,tammycookblogsbooks,17022,Vegetarian Linguine,4.9999995
+u_1oKVbXTJIthO0iwAV4zZx2zYqGK,tammycookblogsbooks,35766,Cheeseburger Paradise Soup,4.9999995
+u_1oKVbXTJIthO0iwAV4zZx2zYqGK,tammycookblogsbooks,38550,Special Banana Nut Bread,4.9999995
+u_1oKWX52FfgQlAetHgnTqZXRGn6Q,peacharmadillo,12003,Traditional Lasagna,5.0
+u_1oKWX52FfgQlAetHgnTqZXRGn6Q,peacharmadillo,28058,Shrimp Scampi,4.9999824
+u_1oKWX52FfgQlAetHgnTqZXRGn6Q,peacharmadillo,12700,Big Soft Ginger Cookies,4.999969
+u_1oKWX52FfgQlAetHgnTqZXRGn6Q,peacharmadillo,18345,Simple Au Gratin Potatoes,4.999948
+u_1oKWX52FfgQlAetHgnTqZXRGn6Q,peacharmadillo,957,Sandy’s Chocolate Cake,4.999944
+u_1oKVdpotk8j55JIT4Cm4cmfip9q,pinkiepie,12003,Traditional Lasagna,4.999986
+u_1oKVdpotk8j55JIT4Cm4cmfip9q,pinkiepie,39581,Homemade Peanut Butter Cups,4.999222
+u_1oKVdpotk8j55JIT4Cm4cmfip9q,pinkiepie,28058,Shrimp Scampi,4.998642
+u_1oKVdpotk8j55JIT4Cm4cmfip9q,pinkiepie,17022,Vegetarian Linguine,4.9963145
+u_1oKVdpotk8j55JIT4Cm4cmfip9q,pinkiepie,35766,Cheeseburger Paradise Soup,4.9959106
+u_1oKVZtSdpfy5KrVbAXHeHU0QI4v,shecooksalot,12003,Traditional Lasagna,5.0
+u_1oKVZtSdpfy5KrVbAXHeHU0QI4v,shecooksalot,18345,Simple Au Gratin Potatoes,4.9999943
+u_1oKVZtSdpfy5KrVbAXHeHU0QI4v,shecooksalot,28058,Shrimp Scampi,4.9999914
+u_1oKVZtSdpfy5KrVbAXHeHU0QI4v,shecooksalot,39581,Homemade Peanut Butter Cups,4.9999723
+u_1oKVZtSdpfy5KrVbAXHeHU0QI4v,shecooksalot,12700,Big Soft Ginger Cookies,4.9999547
+u_1oKVa6fb9ZNJkSaFRDQhulUPwsA,leslie1966,12003,Traditional Lasagna,4.9999747
+u_1oKVa6fb9ZNJkSaFRDQhulUPwsA,leslie1966,18345,Simple Au Gratin Potatoes,4.9990053
+u_1oKVa6fb9ZNJkSaFRDQhulUPwsA,leslie1966,28058,Shrimp Scampi,4.9988794
+u_1oKVa6fb9ZNJkSaFRDQhulUPwsA,leslie1966,12700,Big Soft Ginger Cookies,4.997982
+u_1oKVa6fb9ZNJkSaFRDQhulUPwsA,leslie1966,3143,Pumpkin Bars,4.997776
+u_1oKVavG5Z8pqUhlA4ETjtE23zPP,kitchenmouseof5,12003,Traditional Lasagna,4.9999995
+u_1oKVavG5Z8pqUhlA4ETjtE23zPP,kitchenmouseof5,28058,Shrimp Scampi,4.9999986
+u_1oKVavG5Z8pqUhlA4ETjtE23zPP,kitchenmouseof5,39581,Homemade Peanut Butter Cups,4.9999976
+u_1oKVavG5Z8pqUhlA4ETjtE23zPP,kitchenmouseof5,18345,Simple Au Gratin Potatoes,4.9999914
+u_1oKVavG5Z8pqUhlA4ETjtE23zPP,kitchenmouseof5,17022,Vegetarian Linguine,4.9999914
+u_1oKVZXzP64U03Y1r3DIJ5He5wZl,sstetzel,12003,Traditional Lasagna,4.999888
+u_1oKVZXzP64U03Y1r3DIJ5He5wZl,sstetzel,35766,Cheeseburger Paradise Soup,4.9990387
+u_1oKVZXzP64U03Y1r3DIJ5He5wZl,sstetzel,39581,Homemade Peanut Butter Cups,4.997115
+u_1oKVZXzP64U03Y1r3DIJ5He5wZl,sstetzel,12700,Big Soft Ginger Cookies,4.996279
+u_1oKVZXzP64U03Y1r3DIJ5He5wZl,sstetzel,28058,Shrimp Scampi,4.994404
+u_1oKVav9gExynsWniFBwd729McO8,debnbrian,12003,Traditional Lasagna,4.9997926
+u_1oKVav9gExynsWniFBwd729McO8,debnbrian,39581,Homemade Peanut Butter Cups,4.999701
+u_1oKVav9gExynsWniFBwd729McO8,debnbrian,45495,Gluten-Free Banana Bread,4.9996743
+u_1oKVav9gExynsWniFBwd729McO8,debnbrian,33457,Chunky Apple Cake,4.999392
+u_1oKVav9gExynsWniFBwd729McO8,debnbrian,957,Sandy’s Chocolate Cake,4.999296
+u_1oKVixEM1DsaUDufXWnlPKtkOYp,redmonc1,28058,Shrimp Scampi,5.0
+u_1oKVixEM1DsaUDufXWnlPKtkOYp,redmonc1,39581,Homemade Peanut Butter Cups,5.0
+u_1oKVixEM1DsaUDufXWnlPKtkOYp,redmonc1,17022,Vegetarian Linguine,5.0
+u_1oKVixEM1DsaUDufXWnlPKtkOYp,redmonc1,12003,Traditional Lasagna,4.9999995
+u_1oKVixEM1DsaUDufXWnlPKtkOYp,redmonc1,45495,Gluten-Free Banana Bread,4.9999995
+u_1oKVmUTFbOg1JSDueCWUW9X3GEy,Cookiemaster13,12003,Traditional Lasagna,4.999999
+u_1oKVmUTFbOg1JSDueCWUW9X3GEy,Cookiemaster13,18345,Simple Au Gratin Potatoes,4.999982
+u_1oKVmUTFbOg1JSDueCWUW9X3GEy,Cookiemaster13,28058,Shrimp Scampi,4.9998975
+u_1oKVmUTFbOg1JSDueCWUW9X3GEy,Cookiemaster13,17022,Vegetarian Linguine,4.9998946
+u_1oKVmUTFbOg1JSDueCWUW9X3GEy,Cookiemaster13,39581,Homemade Peanut Butter Cups,4.9997735
+u_1oKVZskcWCF2NqqbEvMCAEXAZIG,JillAndLea,12003,Traditional Lasagna,4.9999995
+u_1oKVZskcWCF2NqqbEvMCAEXAZIG,JillAndLea,28058,Shrimp Scampi,4.999999
+u_1oKVZskcWCF2NqqbEvMCAEXAZIG,JillAndLea,12700,Big Soft Ginger Cookies,4.9999914
+u_1oKVZskcWCF2NqqbEvMCAEXAZIG,JillAndLea,18345,Simple Au Gratin Potatoes,4.999991
+u_1oKVZskcWCF2NqqbEvMCAEXAZIG,JillAndLea,39581,Homemade Peanut Butter Cups,4.999954
+u_1oKVdbeyIGYYyoSvg3YzfUKSM7B,obsessedwithfood,12003,Traditional Lasagna,4.9999957
+u_1oKVdbeyIGYYyoSvg3YzfUKSM7B,obsessedwithfood,28058,Shrimp Scampi,4.9999948
+u_1oKVdbeyIGYYyoSvg3YzfUKSM7B,obsessedwithfood,35766,Cheeseburger Paradise Soup,4.9999843
+u_1oKVdbeyIGYYyoSvg3YzfUKSM7B,obsessedwithfood,39581,Homemade Peanut Butter Cups,4.9999776
+u_1oKVdbeyIGYYyoSvg3YzfUKSM7B,obsessedwithfood,45495,Gluten-Free Banana Bread,4.9999685
+u_1oKVdftfgUoJw4xMHCnsokmaRoW,Catbird513,12003,Traditional Lasagna,4.999971
+u_1oKVdftfgUoJw4xMHCnsokmaRoW,Catbird513,3143,Pumpkin Bars,4.9996448
+u_1oKVdftfgUoJw4xMHCnsokmaRoW,Catbird513,18345,Simple Au Gratin Potatoes,4.999344
+u_1oKVdftfgUoJw4xMHCnsokmaRoW,Catbird513,28058,Shrimp Scampi,4.9989977
+u_1oKVdftfgUoJw4xMHCnsokmaRoW,Catbird513,12700,Big Soft Ginger Cookies,4.9971
+u_1oKVZsc5N0Y7ltHsKAfmNihfU08,jetluvs2cook,14299,Creamy White Chili,5.0
+u_1oKVZsc5N0Y7ltHsKAfmNihfU08,jetluvs2cook,28058,Shrimp Scampi,5.0
+u_1oKVZsc5N0Y7ltHsKAfmNihfU08,jetluvs2cook,17022,Vegetarian Linguine,5.0
+u_1oKVZsc5N0Y7ltHsKAfmNihfU08,jetluvs2cook,12003,Traditional Lasagna,5.0
+u_1oKVZsc5N0Y7ltHsKAfmNihfU08,jetluvs2cook,39581,Homemade Peanut Butter Cups,5.0
+u_1oKVa8KiHWP3PBt7MOJKhXwO6x2,ChrisD1717,18345,Simple Au Gratin Potatoes,4.9999995
+u_1oKVa8KiHWP3PBt7MOJKhXwO6x2,ChrisD1717,28058,Shrimp Scampi,4.999999
+u_1oKVa8KiHWP3PBt7MOJKhXwO6x2,ChrisD1717,12700,Big Soft Ginger Cookies,4.9999986
+u_1oKVa8KiHWP3PBt7MOJKhXwO6x2,ChrisD1717,12003,Traditional Lasagna,4.999996
+u_1oKVa8KiHWP3PBt7MOJKhXwO6x2,ChrisD1717,35766,Cheeseburger Paradise Soup,4.999995
+u_1oKVZangmN67bJNxpyD1j55VJCj,tsuop,39581,Homemade Peanut Butter Cups,4.9999924
+u_1oKVZangmN67bJNxpyD1j55VJCj,tsuop,35766,Cheeseburger Paradise Soup,4.999987
+u_1oKVZangmN67bJNxpyD1j55VJCj,tsuop,45495,Gluten-Free Banana Bread,4.9999456
+u_1oKVZangmN67bJNxpyD1j55VJCj,tsuop,14299,Creamy White Chili,4.9999037
+u_1oKVZangmN67bJNxpyD1j55VJCj,tsuop,28058,Shrimp Scampi,4.999874
+u_1oKVZlYEnQRAz1PMlNmla7icLvh,MissKarla,12003,Traditional Lasagna,4.999994
+u_1oKVZlYEnQRAz1PMlNmla7icLvh,MissKarla,28058,Shrimp Scampi,4.999857
+u_1oKVZlYEnQRAz1PMlNmla7icLvh,MissKarla,18345,Simple Au Gratin Potatoes,4.999791
+u_1oKVZlYEnQRAz1PMlNmla7icLvh,MissKarla,33457,Chunky Apple Cake,4.9997005
+u_1oKVZlYEnQRAz1PMlNmla7icLvh,MissKarla,39581,Homemade Peanut Butter Cups,4.9996405
+u_1oKVog5ebEbZs6OrSQi2WiQO3IJ,deb9962,12003,Traditional Lasagna,4.999997
+u_1oKVog5ebEbZs6OrSQi2WiQO3IJ,deb9962,18345,Simple Au Gratin Potatoes,4.999977
+u_1oKVog5ebEbZs6OrSQi2WiQO3IJ,deb9962,12700,Big Soft Ginger Cookies,4.999927
+u_1oKVog5ebEbZs6OrSQi2WiQO3IJ,deb9962,28058,Shrimp Scampi,4.9998817
+u_1oKVog5ebEbZs6OrSQi2WiQO3IJ,deb9962,957,Sandy’s Chocolate Cake,4.9997354
+u_1oKVdsyqxzQKBuCOfXS7i5vDxb3,juicyfruit007,12003,Traditional Lasagna,4.999947
+u_1oKVdsyqxzQKBuCOfXS7i5vDxb3,juicyfruit007,39581,Homemade Peanut Butter Cups,4.9999094
+u_1oKVdsyqxzQKBuCOfXS7i5vDxb3,juicyfruit007,35766,Cheeseburger Paradise Soup,4.9998116
+u_1oKVdsyqxzQKBuCOfXS7i5vDxb3,juicyfruit007,28058,Shrimp Scampi,4.999703
+u_1oKVdsyqxzQKBuCOfXS7i5vDxb3,juicyfruit007,18345,Simple Au Gratin Potatoes,4.999512
+u_1oKVkKJDvEFQKZM2b62wueqCvQX,hchambers,12003,Traditional Lasagna,5.0
+u_1oKVkKJDvEFQKZM2b62wueqCvQX,hchambers,28058,Shrimp Scampi,4.99999
+u_1oKVkKJDvEFQKZM2b62wueqCvQX,hchambers,12700,Big Soft Ginger Cookies,4.9999876
+u_1oKVkKJDvEFQKZM2b62wueqCvQX,hchambers,18345,Simple Au Gratin Potatoes,4.99998
+u_1oKVkKJDvEFQKZM2b62wueqCvQX,hchambers,39581,Homemade Peanut Butter Cups,4.9999757
+u_1oKVZlMudnv9nvcRGj6fHB8YogN,wintermom9597,12003,Traditional Lasagna,4.999998
+u_1oKVZlMudnv9nvcRGj6fHB8YogN,wintermom9597,39581,Homemade Peanut Butter Cups,4.9999857
+u_1oKVZlMudnv9nvcRGj6fHB8YogN,wintermom9597,28058,Shrimp Scampi,4.9999657
+u_1oKVZlMudnv9nvcRGj6fHB8YogN,wintermom9597,18345,Simple Au Gratin Potatoes,4.9999285
+u_1oKVZlMudnv9nvcRGj6fHB8YogN,wintermom9597,39549,Forgotten Jambalaya,4.9994197
+u_1oKVcYWEuDOQondMr0G6EfR4hzf,AmyE007,12003,Traditional Lasagna,4.999913
+u_1oKVcYWEuDOQondMr0G6EfR4hzf,AmyE007,39581,Homemade Peanut Butter Cups,4.9991655
+u_1oKVcYWEuDOQondMr0G6EfR4hzf,AmyE007,28058,Shrimp Scampi,4.99782
+u_1oKVcYWEuDOQondMr0G6EfR4hzf,AmyE007,18345,Simple Au Gratin Potatoes,4.997117
+u_1oKVcYWEuDOQondMr0G6EfR4hzf,AmyE007,12700,Big Soft Ginger Cookies,4.9950647
+u_1oKVhO9GT0VLbyqNEdgVWFmaWHQ,mom5,35766,Cheeseburger Paradise Soup,5.0
+u_1oKVhO9GT0VLbyqNEdgVWFmaWHQ,mom5,28058,Shrimp Scampi,5.0
+u_1oKVhO9GT0VLbyqNEdgVWFmaWHQ,mom5,39581,Homemade Peanut Butter Cups,5.0
+u_1oKVhO9GT0VLbyqNEdgVWFmaWHQ,mom5,18345,Simple Au Gratin Potatoes,4.9999995
+u_1oKVhO9GT0VLbyqNEdgVWFmaWHQ,mom5,14299,Creamy White Chili,4.999999
+u_1oKVakfYCgfVuJgJskIe58dCnCz,ferryal,12700,Big Soft Ginger Cookies,5.0
+u_1oKVakfYCgfVuJgJskIe58dCnCz,ferryal,18345,Simple Au Gratin Potatoes,4.9999995
+u_1oKVakfYCgfVuJgJskIe58dCnCz,ferryal,28058,Shrimp Scampi,4.9999995
+u_1oKVakfYCgfVuJgJskIe58dCnCz,ferryal,12003,Traditional Lasagna,4.9999995
+u_1oKVakfYCgfVuJgJskIe58dCnCz,ferryal,957,Sandy’s Chocolate Cake,4.999999
+u_1oKVZk5SSueZta9FvIxnrCQtSGW,zookeeperk,28058,Shrimp Scampi,4.999999
+u_1oKVZk5SSueZta9FvIxnrCQtSGW,zookeeperk,39581,Homemade Peanut Butter Cups,4.999999
+u_1oKVZk5SSueZta9FvIxnrCQtSGW,zookeeperk,35766,Cheeseburger Paradise Soup,4.9999986
+u_1oKVZk5SSueZta9FvIxnrCQtSGW,zookeeperk,12003,Traditional Lasagna,4.999997
+u_1oKVZk5SSueZta9FvIxnrCQtSGW,zookeeperk,18345,Simple Au Gratin Potatoes,4.999995
+u_1oKVZvKfuqN90E1Lsti5UnfluHY,chin-chilla,28058,Shrimp Scampi,5.0
+u_1oKVZvKfuqN90E1Lsti5UnfluHY,chin-chilla,35766,Cheeseburger Paradise Soup,5.0
+u_1oKVZvKfuqN90E1Lsti5UnfluHY,chin-chilla,14299,Creamy White Chili,4.9999995
+u_1oKVZvKfuqN90E1Lsti5UnfluHY,chin-chilla,39581,Homemade Peanut Butter Cups,4.9999995
+u_1oKVZvKfuqN90E1Lsti5UnfluHY,chin-chilla,12003,Traditional Lasagna,4.9999995
+u_1oKVabYwI2fZAnwYCZ0MaaxeDs9,germanycook,14299,Creamy White Chili,5.0
+u_1oKVabYwI2fZAnwYCZ0MaaxeDs9,germanycook,12003,Traditional Lasagna,5.0
+u_1oKVabYwI2fZAnwYCZ0MaaxeDs9,germanycook,17022,Vegetarian Linguine,5.0
+u_1oKVabYwI2fZAnwYCZ0MaaxeDs9,germanycook,35766,Cheeseburger Paradise Soup,5.0
+u_1oKVabYwI2fZAnwYCZ0MaaxeDs9,germanycook,39581,Homemade Peanut Butter Cups,5.0
+u_1oKVeep1X2cpiA469U1Zdi7cfuE,kerrynjames,12003,Traditional Lasagna,4.9992914
+u_1oKVeep1X2cpiA469U1Zdi7cfuE,kerrynjames,3143,Pumpkin Bars,4.9984827
+u_1oKVeep1X2cpiA469U1Zdi7cfuE,kerrynjames,45495,Gluten-Free Banana Bread,4.978965
+u_1oKVeep1X2cpiA469U1Zdi7cfuE,kerrynjames,39581,Homemade Peanut Butter Cups,4.9754744
+u_1oKVeep1X2cpiA469U1Zdi7cfuE,kerrynjames,18345,Simple Au Gratin Potatoes,4.9719524
+u_1oKVZTi0UOjTtdNBtFIYYHyN2x6,LauraManning,12003,Traditional Lasagna,4.9999967
+u_1oKVZTi0UOjTtdNBtFIYYHyN2x6,LauraManning,18345,Simple Au Gratin Potatoes,4.999979
+u_1oKVZTi0UOjTtdNBtFIYYHyN2x6,LauraManning,28058,Shrimp Scampi,4.999971
+u_1oKVZTi0UOjTtdNBtFIYYHyN2x6,LauraManning,14299,Creamy White Chili,4.999908
+u_1oKVZTi0UOjTtdNBtFIYYHyN2x6,LauraManning,12700,Big Soft Ginger Cookies,4.9999075
+u_1oKVbANACJTTSSweHZ3IZ47elIO,cherrylady,12003,Traditional Lasagna,4.9988327
+u_1oKVbANACJTTSSweHZ3IZ47elIO,cherrylady,39581,Homemade Peanut Butter Cups,4.996895
+u_1oKVbANACJTTSSweHZ3IZ47elIO,cherrylady,35766,Cheeseburger Paradise Soup,4.995735
+u_1oKVbANACJTTSSweHZ3IZ47elIO,cherrylady,28058,Shrimp Scampi,4.993996
+u_1oKVbANACJTTSSweHZ3IZ47elIO,cherrylady,14299,Creamy White Chili,4.9934053
+u_1oKVbut7re70gh1Se2cKaDttD2C,klandrews84,12003,Traditional Lasagna,4.9997945
+u_1oKVbut7re70gh1Se2cKaDttD2C,klandrews84,28058,Shrimp Scampi,4.9945707
+u_1oKVbut7re70gh1Se2cKaDttD2C,klandrews84,39581,Homemade Peanut Butter Cups,4.992835
+u_1oKVbut7re70gh1Se2cKaDttD2C,klandrews84,12700,Big Soft Ginger Cookies,4.992058
+u_1oKVbut7re70gh1Se2cKaDttD2C,klandrews84,3143,Pumpkin Bars,4.989506
+u_1oKVZzjdLKoHGr7ebNDgThVscqd,luigimon,39581,Homemade Peanut Butter Cups,4.9999948
+u_1oKVZzjdLKoHGr7ebNDgThVscqd,luigimon,28058,Shrimp Scampi,4.999985
+u_1oKVZzjdLKoHGr7ebNDgThVscqd,luigimon,12003,Traditional Lasagna,4.99998
+u_1oKVZzjdLKoHGr7ebNDgThVscqd,luigimon,18345,Simple Au Gratin Potatoes,4.999974
+u_1oKVZzjdLKoHGr7ebNDgThVscqd,luigimon,45495,Gluten-Free Banana Bread,4.999919
+u_1oKVf8F9NqQtAw2Y4dE5IhJuNBg,IslandWife,28058,Shrimp Scampi,4.999999
+u_1oKVf8F9NqQtAw2Y4dE5IhJuNBg,IslandWife,39581,Homemade Peanut Butter Cups,4.9999986
+u_1oKVf8F9NqQtAw2Y4dE5IhJuNBg,IslandWife,12003,Traditional Lasagna,4.9999976
+u_1oKVf8F9NqQtAw2Y4dE5IhJuNBg,IslandWife,45495,Gluten-Free Banana Bread,4.9999843
+u_1oKVf8F9NqQtAw2Y4dE5IhJuNBg,IslandWife,35766,Cheeseburger Paradise Soup,4.9999824
+u_1oKVeOeAeqriVeF23kDrEnVOGks,keverwann,12003,Traditional Lasagna,4.999972
+u_1oKVeOeAeqriVeF23kDrEnVOGks,keverwann,28058,Shrimp Scampi,4.9990234
+u_1oKVeOeAeqriVeF23kDrEnVOGks,keverwann,39581,Homemade Peanut Butter Cups,4.998929
+u_1oKVeOeAeqriVeF23kDrEnVOGks,keverwann,35766,Cheeseburger Paradise Soup,4.998626
+u_1oKVeOeAeqriVeF23kDrEnVOGks,keverwann,12700,Big Soft Ginger Cookies,4.997369
+u_1oKVZq3XZc7rlFFpMKTJiO6avza,DWare5883,12003,Traditional Lasagna,4.9999967
+u_1oKVZq3XZc7rlFFpMKTJiO6avza,DWare5883,28058,Shrimp Scampi,4.9998646
+u_1oKVZq3XZc7rlFFpMKTJiO6avza,DWare5883,12700,Big Soft Ginger Cookies,4.9993978
+u_1oKVZq3XZc7rlFFpMKTJiO6avza,DWare5883,957,Sandy’s Chocolate Cake,4.999364
+u_1oKVZq3XZc7rlFFpMKTJiO6avza,DWare5883,3143,Pumpkin Bars,4.998713
+u_1oKbG5jvrFHeG7LCseTkgikAkwH,AllisonWilliamson,12003,Traditional Lasagna,4.9999976
+u_1oKbG5jvrFHeG7LCseTkgikAkwH,AllisonWilliamson,28058,Shrimp Scampi,4.9999924
+u_1oKbG5jvrFHeG7LCseTkgikAkwH,AllisonWilliamson,39581,Homemade Peanut Butter Cups,4.9999895
+u_1oKbG5jvrFHeG7LCseTkgikAkwH,AllisonWilliamson,18345,Simple Au Gratin Potatoes,4.9999776
+u_1oKbG5jvrFHeG7LCseTkgikAkwH,AllisonWilliamson,3143,Pumpkin Bars,4.999891
+u_1oKVaIrsWHkFypYnwYxZt7cJSKH,xlsalbums,12003,Traditional Lasagna,4.999893
+u_1oKVaIrsWHkFypYnwYxZt7cJSKH,xlsalbums,18345,Simple Au Gratin Potatoes,4.9994063
+u_1oKVaIrsWHkFypYnwYxZt7cJSKH,xlsalbums,11767,Quick Cream of Mushroom Soup,4.9981794
+u_1oKVaIrsWHkFypYnwYxZt7cJSKH,xlsalbums,17022,Vegetarian Linguine,4.9959784
+u_1oKVaIrsWHkFypYnwYxZt7cJSKH,xlsalbums,28058,Shrimp Scampi,4.99553
+u_1oKVZdmUbQTYMVdbXOpVfRQuHm9,No_Time_To_Cook,12003,Traditional Lasagna,4.999984
+u_1oKVZdmUbQTYMVdbXOpVfRQuHm9,No_Time_To_Cook,39581,Homemade Peanut Butter Cups,4.9999795
+u_1oKVZdmUbQTYMVdbXOpVfRQuHm9,No_Time_To_Cook,28058,Shrimp Scampi,4.9999347
+u_1oKVZdmUbQTYMVdbXOpVfRQuHm9,No_Time_To_Cook,12700,Big Soft Ginger Cookies,4.999887
+u_1oKVZdmUbQTYMVdbXOpVfRQuHm9,No_Time_To_Cook,18345,Simple Au Gratin Potatoes,4.999804
+u_1oKVaZ46Quo1bIhZqYg2ezh1FOV,Kdorfman,12003,Traditional Lasagna,4.9999995
+u_1oKVaZ46Quo1bIhZqYg2ezh1FOV,Kdorfman,957,Sandy’s Chocolate Cake,4.9999914
+u_1oKVaZ46Quo1bIhZqYg2ezh1FOV,Kdorfman,12700,Big Soft Ginger Cookies,4.9999866
+u_1oKVaZ46Quo1bIhZqYg2ezh1FOV,Kdorfman,33457,Chunky Apple Cake,4.9999766
+u_1oKVaZ46Quo1bIhZqYg2ezh1FOV,Kdorfman,18345,Simple Au Gratin Potatoes,4.999975
+u_1oKVyS7GaGSCgbaAJtr1jBji3K3,krysfielder,12003,Traditional Lasagna,4.9997797
+u_1oKVyS7GaGSCgbaAJtr1jBji3K3,krysfielder,28058,Shrimp Scampi,4.9986286
+u_1oKVyS7GaGSCgbaAJtr1jBji3K3,krysfielder,957,Sandy’s Chocolate Cake,4.9985485
+u_1oKVyS7GaGSCgbaAJtr1jBji3K3,krysfielder,39581,Homemade Peanut Butter Cups,4.9964914
+u_1oKVyS7GaGSCgbaAJtr1jBji3K3,krysfielder,3143,Pumpkin Bars,4.9934607
+u_1oKWL4CuzpDylhkntiO5c7Yv2Jl,cbybee,45495,Gluten-Free Banana Bread,5.0
+u_1oKWL4CuzpDylhkntiO5c7Yv2Jl,cbybee,39581,Homemade Peanut Butter Cups,5.0
+u_1oKWL4CuzpDylhkntiO5c7Yv2Jl,cbybee,28058,Shrimp Scampi,5.0
+u_1oKWL4CuzpDylhkntiO5c7Yv2Jl,cbybee,35766,Cheeseburger Paradise Soup,4.9999995
+u_1oKWL4CuzpDylhkntiO5c7Yv2Jl,cbybee,18345,Simple Au Gratin Potatoes,4.9999995
+u_1oKVjLwkmFxMFBjxz6AdVKFxS92,pschube,12003,Traditional Lasagna,4.9999995
+u_1oKVjLwkmFxMFBjxz6AdVKFxS92,pschube,28058,Shrimp Scampi,4.9999995
+u_1oKVjLwkmFxMFBjxz6AdVKFxS92,pschube,39581,Homemade Peanut Butter Cups,4.999999
+u_1oKVjLwkmFxMFBjxz6AdVKFxS92,pschube,35766,Cheeseburger Paradise Soup,4.9999986
+u_1oKVjLwkmFxMFBjxz6AdVKFxS92,pschube,14299,Creamy White Chili,4.9999976
+u_1oKVa4my2LXJ25e5Bd6sxZC37xq,wasoongu,12003,Traditional Lasagna,4.9999723
+u_1oKVa4my2LXJ25e5Bd6sxZC37xq,wasoongu,28058,Shrimp Scampi,4.9998536
+u_1oKVa4my2LXJ25e5Bd6sxZC37xq,wasoongu,39581,Homemade Peanut Butter Cups,4.9996533
+u_1oKVa4my2LXJ25e5Bd6sxZC37xq,wasoongu,14299,Creamy White Chili,4.9990015
+u_1oKVa4my2LXJ25e5Bd6sxZC37xq,wasoongu,3143,Pumpkin Bars,4.9987493
+u_1oKVfCc4ZF0s0eClwJvZTN2muSW,Kimberly Hines,3309,Best Ever Banana Bread,5.0
+u_1oKVfCc4ZF0s0eClwJvZTN2muSW,Kimberly Hines,18345,Simple Au Gratin Potatoes,5.0
+u_1oKVfCc4ZF0s0eClwJvZTN2muSW,Kimberly Hines,28058,Shrimp Scampi,5.0
+u_1oKVfCc4ZF0s0eClwJvZTN2muSW,Kimberly Hines,39581,Homemade Peanut Butter Cups,5.0
+u_1oKVfCc4ZF0s0eClwJvZTN2muSW,Kimberly Hines,12700,Big Soft Ginger Cookies,5.0
+u_1oKVfRPpnrDiMBkOSzIMQ9KaJIB,Meesh233,12003,Traditional Lasagna,4.999994
+u_1oKVfRPpnrDiMBkOSzIMQ9KaJIB,Meesh233,28058,Shrimp Scampi,4.999503
+u_1oKVfRPpnrDiMBkOSzIMQ9KaJIB,Meesh233,3143,Pumpkin Bars,4.998993
+u_1oKVfRPpnrDiMBkOSzIMQ9KaJIB,Meesh233,39581,Homemade Peanut Butter Cups,4.9982805
+u_1oKVfRPpnrDiMBkOSzIMQ9KaJIB,Meesh233,12700,Big Soft Ginger Cookies,4.9964275
+u_1oKVZfPfAjHBTg3w5dVHbNyXh0J,Summy,39581,Homemade Peanut Butter Cups,4.99992
+u_1oKVZfPfAjHBTg3w5dVHbNyXh0J,Summy,12003,Traditional Lasagna,4.999793
+u_1oKVZfPfAjHBTg3w5dVHbNyXh0J,Summy,28058,Shrimp Scampi,4.9995856
+u_1oKVZfPfAjHBTg3w5dVHbNyXh0J,Summy,14299,Creamy White Chili,4.999535
+u_1oKVZfPfAjHBTg3w5dVHbNyXh0J,Summy,17022,Vegetarian Linguine,4.999458
+u_1oKViYcsgLsMPuJqQWcDav8rnWB,dschultz01,3143,Pumpkin Bars,4.9996543
+u_1oKViYcsgLsMPuJqQWcDav8rnWB,dschultz01,45495,Gluten-Free Banana Bread,4.99949
+u_1oKViYcsgLsMPuJqQWcDav8rnWB,dschultz01,28058,Shrimp Scampi,4.9993143
+u_1oKViYcsgLsMPuJqQWcDav8rnWB,dschultz01,12003,Traditional Lasagna,4.9990473
+u_1oKViYcsgLsMPuJqQWcDav8rnWB,dschultz01,7708,Basic Banana Muffins,4.998737
+u_1oKVaZNNOozViDDdU3EgnOdlHxt,mom2lauren,12003,Traditional Lasagna,5.0
+u_1oKVaZNNOozViDDdU3EgnOdlHxt,mom2lauren,28058,Shrimp Scampi,4.999999
+u_1oKVaZNNOozViDDdU3EgnOdlHxt,mom2lauren,18345,Simple Au Gratin Potatoes,4.9999967
+u_1oKVaZNNOozViDDdU3EgnOdlHxt,mom2lauren,12700,Big Soft Ginger Cookies,4.999993
+u_1oKVaZNNOozViDDdU3EgnOdlHxt,mom2lauren,39581,Homemade Peanut Butter Cups,4.999991
+u_1oKVcPemJ66oqBPVF8H82JdbYQF,hamhock32,12003,Traditional Lasagna,5.0
+u_1oKVcPemJ66oqBPVF8H82JdbYQF,hamhock32,39581,Homemade Peanut Butter Cups,5.0
+u_1oKVcPemJ66oqBPVF8H82JdbYQF,hamhock32,28058,Shrimp Scampi,4.9999995
+u_1oKVcPemJ66oqBPVF8H82JdbYQF,hamhock32,17022,Vegetarian Linguine,4.9999986
+u_1oKVcPemJ66oqBPVF8H82JdbYQF,hamhock32,35766,Cheeseburger Paradise Soup,4.999998
+u_1oKVa5hOY7MtyvqQ30BTNf3M7IM,angelasandoval,28058,Shrimp Scampi,4.999877
+u_1oKVa5hOY7MtyvqQ30BTNf3M7IM,angelasandoval,45495,Gluten-Free Banana Bread,4.999872
+u_1oKVa5hOY7MtyvqQ30BTNf3M7IM,angelasandoval,12003,Traditional Lasagna,4.9998436
+u_1oKVa5hOY7MtyvqQ30BTNf3M7IM,angelasandoval,35766,Cheeseburger Paradise Soup,4.9996853
+u_1oKVa5hOY7MtyvqQ30BTNf3M7IM,angelasandoval,17022,Vegetarian Linguine,4.9996576
+u_1oKW6NZa62LKB7azBiREX79TMep,angela leach,12003,Traditional Lasagna,4.9996195
+u_1oKW6NZa62LKB7azBiREX79TMep,angela leach,18345,Simple Au Gratin Potatoes,4.992528
+u_1oKW6NZa62LKB7azBiREX79TMep,angela leach,39581,Homemade Peanut Butter Cups,4.9870706
+u_1oKW6NZa62LKB7azBiREX79TMep,angela leach,28058,Shrimp Scampi,4.980647
+u_1oKW6NZa62LKB7azBiREX79TMep,angela leach,12700,Big Soft Ginger Cookies,4.978915
+u_1oKVipvyDx0tkd5rSny0CXgN98l,smagal,12003,Traditional Lasagna,4.9994245
+u_1oKVipvyDx0tkd5rSny0CXgN98l,smagal,39581,Homemade Peanut Butter Cups,4.9965296
+u_1oKVipvyDx0tkd5rSny0CXgN98l,smagal,18345,Simple Au Gratin Potatoes,4.9951124
+u_1oKVipvyDx0tkd5rSny0CXgN98l,smagal,3143,Pumpkin Bars,4.994614
+u_1oKVipvyDx0tkd5rSny0CXgN98l,smagal,35766,Cheeseburger Paradise Soup,4.99142
+u_1oKVhRBvrKSr6yc2XJQovvBbUSO,amberjcarothers,39581,Homemade Peanut Butter Cups,4.9999995
+u_1oKVhRBvrKSr6yc2XJQovvBbUSO,amberjcarothers,12003,Traditional Lasagna,4.9999995
+u_1oKVhRBvrKSr6yc2XJQovvBbUSO,amberjcarothers,28058,Shrimp Scampi,4.999999
+u_1oKVhRBvrKSr6yc2XJQovvBbUSO,amberjcarothers,18345,Simple Au Gratin Potatoes,4.9999976
+u_1oKVhRBvrKSr6yc2XJQovvBbUSO,amberjcarothers,17022,Vegetarian Linguine,4.999996
+u_1oKVZjhJTlE5YiXkfXN8aXlWlCt,BakinGymnast,12003,Traditional Lasagna,5.0
+u_1oKVZjhJTlE5YiXkfXN8aXlWlCt,BakinGymnast,28058,Shrimp Scampi,4.9999914
+u_1oKVZjhJTlE5YiXkfXN8aXlWlCt,BakinGymnast,39581,Homemade Peanut Butter Cups,4.9999843
+u_1oKVZjhJTlE5YiXkfXN8aXlWlCt,BakinGymnast,35766,Cheeseburger Paradise Soup,4.999887
+u_1oKVZjhJTlE5YiXkfXN8aXlWlCt,BakinGymnast,957,Sandy’s Chocolate Cake,4.9997773
+u_1oKVZlqtik5GdyvxcpjrBeLXcAj,contrarywife,12003,Traditional Lasagna,4.999997
+u_1oKVZlqtik5GdyvxcpjrBeLXcAj,contrarywife,39581,Homemade Peanut Butter Cups,4.999995
+u_1oKVZlqtik5GdyvxcpjrBeLXcAj,contrarywife,28058,Shrimp Scampi,4.9999943
+u_1oKVZlqtik5GdyvxcpjrBeLXcAj,contrarywife,35766,Cheeseburger Paradise Soup,4.999991
+u_1oKVZlqtik5GdyvxcpjrBeLXcAj,contrarywife,14299,Creamy White Chili,4.999989
+u_1oKVbzAa9VifTd90VCqWPWUyD4S,erinmarie78,12003,Traditional Lasagna,4.999548
+u_1oKVbzAa9VifTd90VCqWPWUyD4S,erinmarie78,14299,Creamy White Chili,4.999421
+u_1oKVbzAa9VifTd90VCqWPWUyD4S,erinmarie78,3143,Pumpkin Bars,4.9992733
+u_1oKVbzAa9VifTd90VCqWPWUyD4S,erinmarie78,28058,Shrimp Scampi,4.9987044
+u_1oKVbzAa9VifTd90VCqWPWUyD4S,erinmarie78,39581,Homemade Peanut Butter Cups,4.998378
+u_1oKVte8ItzQEjMApwm6HL3baRJn,mtorres3,39581,Homemade Peanut Butter Cups,4.9999986
+u_1oKVte8ItzQEjMApwm6HL3baRJn,mtorres3,17022,Vegetarian Linguine,4.999991
+u_1oKVte8ItzQEjMApwm6HL3baRJn,mtorres3,12003,Traditional Lasagna,4.999988
+u_1oKVte8ItzQEjMApwm6HL3baRJn,mtorres3,28058,Shrimp Scampi,4.9999876
+u_1oKVte8ItzQEjMApwm6HL3baRJn,mtorres3,45495,Gluten-Free Banana Bread,4.99997
+u_1oKVg8weugM0s9lOTC3T20UpCOk,justgottabezen,12003,Traditional Lasagna,4.9999995
+u_1oKVg8weugM0s9lOTC3T20UpCOk,justgottabezen,28058,Shrimp Scampi,4.9999976
+u_1oKVg8weugM0s9lOTC3T20UpCOk,justgottabezen,3143,Pumpkin Bars,4.9999895
+u_1oKVg8weugM0s9lOTC3T20UpCOk,justgottabezen,17022,Vegetarian Linguine,4.9999743
+u_1oKVg8weugM0s9lOTC3T20UpCOk,justgottabezen,39581,Homemade Peanut Butter Cups,4.9999623
+u_1oKVdnGOtUxBZc3kMCdQaFjzDG5,Peggie0203,18345,Simple Au Gratin Potatoes,4.999973
+u_1oKVdnGOtUxBZc3kMCdQaFjzDG5,Peggie0203,12700,Big Soft Ginger Cookies,4.999957
+u_1oKVdnGOtUxBZc3kMCdQaFjzDG5,Peggie0203,12003,Traditional Lasagna,4.999905
+u_1oKVdnGOtUxBZc3kMCdQaFjzDG5,Peggie0203,2912,Zucchini Pizza Casserole,4.999665
+u_1oKVdnGOtUxBZc3kMCdQaFjzDG5,Peggie0203,33457,Chunky Apple Cake,4.9996605
+u_1oKVepPR4HDsIYcT1zK347AD8ZH,aicenhour,35766,Cheeseburger Paradise Soup,4.9999995
+u_1oKVepPR4HDsIYcT1zK347AD8ZH,aicenhour,12003,Traditional Lasagna,4.999998
+u_1oKVepPR4HDsIYcT1zK347AD8ZH,aicenhour,28058,Shrimp Scampi,4.999995
+u_1oKVepPR4HDsIYcT1zK347AD8ZH,aicenhour,14299,Creamy White Chili,4.9999943
+u_1oKVepPR4HDsIYcT1zK347AD8ZH,aicenhour,39581,Homemade Peanut Butter Cups,4.9999933
+u_1oKVZagX4nkLravRce6v3sDjTYT,Worshipguy,12003,Traditional Lasagna,4.9999866
+u_1oKVZagX4nkLravRce6v3sDjTYT,Worshipguy,28058,Shrimp Scampi,4.9999695
+u_1oKVZagX4nkLravRce6v3sDjTYT,Worshipguy,18345,Simple Au Gratin Potatoes,4.999968
+u_1oKVZagX4nkLravRce6v3sDjTYT,Worshipguy,39581,Homemade Peanut Butter Cups,4.999916
+u_1oKVZagX4nkLravRce6v3sDjTYT,Worshipguy,3143,Pumpkin Bars,4.999796
+u_1oKVcMcMkRngfkIFFw9fM00Gtbc,Timbergurl1,12003,Traditional Lasagna,4.9998484
+u_1oKVcMcMkRngfkIFFw9fM00Gtbc,Timbergurl1,28058,Shrimp Scampi,4.999824
+u_1oKVcMcMkRngfkIFFw9fM00Gtbc,Timbergurl1,39581,Homemade Peanut Butter Cups,4.999715
+u_1oKVcMcMkRngfkIFFw9fM00Gtbc,Timbergurl1,35766,Cheeseburger Paradise Soup,4.999133
+u_1oKVcMcMkRngfkIFFw9fM00Gtbc,Timbergurl1,17022,Vegetarian Linguine,4.998975
+u_1oKVZiIZuaKs3QSzgHgkH01L7pA,Angel182009,39581,Homemade Peanut Butter Cups,4.9999995
+u_1oKVZiIZuaKs3QSzgHgkH01L7pA,Angel182009,28058,Shrimp Scampi,4.999999
+u_1oKVZiIZuaKs3QSzgHgkH01L7pA,Angel182009,35766,Cheeseburger Paradise Soup,4.9999957
+u_1oKVZiIZuaKs3QSzgHgkH01L7pA,Angel182009,14299,Creamy White Chili,4.9999948
+u_1oKVZiIZuaKs3QSzgHgkH01L7pA,Angel182009,45495,Gluten-Free Banana Bread,4.9999924
+u_1oKVZtw5YkzvxHnWY47AALJJRN1,Gramma Amy,12003,Traditional Lasagna,4.999998
+u_1oKVZtw5YkzvxHnWY47AALJJRN1,Gramma Amy,39581,Homemade Peanut Butter Cups,4.9999967
+u_1oKVZtw5YkzvxHnWY47AALJJRN1,Gramma Amy,18345,Simple Au Gratin Potatoes,4.999996
+u_1oKVZtw5YkzvxHnWY47AALJJRN1,Gramma Amy,28058,Shrimp Scampi,4.9999957
+u_1oKVZtw5YkzvxHnWY47AALJJRN1,Gramma Amy,35766,Cheeseburger Paradise Soup,4.999984
+u_1oKVaX9638PMHxPqv1BapCBDhaV,Igraine32,12003,Traditional Lasagna,5.0
+u_1oKVaX9638PMHxPqv1BapCBDhaV,Igraine32,28058,Shrimp Scampi,4.9999957
+u_1oKVaX9638PMHxPqv1BapCBDhaV,Igraine32,12700,Big Soft Ginger Cookies,4.9999866
+u_1oKVaX9638PMHxPqv1BapCBDhaV,Igraine32,957,Sandy’s Chocolate Cake,4.99998
+u_1oKVaX9638PMHxPqv1BapCBDhaV,Igraine32,33457,Chunky Apple Cake,4.9999795
+u_1oKVd3yw1GUizOlS6lLqS8HxMFf,KatyH3,12003,Traditional Lasagna,5.0
+u_1oKVd3yw1GUizOlS6lLqS8HxMFf,KatyH3,28058,Shrimp Scampi,5.0
+u_1oKVd3yw1GUizOlS6lLqS8HxMFf,KatyH3,39581,Homemade Peanut Butter Cups,4.9999995
+u_1oKVd3yw1GUizOlS6lLqS8HxMFf,KatyH3,17022,Vegetarian Linguine,4.9999976
+u_1oKVd3yw1GUizOlS6lLqS8HxMFf,KatyH3,45495,Gluten-Free Banana Bread,4.9999976
+u_1oKVbXQaRUOa0GmdFRMLpEP2R9L,dzz1qy,12003,Traditional Lasagna,4.9999967
+u_1oKVbXQaRUOa0GmdFRMLpEP2R9L,dzz1qy,3143,Pumpkin Bars,4.999835
+u_1oKVbXQaRUOa0GmdFRMLpEP2R9L,dzz1qy,12700,Big Soft Ginger Cookies,4.999737
+u_1oKVbXQaRUOa0GmdFRMLpEP2R9L,dzz1qy,957,Sandy’s Chocolate Cake,4.999259
+u_1oKVbXQaRUOa0GmdFRMLpEP2R9L,dzz1qy,28058,Shrimp Scampi,4.998846
+u_1oKVaIkZ1SdaUXxgmmdtrMlcUsi,lynn1018,12003,Traditional Lasagna,4.9996567
+u_1oKVaIkZ1SdaUXxgmmdtrMlcUsi,lynn1018,28058,Shrimp Scampi,4.997843
+u_1oKVaIkZ1SdaUXxgmmdtrMlcUsi,lynn1018,3143,Pumpkin Bars,4.995902
+u_1oKVaIkZ1SdaUXxgmmdtrMlcUsi,lynn1018,39581,Homemade Peanut Butter Cups,4.994356
+u_1oKVaIkZ1SdaUXxgmmdtrMlcUsi,lynn1018,17022,Vegetarian Linguine,4.9903736
+u_1oKVZjPKhLDLXjT59RoLFX6cU1D,dawnrosanne,17022,Vegetarian Linguine,5.0
+u_1oKVZjPKhLDLXjT59RoLFX6cU1D,dawnrosanne,28058,Shrimp Scampi,5.0
+u_1oKVZjPKhLDLXjT59RoLFX6cU1D,dawnrosanne,35766,Cheeseburger Paradise Soup,5.0
+u_1oKVZjPKhLDLXjT59RoLFX6cU1D,dawnrosanne,45495,Gluten-Free Banana Bread,5.0
+u_1oKVZjPKhLDLXjT59RoLFX6cU1D,dawnrosanne,18345,Simple Au Gratin Potatoes,5.0
+u_1oKVqZrSpbwLHDizQvPNcD5WJGY,gratefulservant_AZ,12003,Traditional Lasagna,4.9999423
+u_1oKVqZrSpbwLHDizQvPNcD5WJGY,gratefulservant_AZ,3143,Pumpkin Bars,4.999628
+u_1oKVqZrSpbwLHDizQvPNcD5WJGY,gratefulservant_AZ,28058,Shrimp Scampi,4.999436
+u_1oKVqZrSpbwLHDizQvPNcD5WJGY,gratefulservant_AZ,17022,Vegetarian Linguine,4.998801
+u_1oKVqZrSpbwLHDizQvPNcD5WJGY,gratefulservant_AZ,18345,Simple Au Gratin Potatoes,4.9983377
+u_1oKVa8znNNUFuAjEEFKHpaxvjDE,marciedarciestuff,18345,Simple Au Gratin Potatoes,4.9993076
+u_1oKVa8znNNUFuAjEEFKHpaxvjDE,marciedarciestuff,12003,Traditional Lasagna,4.9988213
+u_1oKVa8znNNUFuAjEEFKHpaxvjDE,marciedarciestuff,2912,Zucchini Pizza Casserole,4.994287
+u_1oKVa8znNNUFuAjEEFKHpaxvjDE,marciedarciestuff,39581,Homemade Peanut Butter Cups,4.994198
+u_1oKVa8znNNUFuAjEEFKHpaxvjDE,marciedarciestuff,45495,Gluten-Free Banana Bread,4.9937325
+u_1oKYdHn90lsGohgdmhyXKPTmz6f,GrannyTrimpe,28058,Shrimp Scampi,4.9999995
+u_1oKYdHn90lsGohgdmhyXKPTmz6f,GrannyTrimpe,39581,Homemade Peanut Butter Cups,4.9999995
+u_1oKYdHn90lsGohgdmhyXKPTmz6f,GrannyTrimpe,12003,Traditional Lasagna,4.999998
+u_1oKYdHn90lsGohgdmhyXKPTmz6f,GrannyTrimpe,45495,Gluten-Free Banana Bread,4.9999976
+u_1oKYdHn90lsGohgdmhyXKPTmz6f,GrannyTrimpe,35766,Cheeseburger Paradise Soup,4.9999967
+u_1oKVmOXwePvufi7CzDQSY5YeJeD,recipehound54,957,Sandy’s Chocolate Cake,5.0
+u_1oKVmOXwePvufi7CzDQSY5YeJeD,recipehound54,12700,Big Soft Ginger Cookies,5.0
+u_1oKVmOXwePvufi7CzDQSY5YeJeD,recipehound54,12003,Traditional Lasagna,5.0
+u_1oKVmOXwePvufi7CzDQSY5YeJeD,recipehound54,18345,Simple Au Gratin Potatoes,5.0
+u_1oKVmOXwePvufi7CzDQSY5YeJeD,recipehound54,28058,Shrimp Scampi,5.0
+u_1oKVd4Lfa0W2rvviyfWOXbD5r1t,dollargirl,18345,Simple Au Gratin Potatoes,5.0
+u_1oKVd4Lfa0W2rvviyfWOXbD5r1t,dollargirl,39581,Homemade Peanut Butter Cups,5.0
+u_1oKVd4Lfa0W2rvviyfWOXbD5r1t,dollargirl,12700,Big Soft Ginger Cookies,5.0
+u_1oKVd4Lfa0W2rvviyfWOXbD5r1t,dollargirl,12003,Traditional Lasagna,5.0
+u_1oKVd4Lfa0W2rvviyfWOXbD5r1t,dollargirl,17022,Vegetarian Linguine,5.0
+u_1oKViZqFyu7eRX3RzHbrCbYg7wh,amehart,28058,Shrimp Scampi,4.9999976
+u_1oKViZqFyu7eRX3RzHbrCbYg7wh,amehart,12003,Traditional Lasagna,4.9999976
+u_1oKViZqFyu7eRX3RzHbrCbYg7wh,amehart,12700,Big Soft Ginger Cookies,4.999993
+u_1oKViZqFyu7eRX3RzHbrCbYg7wh,amehart,18345,Simple Au Gratin Potatoes,4.99997
+u_1oKViZqFyu7eRX3RzHbrCbYg7wh,amehart,957,Sandy’s Chocolate Cake,4.9999676
+u_1oKVa5NLV1egNywZ8ZgDzjY2RD7,Medic 716,12003,Traditional Lasagna,4.9999976
+u_1oKVa5NLV1egNywZ8ZgDzjY2RD7,Medic 716,28058,Shrimp Scampi,4.999981
+u_1oKVa5NLV1egNywZ8ZgDzjY2RD7,Medic 716,957,Sandy’s Chocolate Cake,4.999939
+u_1oKVa5NLV1egNywZ8ZgDzjY2RD7,Medic 716,12700,Big Soft Ginger Cookies,4.9998713
+u_1oKVa5NLV1egNywZ8ZgDzjY2RD7,Medic 716,39581,Homemade Peanut Butter Cups,4.9998403
+u_1oKVaoQBeEjijuLuGXcLWClULrd,knollbrookcook,12003,Traditional Lasagna,5.0
+u_1oKVaoQBeEjijuLuGXcLWClULrd,knollbrookcook,28058,Shrimp Scampi,4.999977
+u_1oKVaoQBeEjijuLuGXcLWClULrd,knollbrookcook,39581,Homemade Peanut Butter Cups,4.999963
+u_1oKVaoQBeEjijuLuGXcLWClULrd,knollbrookcook,1821,Blueberry French Toast,4.999958
+u_1oKVaoQBeEjijuLuGXcLWClULrd,knollbrookcook,17022,Vegetarian Linguine,4.9998784
+u_1oKX7cV3yzfpMU1TF6lVs1jKwlP,cariboocook,28058,Shrimp Scampi,4.999998
+u_1oKX7cV3yzfpMU1TF6lVs1jKwlP,cariboocook,39581,Homemade Peanut Butter Cups,4.9999976
+u_1oKX7cV3yzfpMU1TF6lVs1jKwlP,cariboocook,35766,Cheeseburger Paradise Soup,4.999997
+u_1oKX7cV3yzfpMU1TF6lVs1jKwlP,cariboocook,45495,Gluten-Free Banana Bread,4.9999948
+u_1oKX7cV3yzfpMU1TF6lVs1jKwlP,cariboocook,17022,Vegetarian Linguine,4.9999943
+u_1oKVZiDrHBo4Zdm6cgk1gQTUTue,DeliciouslyResourceful_Gina,18345,Simple Au Gratin Potatoes,4.9999638
+u_1oKVZiDrHBo4Zdm6cgk1gQTUTue,DeliciouslyResourceful_Gina,12003,Traditional Lasagna,4.9997344
+u_1oKVZiDrHBo4Zdm6cgk1gQTUTue,DeliciouslyResourceful_Gina,12700,Big Soft Ginger Cookies,4.9996824
+u_1oKVZiDrHBo4Zdm6cgk1gQTUTue,DeliciouslyResourceful_Gina,45495,Gluten-Free Banana Bread,4.999364
+u_1oKVZiDrHBo4Zdm6cgk1gQTUTue,DeliciouslyResourceful_Gina,39581,Homemade Peanut Butter Cups,4.9993386
+u_1oKVhIJMuUlrSCVkbO1jheVTol8,fhquilting,12003,Traditional Lasagna,4.9999857
+u_1oKVhIJMuUlrSCVkbO1jheVTol8,fhquilting,28058,Shrimp Scampi,4.9989862
+u_1oKVhIJMuUlrSCVkbO1jheVTol8,fhquilting,3143,Pumpkin Bars,4.9989567
+u_1oKVhIJMuUlrSCVkbO1jheVTol8,fhquilting,7539,Fluffy Pancakes,4.997429
+u_1oKVhIJMuUlrSCVkbO1jheVTol8,fhquilting,17022,Vegetarian Linguine,4.9971685
+u_1oKVZayWppErhTC8Zdspk9bGr7q,jmkasprak,12003,Traditional Lasagna,4.999889
+u_1oKVZayWppErhTC8Zdspk9bGr7q,jmkasprak,3143,Pumpkin Bars,4.995645
+u_1oKVZayWppErhTC8Zdspk9bGr7q,jmkasprak,17022,Vegetarian Linguine,4.9915037
+u_1oKVZayWppErhTC8Zdspk9bGr7q,jmkasprak,28058,Shrimp Scampi,4.991058
+u_1oKVZayWppErhTC8Zdspk9bGr7q,jmkasprak,957,Sandy’s Chocolate Cake,4.990868
+u_1oKVtKkG69EZIRET92IBeZ4fDMf,kcrihfield89,14299,Creamy White Chili,4.9999995
+u_1oKVtKkG69EZIRET92IBeZ4fDMf,kcrihfield89,35766,Cheeseburger Paradise Soup,4.9999995
+u_1oKVtKkG69EZIRET92IBeZ4fDMf,kcrihfield89,17022,Vegetarian Linguine,4.999999
+u_1oKVtKkG69EZIRET92IBeZ4fDMf,kcrihfield89,28058,Shrimp Scampi,4.9999986
+u_1oKVtKkG69EZIRET92IBeZ4fDMf,kcrihfield89,39581,Homemade Peanut Butter Cups,4.999997
+u_1oKVaDEmLdN4h4Pi1MQWrXVWoSf,mrsoak,12003,Traditional Lasagna,4.999876
+u_1oKVaDEmLdN4h4Pi1MQWrXVWoSf,mrsoak,39581,Homemade Peanut Butter Cups,4.9998484
+u_1oKVaDEmLdN4h4Pi1MQWrXVWoSf,mrsoak,35766,Cheeseburger Paradise Soup,4.999643
+u_1oKVaDEmLdN4h4Pi1MQWrXVWoSf,mrsoak,45495,Gluten-Free Banana Bread,4.9994507
+u_1oKVaDEmLdN4h4Pi1MQWrXVWoSf,mrsoak,18345,Simple Au Gratin Potatoes,4.999323
+u_1oKVcYz2G9S6DtvP3vWYIZkSj0k,kafaughn,39581,Homemade Peanut Butter Cups,5.0
+u_1oKVcYz2G9S6DtvP3vWYIZkSj0k,kafaughn,12003,Traditional Lasagna,5.0
+u_1oKVcYz2G9S6DtvP3vWYIZkSj0k,kafaughn,28058,Shrimp Scampi,5.0
+u_1oKVcYz2G9S6DtvP3vWYIZkSj0k,kafaughn,18345,Simple Au Gratin Potatoes,4.9999995
+u_1oKVcYz2G9S6DtvP3vWYIZkSj0k,kafaughn,17022,Vegetarian Linguine,4.999999
+u_1oKVacj3LLa5bBKXd9S4USSCjcP,doreensanzone,45495,Gluten-Free Banana Bread,4.999978
+u_1oKVacj3LLa5bBKXd9S4USSCjcP,doreensanzone,7708,Basic Banana Muffins,4.999942
+u_1oKVacj3LLa5bBKXd9S4USSCjcP,doreensanzone,28058,Shrimp Scampi,4.999922
+u_1oKVacj3LLa5bBKXd9S4USSCjcP,doreensanzone,17022,Vegetarian Linguine,4.9999022
+u_1oKVacj3LLa5bBKXd9S4USSCjcP,doreensanzone,18345,Simple Au Gratin Potatoes,4.999862
+u_1oKVZTHTqi7N4NPqNxPS2XB2asz,mythyagain,12003,Traditional Lasagna,4.999999
+u_1oKVZTHTqi7N4NPqNxPS2XB2asz,mythyagain,28058,Shrimp Scampi,4.9999948
+u_1oKVZTHTqi7N4NPqNxPS2XB2asz,mythyagain,35766,Cheeseburger Paradise Soup,4.9999223
+u_1oKVZTHTqi7N4NPqNxPS2XB2asz,mythyagain,12700,Big Soft Ginger Cookies,4.999918
+u_1oKVZTHTqi7N4NPqNxPS2XB2asz,mythyagain,39581,Homemade Peanut Butter Cups,4.9999037
+u_1oKVaoDvFRlnHTA9ix6pgmJUWiK,shannondobos,45495,Gluten-Free Banana Bread,4.9999776
+u_1oKVaoDvFRlnHTA9ix6pgmJUWiK,shannondobos,28058,Shrimp Scampi,4.999927
+u_1oKVaoDvFRlnHTA9ix6pgmJUWiK,shannondobos,17022,Vegetarian Linguine,4.999855
+u_1oKVaoDvFRlnHTA9ix6pgmJUWiK,shannondobos,35766,Cheeseburger Paradise Soup,4.999854
+u_1oKVaoDvFRlnHTA9ix6pgmJUWiK,shannondobos,39581,Homemade Peanut Butter Cups,4.9998345
+u_1oKVdXJVj0FvjvOHkePwEUxmEWq,oreo95,12003,Traditional Lasagna,4.999978
+u_1oKVdXJVj0FvjvOHkePwEUxmEWq,oreo95,28058,Shrimp Scampi,4.999352
+u_1oKVdXJVj0FvjvOHkePwEUxmEWq,oreo95,35766,Cheeseburger Paradise Soup,4.999095
+u_1oKVdXJVj0FvjvOHkePwEUxmEWq,oreo95,39581,Homemade Peanut Butter Cups,4.9990396
+u_1oKVdXJVj0FvjvOHkePwEUxmEWq,oreo95,45495,Gluten-Free Banana Bread,4.9979057
+u_1oKVZxvqhgInO8WHSN1ysf4eOPN,LeslieH,12003,Traditional Lasagna,4.999975
+u_1oKVZxvqhgInO8WHSN1ysf4eOPN,LeslieH,28058,Shrimp Scampi,4.99909
+u_1oKVZxvqhgInO8WHSN1ysf4eOPN,LeslieH,3143,Pumpkin Bars,4.9974623
+u_1oKVZxvqhgInO8WHSN1ysf4eOPN,LeslieH,39581,Homemade Peanut Butter Cups,4.9931784
+u_1oKVZxvqhgInO8WHSN1ysf4eOPN,LeslieH,17022,Vegetarian Linguine,4.990149
+u_1oKVxZDoLvaPi8mZtx9QnowGAwt,kjd624,35766,Cheeseburger Paradise Soup,4.999992
+u_1oKVxZDoLvaPi8mZtx9QnowGAwt,kjd624,14299,Creamy White Chili,4.9999895
+u_1oKVxZDoLvaPi8mZtx9QnowGAwt,kjd624,38550,Special Banana Nut Bread,4.999986
+u_1oKVxZDoLvaPi8mZtx9QnowGAwt,kjd624,28058,Shrimp Scampi,4.999969
+u_1oKVxZDoLvaPi8mZtx9QnowGAwt,kjd624,39581,Homemade Peanut Butter Cups,4.999966
+u_1oKVr1KZO6Hglv7pX2kjGZPDfYx,SDawsonH,12003,Traditional Lasagna,4.999949
+u_1oKVr1KZO6Hglv7pX2kjGZPDfYx,SDawsonH,28058,Shrimp Scampi,4.999051
+u_1oKVr1KZO6Hglv7pX2kjGZPDfYx,SDawsonH,39581,Homemade Peanut Butter Cups,4.9986773
+u_1oKVr1KZO6Hglv7pX2kjGZPDfYx,SDawsonH,17022,Vegetarian Linguine,4.9975586
+u_1oKVr1KZO6Hglv7pX2kjGZPDfYx,SDawsonH,3143,Pumpkin Bars,4.996546
+u_1oKVrMJdlZ1ba6fEbSkCSCgCDzJ,Corwin44,39581,Homemade Peanut Butter Cups,4.9999485
+u_1oKVrMJdlZ1ba6fEbSkCSCgCDzJ,Corwin44,35766,Cheeseburger Paradise Soup,4.9998646
+u_1oKVrMJdlZ1ba6fEbSkCSCgCDzJ,Corwin44,17022,Vegetarian Linguine,4.9998617
+u_1oKVrMJdlZ1ba6fEbSkCSCgCDzJ,Corwin44,14299,Creamy White Chili,4.9998426
+u_1oKVrMJdlZ1ba6fEbSkCSCgCDzJ,Corwin44,45495,Gluten-Free Banana Bread,4.999684
+u_1oKVdkF8CWEUykeryoR13uAIDkf,lauripobanz,12003,Traditional Lasagna,4.9998703
+u_1oKVdkF8CWEUykeryoR13uAIDkf,lauripobanz,39581,Homemade Peanut Butter Cups,4.9994946
+u_1oKVdkF8CWEUykeryoR13uAIDkf,lauripobanz,28058,Shrimp Scampi,4.998688
+u_1oKVdkF8CWEUykeryoR13uAIDkf,lauripobanz,35766,Cheeseburger Paradise Soup,4.9980774
+u_1oKVdkF8CWEUykeryoR13uAIDkf,lauripobanz,18345,Simple Au Gratin Potatoes,4.9978924
+u_1oKVatYSY5LsFjPKeOy8IydBoLd,gld2bmom,12003,Traditional Lasagna,4.9999995
+u_1oKVatYSY5LsFjPKeOy8IydBoLd,gld2bmom,28058,Shrimp Scampi,4.9999847
+u_1oKVatYSY5LsFjPKeOy8IydBoLd,gld2bmom,35766,Cheeseburger Paradise Soup,4.9999804
+u_1oKVatYSY5LsFjPKeOy8IydBoLd,gld2bmom,957,Sandy’s Chocolate Cake,4.999971
+u_1oKVatYSY5LsFjPKeOy8IydBoLd,gld2bmom,33457,Chunky Apple Cake,4.999966
+u_1oKVZm5d8Npa5RlveMvKKkQPaMO,homemadewithlove,12003,Traditional Lasagna,4.9998393
+u_1oKVZm5d8Npa5RlveMvKKkQPaMO,homemadewithlove,28058,Shrimp Scampi,4.999687
+u_1oKVZm5d8Npa5RlveMvKKkQPaMO,homemadewithlove,12700,Big Soft Ginger Cookies,4.9992895
+u_1oKVZm5d8Npa5RlveMvKKkQPaMO,homemadewithlove,3143,Pumpkin Bars,4.9982853
+u_1oKVZm5d8Npa5RlveMvKKkQPaMO,homemadewithlove,18345,Simple Au Gratin Potatoes,4.9975357
+u_1oKVbBNo3rHvSNieZn0tXcaptee,ojc0806,12003,Traditional Lasagna,4.9999948
+u_1oKVbBNo3rHvSNieZn0tXcaptee,ojc0806,28058,Shrimp Scampi,4.999993
+u_1oKVbBNo3rHvSNieZn0tXcaptee,ojc0806,39581,Homemade Peanut Butter Cups,4.999973
+u_1oKVbBNo3rHvSNieZn0tXcaptee,ojc0806,45495,Gluten-Free Banana Bread,4.999959
+u_1oKVbBNo3rHvSNieZn0tXcaptee,ojc0806,18345,Simple Au Gratin Potatoes,4.9999223
+u_1oKVaLDEOqvfPeO0oCipaQ6II2g,colleyho,12003,Traditional Lasagna,4.9999995
+u_1oKVaLDEOqvfPeO0oCipaQ6II2g,colleyho,28058,Shrimp Scampi,4.999998
+u_1oKVaLDEOqvfPeO0oCipaQ6II2g,colleyho,18345,Simple Au Gratin Potatoes,4.999998
+u_1oKVaLDEOqvfPeO0oCipaQ6II2g,colleyho,39581,Homemade Peanut Butter Cups,4.999998
+u_1oKVaLDEOqvfPeO0oCipaQ6II2g,colleyho,11767,Quick Cream of Mushroom Soup,4.999982
+u_1oKVaSDjHboOXWt1F16GUjug7gC,allaboutcookies86,12003,Traditional Lasagna,5.0
+u_1oKVaSDjHboOXWt1F16GUjug7gC,allaboutcookies86,28058,Shrimp Scampi,4.999999
+u_1oKVaSDjHboOXWt1F16GUjug7gC,allaboutcookies86,12700,Big Soft Ginger Cookies,4.9999948
+u_1oKVaSDjHboOXWt1F16GUjug7gC,allaboutcookies86,18345,Simple Au Gratin Potatoes,4.9999886
+u_1oKVaSDjHboOXWt1F16GUjug7gC,allaboutcookies86,39581,Homemade Peanut Butter Cups,4.999987
+u_1oKVbkaKDCs4JqmA3L5Vyub9CYD,senzascusa,12003,Traditional Lasagna,4.9999766
+u_1oKVbkaKDCs4JqmA3L5Vyub9CYD,senzascusa,39581,Homemade Peanut Butter Cups,4.999936
+u_1oKVbkaKDCs4JqmA3L5Vyub9CYD,senzascusa,18345,Simple Au Gratin Potatoes,4.999722
+u_1oKVbkaKDCs4JqmA3L5Vyub9CYD,senzascusa,28058,Shrimp Scampi,4.999607
+u_1oKVbkaKDCs4JqmA3L5Vyub9CYD,senzascusa,17022,Vegetarian Linguine,4.9992847
+u_1oKVaI9OOe32ErgAhWXd1ZKuaN2,mamaknowsbest,12003,Traditional Lasagna,5.0
+u_1oKVaI9OOe32ErgAhWXd1ZKuaN2,mamaknowsbest,39581,Homemade Peanut Butter Cups,4.999998
+u_1oKVaI9OOe32ErgAhWXd1ZKuaN2,mamaknowsbest,28058,Shrimp Scampi,4.9999905
+u_1oKVaI9OOe32ErgAhWXd1ZKuaN2,mamaknowsbest,18345,Simple Au Gratin Potatoes,4.999987
+u_1oKVaI9OOe32ErgAhWXd1ZKuaN2,mamaknowsbest,12700,Big Soft Ginger Cookies,4.9999833
+u_1oKW5Bz7x8XFcGdfFTPcRGb5Kwo,dyeide,14299,Creamy White Chili,5.0
+u_1oKW5Bz7x8XFcGdfFTPcRGb5Kwo,dyeide,28058,Shrimp Scampi,5.0
+u_1oKW5Bz7x8XFcGdfFTPcRGb5Kwo,dyeide,45495,Gluten-Free Banana Bread,5.0
+u_1oKW5Bz7x8XFcGdfFTPcRGb5Kwo,dyeide,39581,Homemade Peanut Butter Cups,5.0
+u_1oKW5Bz7x8XFcGdfFTPcRGb5Kwo,dyeide,35766,Cheeseburger Paradise Soup,5.0
+u_1oKVlnWGY6YZPzsQmrnTjQ41Fki,lsal86,12003,Traditional Lasagna,4.999034
+u_1oKVlnWGY6YZPzsQmrnTjQ41Fki,lsal86,12700,Big Soft Ginger Cookies,4.99627
+u_1oKVlnWGY6YZPzsQmrnTjQ41Fki,lsal86,14299,Creamy White Chili,4.9957685
+u_1oKVlnWGY6YZPzsQmrnTjQ41Fki,lsal86,18345,Simple Au Gratin Potatoes,4.9916363
+u_1oKVlnWGY6YZPzsQmrnTjQ41Fki,lsal86,39581,Homemade Peanut Butter Cups,4.9861364
+u_1oKVzzhQ7Qmyjx27DGIjdh5AAX6,Lawler67,28058,Shrimp Scampi,4.999999
+u_1oKVzzhQ7Qmyjx27DGIjdh5AAX6,Lawler67,39581,Homemade Peanut Butter Cups,4.999997
+u_1oKVzzhQ7Qmyjx27DGIjdh5AAX6,Lawler67,45495,Gluten-Free Banana Bread,4.999997
+u_1oKVzzhQ7Qmyjx27DGIjdh5AAX6,Lawler67,14299,Creamy White Chili,4.9999967
+u_1oKVzzhQ7Qmyjx27DGIjdh5AAX6,Lawler67,35766,Cheeseburger Paradise Soup,4.9999967
+u_1oKWFf1uZU0T0dGwHm5YPGyH9eB,meliss.beyer,12003,Traditional Lasagna,4.9999957
+u_1oKWFf1uZU0T0dGwHm5YPGyH9eB,meliss.beyer,18345,Simple Au Gratin Potatoes,4.99998
+u_1oKWFf1uZU0T0dGwHm5YPGyH9eB,meliss.beyer,28058,Shrimp Scampi,4.999951
+u_1oKWFf1uZU0T0dGwHm5YPGyH9eB,meliss.beyer,39581,Homemade Peanut Butter Cups,4.999914
+u_1oKWFf1uZU0T0dGwHm5YPGyH9eB,meliss.beyer,12700,Big Soft Ginger Cookies,4.9998746
+u_1oKVhAnfv5dKzMX0nkisSa62Qqe,skymom747,12003,Traditional Lasagna,4.9999995
+u_1oKVhAnfv5dKzMX0nkisSa62Qqe,skymom747,12700,Big Soft Ginger Cookies,4.999999
+u_1oKVhAnfv5dKzMX0nkisSa62Qqe,skymom747,28058,Shrimp Scampi,4.9999967
+u_1oKVhAnfv5dKzMX0nkisSa62Qqe,skymom747,18345,Simple Au Gratin Potatoes,4.999996
+u_1oKVhAnfv5dKzMX0nkisSa62Qqe,skymom747,957,Sandy’s Chocolate Cake,4.9999924
+u_1oKVbyOGvXFWJx4fpzHybJJ20N3,dublinlab,12003,Traditional Lasagna,4.9999986
+u_1oKVbyOGvXFWJx4fpzHybJJ20N3,dublinlab,39581,Homemade Peanut Butter Cups,4.9999957
+u_1oKVbyOGvXFWJx4fpzHybJJ20N3,dublinlab,35766,Cheeseburger Paradise Soup,4.999984
+u_1oKVbyOGvXFWJx4fpzHybJJ20N3,dublinlab,28058,Shrimp Scampi,4.999981
+u_1oKVbyOGvXFWJx4fpzHybJJ20N3,dublinlab,14299,Creamy White Chili,4.9999547
+u_1oKVdZgVe0ACkmVJamQvB59xGvG,greatwithoutgluten,12003,Traditional Lasagna,4.9999
+u_1oKVdZgVe0ACkmVJamQvB59xGvG,greatwithoutgluten,39581,Homemade Peanut Butter Cups,4.999615
+u_1oKVdZgVe0ACkmVJamQvB59xGvG,greatwithoutgluten,28058,Shrimp Scampi,4.999552
+u_1oKVdZgVe0ACkmVJamQvB59xGvG,greatwithoutgluten,18345,Simple Au Gratin Potatoes,4.9988213
+u_1oKVdZgVe0ACkmVJamQvB59xGvG,greatwithoutgluten,3143,Pumpkin Bars,4.998708
+u_1oKVh4Qg0Y1Hygq5QlyEp3WvjTZ,mel7445,12003,Traditional Lasagna,4.9992657
+u_1oKVh4Qg0Y1Hygq5QlyEp3WvjTZ,mel7445,17022,Vegetarian Linguine,4.9964056
+u_1oKVh4Qg0Y1Hygq5QlyEp3WvjTZ,mel7445,28058,Shrimp Scampi,4.9964
+u_1oKVh4Qg0Y1Hygq5QlyEp3WvjTZ,mel7445,35766,Cheeseburger Paradise Soup,4.995325
+u_1oKVh4Qg0Y1Hygq5QlyEp3WvjTZ,mel7445,6504,Mom’s Meat Loaf,4.995247
+u_1oKVaTZtvlBpET3sSlFfKJ7gpJc,veggiemama,12003,Traditional Lasagna,4.999993
+u_1oKVaTZtvlBpET3sSlFfKJ7gpJc,veggiemama,28058,Shrimp Scampi,4.9995503
+u_1oKVaTZtvlBpET3sSlFfKJ7gpJc,veggiemama,957,Sandy’s Chocolate Cake,4.9992723
+u_1oKVaTZtvlBpET3sSlFfKJ7gpJc,veggiemama,12700,Big Soft Ginger Cookies,4.9991007
+u_1oKVaTZtvlBpET3sSlFfKJ7gpJc,veggiemama,3143,Pumpkin Bars,4.9984827
+u_1oKVZlgwPbb4xAJfv7aJ5rVDToV,Psalm127-3,12003,Traditional Lasagna,4.9931345
+u_1oKVZlgwPbb4xAJfv7aJ5rVDToV,Psalm127-3,6504,Mom’s Meat Loaf,4.9808054
+u_1oKVZlgwPbb4xAJfv7aJ5rVDToV,Psalm127-3,3143,Pumpkin Bars,4.958433
+u_1oKVZlgwPbb4xAJfv7aJ5rVDToV,Psalm127-3,18345,Simple Au Gratin Potatoes,4.95772
+u_1oKVZlgwPbb4xAJfv7aJ5rVDToV,Psalm127-3,28058,Shrimp Scampi,4.774252
+u_1oKVmtlZB6RLsJRElzuPHihJyMW,lettuceleaf,12003,Traditional Lasagna,4.9999914
+u_1oKVmtlZB6RLsJRElzuPHihJyMW,lettuceleaf,28058,Shrimp Scampi,4.9999623
+u_1oKVmtlZB6RLsJRElzuPHihJyMW,lettuceleaf,18345,Simple Au Gratin Potatoes,4.999958
+u_1oKVmtlZB6RLsJRElzuPHihJyMW,lettuceleaf,12700,Big Soft Ginger Cookies,4.9997716
+u_1oKVmtlZB6RLsJRElzuPHihJyMW,lettuceleaf,39581,Homemade Peanut Butter Cups,4.9996514
+u_1oKVeWZKcUYHDAAdmzPzaDpjiUb,bwilkin,28058,Shrimp Scampi,4.999555
+u_1oKVeWZKcUYHDAAdmzPzaDpjiUb,bwilkin,38550,Special Banana Nut Bread,4.9995313
+u_1oKVeWZKcUYHDAAdmzPzaDpjiUb,bwilkin,14299,Creamy White Chili,4.99945
+u_1oKVeWZKcUYHDAAdmzPzaDpjiUb,bwilkin,35766,Cheeseburger Paradise Soup,4.9993176
+u_1oKVeWZKcUYHDAAdmzPzaDpjiUb,bwilkin,39581,Homemade Peanut Butter Cups,4.9988384
+u_1oKVZlbJsKnks4yML21aFN0AsFC,saw-whet,12003,Traditional Lasagna,4.999996
+u_1oKVZlbJsKnks4yML21aFN0AsFC,saw-whet,12700,Big Soft Ginger Cookies,4.999954
+u_1oKVZlbJsKnks4yML21aFN0AsFC,saw-whet,18345,Simple Au Gratin Potatoes,4.999944
+u_1oKVZlbJsKnks4yML21aFN0AsFC,saw-whet,957,Sandy’s Chocolate Cake,4.9997277
+u_1oKVZlbJsKnks4yML21aFN0AsFC,saw-whet,39581,Homemade Peanut Butter Cups,4.999697
+u_1oKVw04rGKqNY7MsHAyjzYZnATv,dewflop,17022,Vegetarian Linguine,4.999999
+u_1oKVw04rGKqNY7MsHAyjzYZnATv,dewflop,35766,Cheeseburger Paradise Soup,4.999999
+u_1oKVw04rGKqNY7MsHAyjzYZnATv,dewflop,28058,Shrimp Scampi,4.9999986
+u_1oKVw04rGKqNY7MsHAyjzYZnATv,dewflop,39581,Homemade Peanut Butter Cups,4.9999976
+u_1oKVw04rGKqNY7MsHAyjzYZnATv,dewflop,14299,Creamy White Chili,4.999997
+u_1oKVZjMqpb2ffF1WdpSK4BVAEa8,cherylyoung,39581,Homemade Peanut Butter Cups,5.0
+u_1oKVZjMqpb2ffF1WdpSK4BVAEa8,cherylyoung,28058,Shrimp Scampi,5.0
+u_1oKVZjMqpb2ffF1WdpSK4BVAEa8,cherylyoung,35766,Cheeseburger Paradise Soup,4.9999995
+u_1oKVZjMqpb2ffF1WdpSK4BVAEa8,cherylyoung,18345,Simple Au Gratin Potatoes,4.9999995
+u_1oKVZjMqpb2ffF1WdpSK4BVAEa8,cherylyoung,7708,Basic Banana Muffins,4.9999986
+u_1oKXvXFcvDp4sNo04DNupOqaWWE,CarrieBerry4Chad,17022,Vegetarian Linguine,4.9996758
+u_1oKXvXFcvDp4sNo04DNupOqaWWE,CarrieBerry4Chad,3143,Pumpkin Bars,4.9996314
+u_1oKXvXFcvDp4sNo04DNupOqaWWE,CarrieBerry4Chad,12003,Traditional Lasagna,4.999587
+u_1oKXvXFcvDp4sNo04DNupOqaWWE,CarrieBerry4Chad,28058,Shrimp Scampi,4.9995713
+u_1oKXvXFcvDp4sNo04DNupOqaWWE,CarrieBerry4Chad,38550,Special Banana Nut Bread,4.999538
+u_1oKVa2fPtT5nLm5ML0xYxnDMI1T,johnsen,17022,Vegetarian Linguine,5.0
+u_1oKVa2fPtT5nLm5ML0xYxnDMI1T,johnsen,12003,Traditional Lasagna,5.0
+u_1oKVa2fPtT5nLm5ML0xYxnDMI1T,johnsen,28058,Shrimp Scampi,5.0
+u_1oKVa2fPtT5nLm5ML0xYxnDMI1T,johnsen,39581,Homemade Peanut Butter Cups,5.0
+u_1oKVa2fPtT5nLm5ML0xYxnDMI1T,johnsen,35766,Cheeseburger Paradise Soup,4.9999995
+u_1oKVZb4mPvJPUKjhJKYa3BYsPlI,slocook805,12003,Traditional Lasagna,4.9999995
+u_1oKVZb4mPvJPUKjhJKYa3BYsPlI,slocook805,28058,Shrimp Scampi,4.999987
+u_1oKVZb4mPvJPUKjhJKYa3BYsPlI,slocook805,39581,Homemade Peanut Butter Cups,4.9998965
+u_1oKVZb4mPvJPUKjhJKYa3BYsPlI,slocook805,12700,Big Soft Ginger Cookies,4.999875
+u_1oKVZb4mPvJPUKjhJKYa3BYsPlI,slocook805,38550,Special Banana Nut Bread,4.9998717
+u_1oKWEDb1uiceKbKYoIfKHauuT8r,Spooky123,12003,Traditional Lasagna,4.9999986
+u_1oKWEDb1uiceKbKYoIfKHauuT8r,Spooky123,28058,Shrimp Scampi,4.999988
+u_1oKWEDb1uiceKbKYoIfKHauuT8r,Spooky123,39581,Homemade Peanut Butter Cups,4.999968
+u_1oKWEDb1uiceKbKYoIfKHauuT8r,Spooky123,3290,Brown Sugar Oatmeal Pancakes,4.9999075
+u_1oKWEDb1uiceKbKYoIfKHauuT8r,Spooky123,6086,Apple Pie,4.999886
+u_1oKVaSjlLCbyDJqKum4t1NwfFZy,alfoa,12003,Traditional Lasagna,4.9998865
+u_1oKVaSjlLCbyDJqKum4t1NwfFZy,alfoa,3143,Pumpkin Bars,4.9970713
+u_1oKVaSjlLCbyDJqKum4t1NwfFZy,alfoa,28058,Shrimp Scampi,4.99594
+u_1oKVaSjlLCbyDJqKum4t1NwfFZy,alfoa,18345,Simple Au Gratin Potatoes,4.9765434
+u_1oKVaSjlLCbyDJqKum4t1NwfFZy,alfoa,39581,Homemade Peanut Butter Cups,4.9643903
+u_1oKVZd0VlaqtDDqRaaytyYAEs0W,TNbluffbaker,12003,Traditional Lasagna,4.9999886
+u_1oKVZd0VlaqtDDqRaaytyYAEs0W,TNbluffbaker,28058,Shrimp Scampi,4.9986706
+u_1oKVZd0VlaqtDDqRaaytyYAEs0W,TNbluffbaker,39581,Homemade Peanut Butter Cups,4.9957848
+u_1oKVZd0VlaqtDDqRaaytyYAEs0W,TNbluffbaker,957,Sandy’s Chocolate Cake,4.9909954
+u_1oKVZd0VlaqtDDqRaaytyYAEs0W,TNbluffbaker,3143,Pumpkin Bars,4.987768
+u_1oKVeHAVcuQUUGaM6AhvTCL2z2p,dcscake_OH,12003,Traditional Lasagna,4.999994
+u_1oKVeHAVcuQUUGaM6AhvTCL2z2p,dcscake_OH,39581,Homemade Peanut Butter Cups,4.999823
+u_1oKVeHAVcuQUUGaM6AhvTCL2z2p,dcscake_OH,18345,Simple Au Gratin Potatoes,4.999371
+u_1oKVeHAVcuQUUGaM6AhvTCL2z2p,dcscake_OH,12700,Big Soft Ginger Cookies,4.9993477
+u_1oKVeHAVcuQUUGaM6AhvTCL2z2p,dcscake_OH,28058,Shrimp Scampi,4.9992886
+u_1oKVZm06HuAJvEWFCoYwuCc19vS,l2bake,12003,Traditional Lasagna,4.9999566
+u_1oKVZm06HuAJvEWFCoYwuCc19vS,l2bake,28058,Shrimp Scampi,4.998085
+u_1oKVZm06HuAJvEWFCoYwuCc19vS,l2bake,6086,Apple Pie,4.996788
+u_1oKVZm06HuAJvEWFCoYwuCc19vS,l2bake,18345,Simple Au Gratin Potatoes,4.996025
+u_1oKVZm06HuAJvEWFCoYwuCc19vS,l2bake,39581,Homemade Peanut Butter Cups,4.9956274
+u_1oKVncvzuqQdU0wMTH5KmW2XvDA,swagner,12003,Traditional Lasagna,5.0
+u_1oKVncvzuqQdU0wMTH5KmW2XvDA,swagner,28058,Shrimp Scampi,5.0
+u_1oKVncvzuqQdU0wMTH5KmW2XvDA,swagner,18345,Simple Au Gratin Potatoes,4.9999995
+u_1oKVncvzuqQdU0wMTH5KmW2XvDA,swagner,39581,Homemade Peanut Butter Cups,4.999999
+u_1oKVncvzuqQdU0wMTH5KmW2XvDA,swagner,12700,Big Soft Ginger Cookies,4.999998
+u_1oKVZvIFnVLOdDi0G2Umj0dp5NA,Grammy Debbie,14299,Creamy White Chili,5.0
+u_1oKVZvIFnVLOdDi0G2Umj0dp5NA,Grammy Debbie,7708,Basic Banana Muffins,5.0
+u_1oKVZvIFnVLOdDi0G2Umj0dp5NA,Grammy Debbie,35766,Cheeseburger Paradise Soup,5.0
+u_1oKVZvIFnVLOdDi0G2Umj0dp5NA,Grammy Debbie,45495,Gluten-Free Banana Bread,5.0
+u_1oKVZvIFnVLOdDi0G2Umj0dp5NA,Grammy Debbie,28058,Shrimp Scampi,5.0
+u_1oKVZxoUMG63M49Uw51JVZDztTg,LBurkey,12003,Traditional Lasagna,4.9999957
+u_1oKVZxoUMG63M49Uw51JVZDztTg,LBurkey,28058,Shrimp Scampi,4.9992943
+u_1oKVZxoUMG63M49Uw51JVZDztTg,LBurkey,18345,Simple Au Gratin Potatoes,4.9986506
+u_1oKVZxoUMG63M49Uw51JVZDztTg,LBurkey,17022,Vegetarian Linguine,4.99856
+u_1oKVZxoUMG63M49Uw51JVZDztTg,LBurkey,39581,Homemade Peanut Butter Cups,4.9982986
+u_1oKVaf2djh0qhImdbVbaP1hn6rf,buttermilk maid,28058,Shrimp Scampi,4.999999
+u_1oKVaf2djh0qhImdbVbaP1hn6rf,buttermilk maid,12003,Traditional Lasagna,4.999999
+u_1oKVaf2djh0qhImdbVbaP1hn6rf,buttermilk maid,39581,Homemade Peanut Butter Cups,4.999998
+u_1oKVaf2djh0qhImdbVbaP1hn6rf,buttermilk maid,3143,Pumpkin Bars,4.999989
+u_1oKVaf2djh0qhImdbVbaP1hn6rf,buttermilk maid,45495,Gluten-Free Banana Bread,4.9999876
+u_1oKVb0V3iTiJPOI7nDKG8EYc2iE,KookieB,28058,Shrimp Scampi,4.999999
+u_1oKVb0V3iTiJPOI7nDKG8EYc2iE,KookieB,39581,Homemade Peanut Butter Cups,4.9999986
+u_1oKVb0V3iTiJPOI7nDKG8EYc2iE,KookieB,17022,Vegetarian Linguine,4.999998
+u_1oKVb0V3iTiJPOI7nDKG8EYc2iE,KookieB,45495,Gluten-Free Banana Bread,4.999996
+u_1oKVb0V3iTiJPOI7nDKG8EYc2iE,KookieB,12003,Traditional Lasagna,4.9999957
+u_1oKVeOXrPE5pnMV31UD49yFbF4p,kramerstacey15,39581,Homemade Peanut Butter Cups,4.9998426
+u_1oKVeOXrPE5pnMV31UD49yFbF4p,kramerstacey15,35766,Cheeseburger Paradise Soup,4.9997807
+u_1oKVeOXrPE5pnMV31UD49yFbF4p,kramerstacey15,12003,Traditional Lasagna,4.9994698
+u_1oKVeOXrPE5pnMV31UD49yFbF4p,kramerstacey15,28058,Shrimp Scampi,4.999276
+u_1oKVeOXrPE5pnMV31UD49yFbF4p,kramerstacey15,14299,Creamy White Chili,4.999131
+u_1oKW7jw4UcoJM2s1kLccbc04DxA,mimirita,12003,Traditional Lasagna,4.999994
+u_1oKW7jw4UcoJM2s1kLccbc04DxA,mimirita,18345,Simple Au Gratin Potatoes,4.9999847
+u_1oKW7jw4UcoJM2s1kLccbc04DxA,mimirita,12700,Big Soft Ginger Cookies,4.999977
+u_1oKW7jw4UcoJM2s1kLccbc04DxA,mimirita,28058,Shrimp Scampi,4.999945
+u_1oKW7jw4UcoJM2s1kLccbc04DxA,mimirita,957,Sandy’s Chocolate Cake,4.999773
+u_1oKVeahyqLgqjIsLuVBjPLTMR7c,Susie77,12003,Traditional Lasagna,4.999985
+u_1oKVeahyqLgqjIsLuVBjPLTMR7c,Susie77,18345,Simple Au Gratin Potatoes,4.99998
+u_1oKVeahyqLgqjIsLuVBjPLTMR7c,Susie77,28058,Shrimp Scampi,4.9999576
+u_1oKVeahyqLgqjIsLuVBjPLTMR7c,Susie77,3143,Pumpkin Bars,4.999884
+u_1oKVeahyqLgqjIsLuVBjPLTMR7c,Susie77,17022,Vegetarian Linguine,4.9998507
+u_1oKWIHTpZVWE78BzXlFv9wIfWFR,Peapod0114,14299,Creamy White Chili,4.9990654
+u_1oKWIHTpZVWE78BzXlFv9wIfWFR,Peapod0114,17022,Vegetarian Linguine,4.998438
+u_1oKWIHTpZVWE78BzXlFv9wIfWFR,Peapod0114,45495,Gluten-Free Banana Bread,4.99821
+u_1oKWIHTpZVWE78BzXlFv9wIfWFR,Peapod0114,39581,Homemade Peanut Butter Cups,4.995435
+u_1oKWIHTpZVWE78BzXlFv9wIfWFR,Peapod0114,35766,Cheeseburger Paradise Soup,4.994952
+u_1oKVcgcF5XXFvBht3lN1UrDxsw1,suekg,12003,Traditional Lasagna,4.9999743
+u_1oKVcgcF5XXFvBht3lN1UrDxsw1,suekg,39581,Homemade Peanut Butter Cups,4.9999413
+u_1oKVcgcF5XXFvBht3lN1UrDxsw1,suekg,28058,Shrimp Scampi,4.9999185
+u_1oKVcgcF5XXFvBht3lN1UrDxsw1,suekg,3143,Pumpkin Bars,4.999808
+u_1oKVcgcF5XXFvBht3lN1UrDxsw1,suekg,957,Sandy’s Chocolate Cake,4.9996953
+u_1oKWFlMziaFAqRWLvZ2NtmIjC8d,ginny3235,28058,Shrimp Scampi,5.0
+u_1oKWFlMziaFAqRWLvZ2NtmIjC8d,ginny3235,39581,Homemade Peanut Butter Cups,5.0
+u_1oKWFlMziaFAqRWLvZ2NtmIjC8d,ginny3235,35766,Cheeseburger Paradise Soup,4.999999
+u_1oKWFlMziaFAqRWLvZ2NtmIjC8d,ginny3235,45495,Gluten-Free Banana Bread,4.9999986
+u_1oKWFlMziaFAqRWLvZ2NtmIjC8d,ginny3235,14299,Creamy White Chili,4.9999986
+u_1oKVZx2Q5dTnA9bjg5AvWK292vp,Aquarelle,39581,Homemade Peanut Butter Cups,4.9999995
+u_1oKVZx2Q5dTnA9bjg5AvWK292vp,Aquarelle,12003,Traditional Lasagna,4.999999
+u_1oKVZx2Q5dTnA9bjg5AvWK292vp,Aquarelle,28058,Shrimp Scampi,4.9999986
+u_1oKVZx2Q5dTnA9bjg5AvWK292vp,Aquarelle,35766,Cheeseburger Paradise Soup,4.9999948
+u_1oKVZx2Q5dTnA9bjg5AvWK292vp,Aquarelle,17022,Vegetarian Linguine,4.9999814
+u_1oKVc57zin1tNYP5HDKvcmfaUYt,PageRD,12003,Traditional Lasagna,4.9999976
+u_1oKVc57zin1tNYP5HDKvcmfaUYt,PageRD,39581,Homemade Peanut Butter Cups,4.9999814
+u_1oKVc57zin1tNYP5HDKvcmfaUYt,PageRD,28058,Shrimp Scampi,4.9999714
+u_1oKVc57zin1tNYP5HDKvcmfaUYt,PageRD,17022,Vegetarian Linguine,4.999792
+u_1oKVc57zin1tNYP5HDKvcmfaUYt,PageRD,35766,Cheeseburger Paradise Soup,4.99977
+u_1oKVa4FRbXOpXUvsOeyfhia7y1N,paul3303,39581,Homemade Peanut Butter Cups,4.9996114
+u_1oKVa4FRbXOpXUvsOeyfhia7y1N,paul3303,12003,Traditional Lasagna,4.9995885
+u_1oKVa4FRbXOpXUvsOeyfhia7y1N,paul3303,35766,Cheeseburger Paradise Soup,4.999426
+u_1oKVa4FRbXOpXUvsOeyfhia7y1N,paul3303,28058,Shrimp Scampi,4.9992456
+u_1oKVa4FRbXOpXUvsOeyfhia7y1N,paul3303,45495,Gluten-Free Banana Bread,4.9990664
+u_1oKVa4ATHrPZTPOVlxmC5Po5Frt,Sprowl,39581,Homemade Peanut Butter Cups,4.999994
+u_1oKVa4ATHrPZTPOVlxmC5Po5Frt,Sprowl,35766,Cheeseburger Paradise Soup,4.9999905
+u_1oKVa4ATHrPZTPOVlxmC5Po5Frt,Sprowl,14299,Creamy White Chili,4.9999714
+u_1oKVa4ATHrPZTPOVlxmC5Po5Frt,Sprowl,28058,Shrimp Scampi,4.9999404
+u_1oKVa4ATHrPZTPOVlxmC5Po5Frt,Sprowl,17022,Vegetarian Linguine,4.9999385
+u_1oKVaLd2ShgeD1g1YVxMVdQOuzG,PrplMonky5,12003,Traditional Lasagna,4.999951
+u_1oKVaLd2ShgeD1g1YVxMVdQOuzG,PrplMonky5,3143,Pumpkin Bars,4.999763
+u_1oKVaLd2ShgeD1g1YVxMVdQOuzG,PrplMonky5,38550,Special Banana Nut Bread,4.999466
+u_1oKVaLd2ShgeD1g1YVxMVdQOuzG,PrplMonky5,28058,Shrimp Scampi,4.999276
+u_1oKVaLd2ShgeD1g1YVxMVdQOuzG,PrplMonky5,14299,Creamy White Chili,4.9990444
+u_1oKW2nsX6meHO6upqJLb9xj6cMu,life2christ27,28058,Shrimp Scampi,5.0
+u_1oKW2nsX6meHO6upqJLb9xj6cMu,life2christ27,12003,Traditional Lasagna,5.0
+u_1oKW2nsX6meHO6upqJLb9xj6cMu,life2christ27,39581,Homemade Peanut Butter Cups,4.9999995
+u_1oKW2nsX6meHO6upqJLb9xj6cMu,life2christ27,45495,Gluten-Free Banana Bread,4.999999
+u_1oKW2nsX6meHO6upqJLb9xj6cMu,life2christ27,3143,Pumpkin Bars,4.999998
+u_1oKVzf6vrI53k5dGaPcZuT2uGIE,brunoite,12003,Traditional Lasagna,4.9999695
+u_1oKVzf6vrI53k5dGaPcZuT2uGIE,brunoite,12700,Big Soft Ginger Cookies,4.999494
+u_1oKVzf6vrI53k5dGaPcZuT2uGIE,brunoite,39581,Homemade Peanut Butter Cups,4.999317
+u_1oKVzf6vrI53k5dGaPcZuT2uGIE,brunoite,28058,Shrimp Scampi,4.998989
+u_1oKVzf6vrI53k5dGaPcZuT2uGIE,brunoite,18345,Simple Au Gratin Potatoes,4.998664
+u_1oKVcUfQAMSIxzGPlb73FSMdW2t,randcbruns,39581,Homemade Peanut Butter Cups,4.999924
+u_1oKVcUfQAMSIxzGPlb73FSMdW2t,randcbruns,12003,Traditional Lasagna,4.9999194
+u_1oKVcUfQAMSIxzGPlb73FSMdW2t,randcbruns,18345,Simple Au Gratin Potatoes,4.999852
+u_1oKVcUfQAMSIxzGPlb73FSMdW2t,randcbruns,35766,Cheeseburger Paradise Soup,4.9997673
+u_1oKVcUfQAMSIxzGPlb73FSMdW2t,randcbruns,28058,Shrimp Scampi,4.99971
+u_1oKWJsjnt7lRY6aJYliF49O0mHq,jadedraven,12003,Traditional Lasagna,4.9994893
+u_1oKWJsjnt7lRY6aJYliF49O0mHq,jadedraven,3143,Pumpkin Bars,4.998372
+u_1oKWJsjnt7lRY6aJYliF49O0mHq,jadedraven,957,Sandy’s Chocolate Cake,4.988164
+u_1oKWJsjnt7lRY6aJYliF49O0mHq,jadedraven,28058,Shrimp Scampi,4.986488
+u_1oKWJsjnt7lRY6aJYliF49O0mHq,jadedraven,35766,Cheeseburger Paradise Soup,4.9798346
