@@ -5,8 +5,8 @@
 
 Recipe review data is sourced from the UC Irvine Machine Learning Repository and can be found [here.](https://archive.ics.uci.edu/dataset/911/recipe+reviews+and+user+feedback+dataset) 
 
-To run the streamlit website: save the folder with all of the files, go to a terminal console, navigate to where the folder is, and run the command streamlit run Home.py.
+To run the streamlit website: save the folder with all of the files, go to a terminal console, navigate to where the folder is, and run the command: streamlit run Home.py. Navigate through the website from Home, to project description, to our interactive results page that filters and shows top five recipies for MLP and CNN recommendations. 
 
-###### TastyML Website Preview
-https://github.com/user-attachments/assets/5dabb214-366f-4fc4-a838-131c268ba31a
+###### TastyML Website Demo
+
 
