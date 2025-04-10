@@ -45,60 +45,81 @@ local_css()
 
 # Page content
 st.title("Results")
-st.write("Below is the visual representation of our results comparing User-User and Item-Item collaborative filtering models.")
-
-st.write("""
-### Findings:
-- The User-User model performed better in terms of lower MSE.
-- Item-Item collaborative filtering showed decent performance but lagged behind.
-
-### Conclusion:
-User-based collaborative filtering better captures user preferences in this recipe dataset!
-
-Feel free to explore the other pages for more details.
-""")
+st.write("Below is the visual representation of our results comparing CF and MLP models.")
 
 
-results_df = pd.read_csv('/Users/simoneritcheson/Desktop/TastyML/pages/results_df_CF.csv')
-# Interactive selection
-selected_user = st.selectbox("Select a User ID to explore predictions:", results_df['user_id'].unique())
+results_df = pd.read_csv('/Users/simoneritcheson/Desktop/TastyML/pages/results_df.csv')
+import pandas as pd
+import streamlit as st
 
-filtered_df = results_df[results_df['user_id'] == selected_user]
+import pandas as pd
+import streamlit as st
+import pandas as pd
+import streamlit as st
 
-# Scatter plot: Actual vs Predicted Ratings
-fig = px.scatter(
-    filtered_df,
-    x='actual',
-    y='user_pred',
-    color='recipe_name',
-    title=f'User-Based CF: Actual vs. Predicted Ratings for User {selected_user}',
-    labels={'actual': 'Actual Rating', 'user_pred': 'Predicted Rating'},
-    hover_data=['recipe_name']
+# Load your actual data files
+cf_df = pd.read_csv('/Users/simoneritcheson/Desktop/TastyML/pages/results_df_CF.csv')
+mlp_df = pd.read_csv('/Users/simoneritcheson/Desktop/TastyML/pages/results_df_MLP.csv')
+import pandas as pd
+import streamlit as st
+
+#st.write("CF Data Sample:", cf_df.head())
+#st.write("CF DataFrame Columns:", cf_df.columns.tolist())
+
+
+#common_users = set(cf_df['user_id']).intersection(set(mlp_df['user_id']))
+#st.write("Number of common users between CF and MLP:", len(common_users))
+import pandas as pd
+import streamlit as st
+
+# Load data files
+#cf_df = pd.read_csv('results_df_CF.csv')
+#mlp_df = pd.read_csv('results_df_MLP.csv')
+
+# Filter user list to only common users
+common_user_ids = set(cf_df['user_id']).intersection(set(mlp_df['user_id']))
+user_mapping = mlp_df[mlp_df['user_id'].isin(common_user_ids)][['user_name', 'user_id']].drop_duplicates()
+
+# Streamlit user selection dropdown
+selected_username = st.selectbox(
+    "Select a User to explore predictions:",
+    options=user_mapping['user_name']
 )
-fig.update_traces(marker=dict(size=12), selector=dict(mode='markers'))
 
-st.plotly_chart(fig, use_container_width=True)
+# Get user ID from selected username
+selected_user_id = user_mapping[user_mapping['user_name'] == selected_username]['user_id'].values[0]
 
-# Add second plot: Item-Based CF
-fig2 = px.scatter(
-    filtered_df,
-    x='actual',
-    y='item_pred',
-    color='recipe_name',
-    title=f'Item-Based CF: Actual vs. Predicted Ratings for User {selected_user}',
-    labels={'actual': 'Actual Rating', 'item_pred': 'Predicted Rating'},
-    hover_data=['recipe_name']
-)
-fig2.update_traces(marker=dict(size=12), selector=dict(mode='markers'))
+# Filter CF and MLP data for selected user
+cf_user_df = cf_df[cf_df['user_id'] == selected_user_id]
+mlp_user_df = mlp_df[mlp_df['user_id'] == selected_user_id]
 
-st.plotly_chart(fig2, use_container_width=True)
+st.markdown("### Top 5 Recommended Recipes for Users with at Least 5 Ratings")
 
-# Optional: Show errors
-st.write("Prediction Errors (User-Based):")
-st.dataframe(filtered_df[['recipe_name', 'error_user']])
+# ----- Item-Item CF Top 5 -----
+st.subheader("Item-Item Collaborative Filtering Recommendations")
 
-st.write("Prediction Errors (Item-Based):")
-st.dataframe(filtered_df[['recipe_name', 'error_item']])
+if not cf_user_df.empty and 'predicted_rating' in cf_user_df.columns:
+    top_item_item = cf_user_df.sort_values(by='predicted_rating', ascending=False).head(5)
+    for idx, row in enumerate(top_item_item.itertuples(), 1):
+        if idx == 1:
+            st.markdown(f"- **{idx}. {row.recipe_name}** (Predicted Rating: {row.predicted_rating:.2f})")
+        else:
+            st.markdown(f"{idx}. {row.recipe_name} (Predicted Rating: {row.predicted_rating:.2f})")
+else:
+    st.write("No Item-Item CF recommendations available for this user.")
+
+# ----- MLP Top 5 -----
+st.subheader("MLP Model Recommendations")
+
+if not mlp_user_df.empty and 'predicted_rating' in mlp_user_df.columns:
+    top_mlp = mlp_user_df.sort_values(by='predicted_rating', ascending=False).head(5)
+    for idx, row in enumerate(top_mlp.itertuples(), 1):
+        if idx == 1:
+            st.markdown(f"- **{idx}. {row.recipe_name}** (Predicted Rating: {row.predicted_rating:.2f})")
+        else:
+            st.markdown(f"{idx}. {row.recipe_name} (Predicted Rating: {row.predicted_rating:.2f})")
+else:
+    st.write("No MLP recommendations available for this user.")
 
 
 # Navigation
